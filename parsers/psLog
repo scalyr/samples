@@ -1,0 +1,29 @@
+{
+  // You can use the Agent shell process monitor config to grab the output
+  // of ps command. Use this parser or update to match your expected ps output
+  
+  patterns:
+  { 
+    duationPattern: "\\d+:\\d+:\\d+"
+     }
+  formats: [
+
+   /* {
+      id: "process",
+      format: "\\d+:\\d+:\\d+  \\d+  \\d+\\s+$cmd$\\s\\d+\\.\\d+ \\d+\\.\\d+"
+
+    }*/
+    {
+      id: "process",
+    format: "$duration=duationPattern{parse=hoursMinutesSeconds}$  $PID=number$  $PPID=number$\\s+$_$"
+
+    }
+    {
+      id: "process",
+    format: "\\d+:\\d+:\\d+  \\d+  \\d+\\s+$cmd$\\s{2,}$mem{regex=\\d+\\.?\\d*}$ $cpu{regex=\\d+\\.?\\d*}$"
+
+    }
+
+
+    ]
+}
