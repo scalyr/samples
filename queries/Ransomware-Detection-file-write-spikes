@@ -1,0 +1,15 @@
+////high file writes is a common ransomware indicator: https://lantern.splunk.com/Splunk_Platform/UCE/Security/Threat_Hunting/Detecting_a_ransomware_attack/File_write_spikes
+////this powerquery replicates this functionality in S1 land
+
+///in order of lines
+///line 1: finds file modification events in S1 EDR telemetry
+////line 2: groups all file modifications by the source process, then calculates the max, average, and standard deviation of number of file modifications for each source process in a 1 hour time period. It also tracks the number of entries (more entries = more accurate)
+////line 3: creates a new variable for each source process, called upperBound, which takes the average file modifications in 1 hour by that source process and adds 4 standard deviations to that to find the max amount we would consider normal
+///line 4: creates a new boolean variable that compares the max 1 hour count of file modifications by a source process to the upperBound. this is true only if we have enough data points (20) for the findings to be significant (false positive reduction)
+///line 5: filters to only results where the boolean in line 4 evaluates as true  
+
+event.type='File Creation' src.process.name = * src.process.tgtFileModificationCount = *
+| group max=max(src.process.tgtFileModificationCount), avg=avg(src.process.tgtFileModificationCount), stddev=stddev(src.process.tgtFileModificationCount), num_data_samples=count() by src.process.name, timestamp=timebucket('1h')
+| let upperBound = avg + (stddev * 4)
+| let isOutlier = (max > upperBound) AND (num_data_samples >= 20)
+| filter isOutlier = true

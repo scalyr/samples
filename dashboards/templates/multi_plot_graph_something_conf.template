@@ -1,0 +1,26 @@
+{
+  "columnSpan": 0,
+  "rowSpan": 0,
+  "graphStyle": "line",
+  "title": "{name}",
+  "plots": [
+    {
+      "filter": "{filter}",
+      "color": "#00BDD6",
+      "label": "median {name}",
+      "facet": "p50({field.0.int})"
+    },
+    {
+      "filter": "{filter}",
+      "color": "#FD5821",
+      "label": "mean {name}",
+      "facet": "mean({field.0.int})"
+    },
+    {
+      "filter": "{filter}",
+      "color": "#3E51B5",
+      "label": "p99 {name}",
+      "facet": "p99({field.0.int})"
+    }
+  ]
+}

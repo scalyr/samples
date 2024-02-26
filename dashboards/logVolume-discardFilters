@@ -1,0 +1,286 @@
+{
+  tabs: [
+    {
+      "tabName": "Log Volume",
+      graphs: [
+        {
+          label: "Log Volume (over time)",
+          facet: "sumPerSecond(value)",
+          plots: [
+            {
+              filter: "sumPerSecond(value where tag='logVolume' metric='logBytes') * 0.00008046627",
+              label: "Total (GB/day)"
+            }
+          ],
+          layout: {
+  h: 18,
+  w: 40,
+  x: 20,
+  y: 17
+}
+        }, {
+          title: "Log Volume (by server/host)",
+          maxRows: 100,
+          keys: [
+            {
+              label: "Host",
+              attribute: "host"
+            }, {
+              label: "Log",
+              attribute: "forlogfile"
+            }
+          ],
+          columns: [
+            {
+              label: "Bytes",
+              filter: "tag='logVolume' metric='logBytes' !(k8s-cluster=*)",
+              attribute: "value",
+              function: "sum"
+            }
+          ],
+          sort: [
+            "-Bytes"
+          ],
+          layout: {
+  h: 13,
+  w: 59,
+  x: 1,
+  y: 36
+}
+        }, {
+          query: "|union\n(\ntag='logVolume' metric='logBytes' $forlogfile matches \"/var/log/scalyr-agent-2/.*(metrics|monitor).log\"\n|group GB = sum(value)/1024/1024/1024\n|columns name = \"Scalyr Monitors\", GB\n),\n(\ntag='logVolume' metric='logBytes' NOT($forlogfile matches \"/var/log/scalyr-agent-2/.*(metrics|monitor).log\")\n|group GB = sum(value)/1024/1024/1024\n|columns name = \"Logs\", GB\n)",
+          title: "Log Breakdown"
+          graphStyle: "donut",
+          layout: {
+  h: 18,
+  w: 20,
+  x: 20,
+  y: 1
+},
+        }, {
+          query: "| join\n(\n  tag='logVolume' metric='logBytes' | group sum = sum(value) by host, key = \"1\"\n), (\n  message=* | group mint = min(timestamp), maxt = max(timestamp) by key = \"1\"\n)\n  on key\n| let delta = (maxt - mint)/1000000000\n| columns delta, host, approx_sum_sec = sum/delta * 0.00008046627\n| sort -approx_sum_sec\n|group \"GB/Day\" = sum(approx_sum_sec)",
+          title: "Ingestion rate - GB/day"
+          graphStyle: "number",
+          layout: {
+            h: 6,
+            w: 20,
+            x: 40,
+            y: 0
+          },
+        }, {
+          query: "tag='logVolume' metric='logBytes' k8s-cluster = *\n|group GB = sum(value)/1024/1024/1024 by k8s-cluster\n|sort -GB\n|limit 10",
+          title: "Top K8s-Clusters",
+          graphStyle: "pie",
+          layout: {
+  h: 18,
+  w: 20,
+  x: 1,
+  y: 75
+}
+        }, {
+          query: "tag='logVolume' metric='logBytes' \n|group Total = sum(value)/1024/1024/1024",
+          title: "Total Volume for Time Period - GB",
+          graphStyle: "number",
+          layout: {
+            h: 6,
+            w: 20,
+            x: 40,
+            y: 6
+          }
+        }, {
+          query: "tag='logVolume' metric='logBytes'\n|group GB = sum(value)/1024/1024/1024 by logflie = forlogfile ? forlogfile : \"-none-\"|sort -GB\n|limit 10",
+          title: "Log File Breakdown",
+          graphStyle: "pie",
+          layout: {
+            h: 18,
+            w: 20,
+            x: 0,
+            y: 18
+          }
+        }, {
+          query: "NOT(serverHost = 'scalyr-metalog')|group count = count()",
+          title: "Total Events for Time Period",
+          graphStyle: "number",
+          layout: {
+  h: 6,
+  w: 20,
+  x: 40,
+  y: 13
+}
+        }, {
+          query: "tag='logVolume' metric='logBytes'\n|group GB = sum(value)/1024/1024/1024 by host = host ? host : k8s-cluster\n|sort -GB\n|limit 10",
+          title: "Top 10 Hosts",
+          graphStyle: "pie",
+          layout: {
+            h: 18,
+            w: 20,
+            x: 0,
+            y: 0
+          }
+        }, {
+          query: "tag='logVolume' metric='logBytes' k8s-cluster = *\n|group GB = sum(value)/1024/1024/1024 by k8s-deployment\n|sort -GB\n|limit 10",
+          title: "Top 10 Deployment",
+          graphStyle: "pie",
+          layout: {
+  h: 18,
+  w: 20,
+  x: 21,
+  y: 75
+}
+        }, {
+          query: "tag='logVolume' metric='logBytes' k8s-cluster = *\n|group GB = sum(value)/1024/1024/1024 by k8s-kind\n|sort -GB\n|limit 10",
+          title: "Top 10 K8s Kind",
+          layout: {
+  h: 18,
+  w: 18,
+  x: 41,
+  y: 75
+},
+          graphStyle: "pie"
+        }, {
+          graphStyle: "line",
+          lineSmoothing: "straightLines",
+          query: "metric='logBytes'\n| group totalBytes=sum(value)  by timestamp=timebucket('5 min'), forlogfile\n| filter totalBytes > 3_000_000\n| transpose forlogfile",
+          title: "Log Volume Over Time (bytes/5m)",
+          yScale: "logarithmic",
+          layout: {
+  h: 14,
+  w: 20,
+  x: 40,
+  y: 93
+}
+        }, {
+          graphStyle: "markdown",
+          markdown: "In Log Volume, the magic number 0.00008046627 converts from bytes/sec to GB/day",
+          query: "",
+          title: "Notes",
+          layout: {
+  h: 14,
+  w: 20,
+  x: 0,
+  y: 93
+}
+        }, {
+          graphStyle: "line",
+          lineSmoothing: "straightLines",
+          query: "tag = 's3BucketMonitor' source='scalyr' serverHost='monitor' | columns timestamp, bytesFetched, name \n| group totalBytes=sum(bytesFetched)  by timestamp=timebucket('1h'), name\n| filter totalBytes > 3_000_000\n| transpose name\n",
+          title: "Log Volume from S3Buckets (bytes/hour)",
+          yScale: "logarithmic",
+          layout: {
+  h: 14,
+  w: 20,
+  x: 20,
+  y: 93
+}
+        }, {
+          graphStyle: "line",
+          lineSmoothing: "straightLines",
+          query: "source='cloudtrail' not isempty(errorCode)\n| group totalEvents=count() by timestamp=timebucket('5 min'), eventSource, errorCode\n| filter totalEvents > 15\n| let dimension = format(\"%s-%s\", eventSource, errorCode)\n| columns timestamp, dimension, totalEvents\n\n| transpose dimension\n\n",
+          title: "Cloudtrail Leading Errors by \"service-error\"",
+          yScale: "logarithmic",
+          layout: {
+  h: 14,
+  w: 20,
+  x: 40,
+  y: 107
+}
+        },
+        {
+          columns: [
+            {
+              attribute: "value",
+              filter: "tag='logVolume' metric='logBytes' k8s-cluster=*",
+              function: "sum",
+              label: "Bytes"
+            }
+          ],
+          keys: [
+            {
+              attribute: "k8s-cluster",
+              label: "Cluster"
+            },
+            {
+              attribute: "k8s-controller",
+              label: "Controller"
+            }
+          ],
+          layout: {
+  h: 13,
+  w: 59,
+  x: 1,
+  y: 49
+},
+          maxRows: 100,
+          sort: ["-Bytes"],
+          title: "Log Volume (by k8s controller)"
+        },
+      ]
+    }, {
+      "tabName": "Discard Filters",
+      "graphs": [
+        {
+          graphStyle: "line",
+          lineSmoothing: "smoothCurves",
+          query: "tag='budgetCategoryStatistics' OR tag='ingestDiscardStatistics' \n| group bytes=sum(discardedByteCount) by timebucket(\"1m\")",
+          title: "Bytes discarded per minute",
+          yScale: "linear",
+          layout: {
+  h: 14,
+  w: 21,
+  x: 0,
+  y: 0
+}
+        },
+        {
+          graphStyle: "line",
+          layout: {
+  h: 14,
+  w: 19,
+  x: 21,
+  y: 0
+},
+          lineSmoothing: "smoothCurves",
+          query: "tag='budgetCategoryStatistics' or tag='ingestDiscardStatistics' \n| group events=sum(discardedEventCount) by timebucket(\"1m\")",
+          title: "Events discarded per minute",
+          yScale: "linear"
+        },
+        {
+          graphStyle: "line",
+          lineSmoothing: "straightLines",
+          query: "| join\n( tag='logVolume' metric='logBytes' | group ingestbytes=sum(value) by ingesttime=timebucket(\"1m\") ),\n( tag='ingestDiscardStatistics' or tag='budgetCategoryStatistics' | group discardbytes=sum(discardedByteCount) by discardtime=timebucket(\"1m\") ) on ingesttime=discardtime\n| let totalbytes = ingestbytes + discardbytes\n| let discardpercent = discardbytes / totalbytes * 100\n| columns ingesttime,discardpercent",
+          title: "Discard Percentage",
+          yScale: "linear",
+          layout: {
+  h: 14,
+  w: 18,
+  x: 40,
+  y: 0
+}
+        },
+        {
+          query: "tag='budgetCategoryStatistics' discardedByteCount>0|columns discardedByteCount, discardedEventCount, discardFilterText| group bytesDiscarded=sum(discardedByteCount), eventsDiscarded=sum(discardedEventCount) by discardFilterText| columns bytesDiscarded, 'Discarded Bytes Percent' = percent_of_total(bytesDiscarded), 'Discarded Events' = eventsDiscarded, 'Filter Text' = discardFilterText| sort -bytesDiscarded",
+          title: "Discard Activity by Filter",
+          layout: {
+  h: 51,
+  w: 28,
+  x: 30,
+  y: 14
+},
+          graphStyle: "",
+          showBarsColumn: "false"
+        },
+        {
+          layout: {
+  h: 51,
+  w: 30,
+  x: 0,
+  y: 14
+},
+          query: "tag=\"budgetCategoryStatistics\" discardedByteCount>0\n|columns discardedByteCount, discardedEventCount, categoryName\n|group bytesDiscarded=sum(discardedByteCount), eventsDiscarded=sum(discardedEventCount) by categoryName\n| columns 'Category Name' = categoryName, bytesDiscarded, 'Discarded Bytes Percent' = percent_of_total(bytesDiscarded), 'Discarded Events' = eventsDiscarded\n| sort -bytesDiscarded",
+          title: "Discard Activity by Category"
+        }
+      ]
+    }
+  ],
+  configType: "TABBED"
+}

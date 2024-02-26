@@ -1,0 +1,11 @@
+//you want to combine two columns into a single column for use. for example, you have two columns that both track urls. one is called domain, the other called sni
+
+//start with your initial search. for exmaple
+dataSource.vendor='Sophos' event.type='Content Filtering'
+//this will return sophos filtering logs, but for some reason some times the url is in domain field, sometimes in sni field
+
+// we can combine with the let command
+
+  | let myURL = domain + sni
+
+  // this combines the two rows. in my case, one or the other was null, so it just reults in having a single field that works

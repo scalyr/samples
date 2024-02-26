@@ -1,0 +1,27 @@
+|join // This query has been conceived by Dataset R&D and Anthony Johnson as a POC for Geo Impossible Traveler scenario. It has been refined by Guillaume Malbrand and Marco Rottigni, with some special touches by David Riff
+a=(
+dataSource.name = 'ZScaler ZPA LLS' Username = * ClientPublicIP = * Username != "ZPA LSS Client" // the query to extract data in the first part of the join, indicating where the user were at the beginning of the query
+| sort Username, timestamp
+| columns timestamp, Username, loc=geo_ip_location(ClientPublicIP), ClientPublicIP, joinId = 1 + running_sum(1) // selection of the columns we need, using the joinId field to set a starting point in time
+),
+b=(
+dataSource.name = 'ZScaler ZPA LLS' Username = * ClientPublicIP = * Username != "ZPA LSS Client" // the query to extract data in the first part of the join, indicating where the user were at the beginning of the query
+| sort Username, timestamp
+| columns timestamp, Username, loc=geo_ip_location(ClientPublicIP), ClientPublicIP, joinId = running_sum(1) // selection of the columns we need, using the joinId field to set the current point in time
+)
+on Username, joinId // we keep joinId field as a reference to keep the two query in sync
+| sort joinId // Keep things sorted in incremental order
+| filter a.loc != b.loc // geolocation should be different
+| let distance_a_to_b = geo_distance(a.loc, b.loc) // calculate the distance between the two locations in km
+| let timedelta=(b.timestamp - a.timestamp)/1000000000/60/60 // calculate the time delta in hours
+| let velocity_kph=distance_a_to_b/timedelta // calculate the speed in km/h
+| let maxvel_kph = 500 // set the speed to qualify geo-impossible travel
+| filter velocity_kph > maxvel_kph // filter out the results based on the previous speed limit
+
+// Uncomment the lines below to enable further alternative visualizations
+// | let justification=Username + "'s travel from " + a.loc + " to " + b.loc + " over " + format("%.1f",timedelta) + " hours is a distance of " + format("%.3f", distance_a_to_b) + " km, at a speed of " + format("%d",velocity_kph) + " kph and exceeds our limit of " + maxvel_kph + " kph" //builds the justification sentence with all the data // a lengthy, wordy justification
+// | columns timestamp=a.timestamp, b.timestamp, Username, start=a.loc, end=b.loc, distance_km=format("%d", distance_a_to_b), timeDelta_h=timedelta, justification // one possible detailed presentation layer :)
+// End of the optional lines for alternative visualizations 
+
+| let justificationshort=simpledateformat(a.timestamp, "dd-MM-yy H:m") + " => Impossible travel from " + geo_ip_city(a.ClientPublicIP) + ", "+ geo_ip_country_iso(a.ClientPublicIP) + " e " + geo_ip_city(b.ClientPublicIP)+ ", "+ geo_ip_country_iso(b.ClientPublicIP) + ". Distance: " + format("%.3f", distance_a_to_b) + " km - Velocity: " + format("%d",velocity_kph) + " km/h" // this line defines a shorter Justification line, to be used with the grouping function that follows.
+| group "No of Impossible Travels"=count(), "First Timestamp"=simpledateformat(min(a.timestamp), "dd-MM-yy H:m"), "Last Timestamp"=simpledateformat(max(b.timestamp), "dd-MM-yy H:m"), Justification=array_to_string(array_agg(justificationshort) , "\n") by Username // this line groups by Username the detections, leveraging the function array_to_string to visualize the aggregated array one per line.

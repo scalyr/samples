@@ -1,0 +1,7002 @@
+[
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 28.15821636325676
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.6231479517115
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.333945326513415
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 22.772230455140946
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.5631663642506851
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 342770.0032850236
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 457229.9967149764
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 136893.25652583767
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 13106.743474162322
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 62.51523361647959
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.2530208475086
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.58194798568624
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.988784243890535
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.5631663642506851
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 342770.0032850236
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 457229.9967149764
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 136893.25652583767
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 13106.743474162322
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 62.51523361647959
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.2530208475086
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.58194798568624
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.988784243890535
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 28.15822597456313
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.62315439964501
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.33395352681281
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 22.772238669816687
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.49364200623817045
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 342624.0420440465
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 457375.9579559535
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130231.72208618339
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19768.277913816608
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 62.20728712467971
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.23360018287948
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.61047991653335
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.89107289372462
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 24.6820198230257
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.641368830436946
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.326183211035616
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 22.876597740930183
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.4936362764502985
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 342618.52988776355
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 457381.47011223645
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130231.22302143967
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19768.77697856033
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 62.19563943824809
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.23286561414632
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.61156717472875
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.887408874631646
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 24.681721712954054
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.642071312250664
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.325884530457177
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 22.880546002426424
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 71.16914088432169
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.68539274300824
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.309152411380857
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 23.106901721800543
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.4233869285574623
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 342304.90362429176
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 457695.09637570824
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130828.52228148682
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19171.477718513182
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 61.53067594319279
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.19092520133128
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.67462384122879
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.682087241047775
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.8760030883589456
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 342149.85363863676
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 457850.14636136324
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 126960.33798988728
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 23039.662010112723
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 61.200260428393214
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.17007987946558
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.70668393697818
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.58289476775136
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 43.80002117318199
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.70889414446712
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.30083118890049
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 23.2198546982387
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.4575979710796669
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 341627.6729608656
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 458372.3270391344
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 116659.72453434442
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 33340.27546565558
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 60.0788671240988
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.09928021247987
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.81917671041397
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.260391392692284
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 22.879826796547402
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.79860303640023
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.27261862133966
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 23.605692007855883
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 22.879633147142197
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.799330551183786
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.2724164550952
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 23.60857023922594
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.45759397106328764
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 341623.8301246209
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 458376.1698753791
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 116659.36647588306
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 33340.63352411694
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 60.07056332584453
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.09875553769045
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.82003128480572
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.258085386533836
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.1173091604586811
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 341470.3018583091
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 458529.6981416909
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 140557.70361247147
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 9442.296387528539
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 59.738173924180046
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.07774728492907
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.85450361177918
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.16677810337929
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 55.86545801957448
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.828988949457806
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.26412466367086
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 23.723761622111002
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.25619763691333564
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 341332.4712856797
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 458667.5287143203
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 133485.50190436828
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 16514.498095631716
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 59.43869094252791
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 92.05880741902789
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 63.8860092913575
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 60.08618567306352
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 12.809679144039293
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 18.856544078662715
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.256226735578355
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 23.82741058554019
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 78.89633877493947
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.097104527114265
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.200661627290717
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 24.603538422116486
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.577951454991533
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 340331.4265760451
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 459668.5734239549
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 120809.69419462048
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 29190.305805379532
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 57.23029036357823
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.91867991596206
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.13187259618084
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 59.54184957345034
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 53.311175084114076
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.11038382053375
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.198384881019592
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 24.641152413686118
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.0662235016565433
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 340284.63826281286
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 459715.36173718714
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 145842.25518721272
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 4157.7448127872685
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 57.12552235896629
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.91200644062644
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.14415013381857
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 59.518253697853105
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.0661894427268988
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 340252.2595036329
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 459747.7404963671
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 145839.07829636362
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 4160.9217036363825
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 57.05293301255012
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.90738103007024
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.15269043167704
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 59.502025713302274
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 53.30947213967641
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.119462370872498
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.19655547142029
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 24.666969203948973
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.7901497755357286
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 339300.69790659205
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 460699.30209340795
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130516.01708500314
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19483.98291499686
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 54.885278543871884
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.76853033791065
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.42090486023537
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 59.063914966629106
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 39.50748877525329
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.423228148619334
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.14177397489548
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 25.44663344224294
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 39.507200248560096
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.423035607533503
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.14160846276914
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 25.44633240843734
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.790149915843468
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 339300.82926651574
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 460699.17073348426
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130516.03061160771
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19483.969388392285
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 54.88558272706676
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.7685499359845
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.42086536669387
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 59.06396999382941
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 39.50679224237524
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.426025304572335
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.14114278131945
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 25.453324336261623
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.7901410780752213
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 339292.5557709717
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 460707.4442290283
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130515.17846557494
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19484.821534425068
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 54.86642136027697
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.76731532710963
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.42335423185791
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 59.060507291607436
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 82.46973280982435
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.659872773331905
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.105176276918687
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 25.971725142875016
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.649405287485762
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338689.08138221
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461310.91861779
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 119227.87741341488
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 30772.12258658511
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 53.452187767696216
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.67576642241244
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.61311739992128
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.82557750824877
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 9.290815957387288
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.71549503405889
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.097357086340587
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.087344352404276
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.18581631920935604
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338557.9225985904
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461442.0774014096
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 123143.52974869945
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 26856.47025130054
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 53.14019793067606
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.65544590837294
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.6566451876095
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.77935179142752
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 82.465198043514
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.69519864424173
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.10008712773347
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.045511233315615
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.6493142337749613
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338605.12441814085
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461394.87558185915
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 119218.88117491253
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 30781.118825087473
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 53.25267979295649
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.66277768007286
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.64088060263347
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.795779359883646
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 9.29076885324008
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.71525902781432
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.09722121519412
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.086958867962498
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.18581659024173525
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338558.17189390893
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461441.82810609107
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 123143.55662079056
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 26856.443379209435
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 53.14079260501282
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.65548468720196
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.6565616294282
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.77943793224356
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.649327956378105
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338617.7654260661
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461382.2345739339
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 119220.23889857717
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 30779.761101422835
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 53.28276447743718
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.66473757394307
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.63667787477121
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.800218750044976
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 82.46587667757078
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.689833073927016
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.100854106938517
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.034372808963752
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.6493361124483124
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338625.28069059865
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461374.71930940135
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 119221.0455434079
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 30778.954456592102
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 53.30064253900054
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.66590204207348
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.63418310255513
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.802865995967444
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 82.46629875685204
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.68665503974125
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.101314329567856
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.02776081961353
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.1858160481803146
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338557.67330806353
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461442.32669193647
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 123143.50287667169
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 26856.497123328314
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 53.13960326132736
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.6554071296888
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.6567287473616
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.77926565888427
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 9.290728486202891
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.715445117650276
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.0971577874105
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.087356825934975
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.2803491714533148
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338439.80398173444
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461560.19601826556
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 150265.87210788048
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": -265.87210788047014
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 52.85770249789306
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.63700364445162
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.69659714343135
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.73928824297812
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 64.01692607051662
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.766826551091984
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.089944646386936
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.19202299999328
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.280344321861
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338435.35877299367
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461564.64122700633
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 150265.38896512828
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": -265.3889651282698
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 52.84704233628641
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.6363068929792
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.69811491016674
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.73781003992933
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 64.01670655122524
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.76880026758702
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.089674021442065
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.195979418742557
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 39.68872559799791
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.883644930784094
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.074083670352586
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.42261616792345
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.7937813774181876
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338183.62924008
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461816.37075992
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 119349.17752512108
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 30650.822474878925
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 52.23981786931993
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.59651571658644
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.78581101582377
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.65769636773297
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.0311325570740613
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 338060.3275229271
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 461939.6724770729
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130917.74930249163
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19082.25069750836
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 51.93974788345456
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.57677433002098
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.83006509303306
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.62111251910227
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 51.55617219854302
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.94248334084555
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.066361804690334
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.535207905193367
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.0081553798928153
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 337649.53476807405
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 462350.46523192595
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 119035.69835675023
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 30964.301643249768
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 50.92644138950324
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.50969299007846
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.984178386818
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.51269779016393
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 50.40731984045292
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.15162954789061
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.040176779993512
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.918459287865858
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 50.40760103861491
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.153411451975504
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.04018879334132
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 26.92154235045115
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.0081520207502912
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 337646.5402174069
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 462353.4597825931
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 119035.35220018245
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 30964.647799817554
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 50.91897338601823
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.5091960704168
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 64.98534173298506
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.51198724630435
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.7829702853737648
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 337527.36664007313
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 462472.63335992687
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 128081.15997751335
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 21918.840022486645
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 50.62075706830882
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.48932065410722
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 65.03213629914919
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.48469448296581
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 39.14851427078247
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.21813980738322
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.03244422674179
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 27.035265199343364
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.247559697372477
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 337420.751411014
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 462579.248588986
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 127890.51600779282
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 22109.48399220719
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 50.3522453679859
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.47136990500698
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 65.0748435627446
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.461942720101526
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 62.377702394318966
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.277578979773683
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.025350601898623
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 27.13790793605308
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 54.277382240672175
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.77235283988363
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.97143820225046
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 27.934080876995974
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.0855529922430938
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 336630.31414481835
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 463369.68585518165
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 129896.96898120697
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 20103.031018793037
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 48.303877840696565
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.33249799088456
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 65.41971581828616
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.34801684417705
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 45.86352093919336
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.74850014487182
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.9738855113691
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 27.897786740729057
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.9172749943407761
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 336664.9393226635
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 463335.0606773365
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 115871.00946863761
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 34128.9905313624
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 48.39598946698591
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.33882372722398
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 65.40344140836494
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.35077581384196
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.0855248618618287
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 336606.5703264027
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 463393.4296735973
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 129893.91702044764
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 20106.082979552353
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 48.24057226980576
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.32814566413823
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 65.4309449280136
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.34625543034717
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 54.275989661560246
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.788841196145338
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.969759511354066
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 27.959059027292994
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.31285880806143
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.919181385907205
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 28.710877360202957
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": -0.041953273385569756
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335922.9819792218
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464077.0180207782
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130106.03191783713
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19893.968082162868
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 46.36249520201808
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.19706170310221
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 65.78143947821215
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.34630552409534
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": -0.04195338857166708
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335922.8900198388
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464077.1099801612
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130106.01888738725
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19893.98111261275
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 46.36223442929606
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.1970432144004
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 65.78149061439913
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.346312889244324
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.31294266938929
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.919180956931424
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 28.7109917307103
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.31776019022895
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.918741563601845
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 28.717562023943323
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": -0.04196052843935838
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335917.19144648174
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464082.80855351826
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 130105.21103401751
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 19894.788965982483
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 46.346069961836356
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.19589698951029
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 65.78466180051046
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.34677361007237
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 21.754620617306053
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.778119303864443
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.878234076571605
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.321102756722254
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.4350942767647875
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335414.73041532206
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464585.26958467794
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 129345.87726110053
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 20654.12273889947
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 44.87951562692676
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.09041757138465
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.08456464976899
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.424211198320776
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 10.03298799466621
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.69197365787581
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.885585492985886
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.21161231551041
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.2006605514287862
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335502.7227147694
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464497.2772852306
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 136549.93280275227
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 13450.067197247736
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 45.14277847770586
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.10958120235848
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.02887910876515
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.40493951461401
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.4350941665274245
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335414.64726188814
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464585.35273811186
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 129345.86433447557
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 20654.135665524434
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 44.879265400461456
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.09039930574515
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.08461798258709
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.42423068161678
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 21.754613895958222
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.77820067259214
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.87822588188821
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.321205580164158
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.2006042062516908
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335459.85871154995
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464540.14128845005
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 136543.35878129353
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 13456.641218706478
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 45.014910897615
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.10028666316407
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.05581998828222
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.41399494687616
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 10.030172358704013
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.733623770336568
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.88202666661031
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.26473633945809
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.20059756595079853
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335454.82225297194
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464545.17774702806
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 136542.5826297446
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 13457.4173702554
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 44.999840110502646
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.09918954095019
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.05900841019151
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.41510004273045
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 10.029839985455808
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.738555970030028
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.881605616088923
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.27100425730221
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 10.029275341927693
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.746853429270555
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.880883715936832
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.28153558700928
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.20058639509825799
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335446.3567413503
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464553.6432586497
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 136541.27625491156
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 13458.723745088446
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 44.97448610331409
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.09734303266306
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.06437865319796
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.41697725131536
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 21.754639029328835
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.777873452497772
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.878257378406417
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.320792544685208
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.4350946074820351
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335414.979884894
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464585.020115106
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 129345.9160410841
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 20654.083958915897
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 44.880266317555595
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.09047236853513
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.08440465357572
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.42415276094886
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.2394350566395367
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335336.350738717
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464663.649261283
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 132728.7592064782
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 17271.2407935218
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 44.64239861635513
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.07306442782242
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.13545430191871
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.4436819708422
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 61.97149283085618
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.85709034322465
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.871591637863816
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.420187631870203
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.2394312273170178
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335333.49286389945
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464666.50713610055
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 132728.3073893012
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 17271.69261069881
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 44.63370442275648
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.07242644188257
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.13733370807908
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.44443454353274
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 61.971561368306475
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.860102661450703
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.87144373257955
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.423952809969585
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 25.819130114818705
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 22.033749934511693
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.857016770890294
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.63759082422884
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.516384710129739
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335168.5743700701
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464831.4256299299
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 133736.71845126423
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 16263.281548735762
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 44.12585039771621
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.03494199259585
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.24881568562083
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.49325210328607
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.0049053035215276
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 335089.03693952423
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 464910.96306047577
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 128360.02586866655
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 21639.974131333456
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 43.876317858115875
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 91.01636129655896
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.30485261304354
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.52082497091553
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 50.24508854567745
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 22.121436535298642
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.849933255191193
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 29.743417437342668
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.36171632093952116
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 334830.1613357048
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 465169.8386642952
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 137029.90751573333
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 12970.092484266683
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 43.04025422810316
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 90.95326023485657
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.4990465780892
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.63137609615394
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 18.085765228575514
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 22.426814084219817
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.825891808555404
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 30.101925730806094
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 18.085635592274485
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 22.429130839576874
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.82572680975044
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 30.104591625368624
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.36171362403257673
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 334828.3104687832
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 465171.6895312168
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 137029.57504853964
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 12970.424951460358
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 43.034130970322046
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 90.95279301078331
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.50050707226123
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.632292979532565
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.6840826888896545
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 334755.0305491362
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 465244.9694508638
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 131866.40255334182
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 18133.597446658172
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 42.78985021132823
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 90.9340899717044
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.55924617875061
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.67019340910484
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 34.203534970992735
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 22.521572229452122
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.81826948635279
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 30.21011286798569
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.19184805582684145
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 334690.36267486576
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 465309.63732513424
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 124879.224208341
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 25120.775791659005
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 42.57113694148109
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 90.91723650899266
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 66.61263845253096
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 58.70635497276169
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 9.592323799829925
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 22.606256284706777
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.81207562318399
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 30.305767292905486
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 35.11273610832819
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 23.287214840466614
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.762708693236647
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 31.039117882744918
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.702260208730217
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 334235.39339713653
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 465764.60660286347
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 133365.3637559105
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 16634.636244089495
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 40.92673610100462
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 90.78685580662234
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 67.04075966414689
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 59.05163021548652
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 60.06259167989095
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 23.25527297258377
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.76513326962789
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 31.00608152548472
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.2012518335301035
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 334254.3600045332
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 465745.6399954668
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 133202.05173110552
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 16797.94826889448
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 40.999875972084595
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 90.79280685988165
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 67.0206280987827
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 59.03330440688406
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.7022380409894702
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 334222.4856296561
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 465777.5143703439
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 133362.43884848704
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 16637.56115151295
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 40.87667638958665
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 90.78277370380836
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 67.0546019956191
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 59.06434472872124
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 35.11161626807726
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 23.30929871585397
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 22.76116042036293
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 31.061922516504612
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": -0.11813829815100196
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 356081.45657786593
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 443918.54342213407
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 125777.42895008647
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 24222.571049913535
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 88.37113066716459
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 94.01891570825912
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.517336903127266
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 75.2661379196373
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.077123459180196
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 24.057142301400503
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 14.93014710744222
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.9286330126511726
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 355937.3279835817
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 444062.6720164183
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 127354.05525894277
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 22645.94474105724
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 88.10273283721389
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.99743216254927
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.51394840250111
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 75.0434253524616
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 46.430753709191336
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 21.007104787013063
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 24.047699792674457
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 15.001026753289272
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 20.785598619778952
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.514222570260365
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.98163616657257
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 15.550949716567994
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.4157119723820504
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 354842.7285186299
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 445157.2714813701
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 124827.58420114993
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 25172.415798850066
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 86.06300224311083
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.8379286389143
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.500286013615614
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 73.4178842564587
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 34.45897518793742
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.49169390598933
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.97845763762792
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 15.578184103965759
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.6891795036893634
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 354789.3028843456
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 445210.6971156544
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 126501.6666127262
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 23498.333387273793
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 85.96334596762219
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.83029457425505
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.50014514871184
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 73.34136844881482
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.6891296410230187
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 354752.48293395585
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 445247.51706604415
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 126498.26935823332
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 23501.730641766684
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 85.89465744761942
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.82504084297942
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.500075675015545
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 73.2887811359481
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 34.45549879278844
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.475664621585015
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.975586171323968
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 15.596530259798273
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 37.65914934476216
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.033251229921976
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.910325288772583
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.183074108759563
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.7531829869249508
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 353621.0559441045
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 446378.9440558955
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 110712.35163320176
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 39287.64836679824
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 83.78035976181857
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.66635391028065
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.508627411217375
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 71.72842066588633
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.7531823574003506
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 353620.5681624472
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 446379.4318375528
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 110712.30787057025
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 39287.69212942975
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 83.77944647310767
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.66628655670665
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.5086354566074
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 71.72777025947288
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 37.65911787350972
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.0330731511116
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.910297350088754
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.183330392837526
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 37.65848841667175
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 20.029513514041902
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.9097385485967
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.188457322120666
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.7531697682765367
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 353610.81162590615
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 446389.18837409385
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 110711.43263324727
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 39288.56736675273
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 83.76117864038844
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.66493953718644
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.508797151725496
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 71.71476481259772
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 26.998304025332132
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.762837874889374
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.866219663619994
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.595920832951865
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.5399660805337357
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352842.84536699497
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447157.15463300503
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 116952.45074773004
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 33047.549252269964
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 82.32088742046433
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.55991081527291
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.52608508900368
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 70.71374578625115
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.9378530284811659
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352669.73963646265
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447330.26036353735
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 148671.60229094478
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 1328.397709055227
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 81.99552666399788
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.53649085223243
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.53120923010973
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 70.49412326504205
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 46.8926514228185
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.706362851460774
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.85652950604757
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.68883515993754
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 46.892661706606546
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.706416074434916
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.856538728872934
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.688746372858684
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.9378532341495502
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352669.90469739557
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447330.09530260443
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 148671.616830091
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 1328.3831699090024
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 81.99583703837897
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.5365131422629
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.531204131605364
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 70.49433165479442
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 46.89269255797068
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.70657574335734
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.856566389401753
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.688480027516682
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.9378538511590944
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352670.39987796417
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447329.60012203583
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 148671.66044758115
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 1328.3395524188618
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 81.99676815577008
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.53658001252262
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.53118883859021
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 70.49495683293377
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.5398611036768063
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352758.9828250386
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447241.0171749614
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 116945.0468632302
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 33054.953136769785
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 82.16329857588386
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.54855385392507
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.52851175257712
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 70.60707808927823
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 26.99305518468221
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.73531294663747
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.861520008246103
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.64088470141093
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.5398487416707102
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352749.09069798834
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447250.90930201166
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 116944.17425222788
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 33055.82574777213
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 82.14470565472273
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.54721559357957
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.528804910522126
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 70.59452944108422
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 26.99243708451589
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.732086686293282
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.860966300964357
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.646194585164388
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 26.99061002949356
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.726089526412363
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.859338989203867
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.65465188900003
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.5398279382385808
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352732.4358587544
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447267.5641412456
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 116942.70542650399
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 33057.294573496016
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 82.11339968987095
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.54496308305198
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.52930177816296
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 70.57341788002242
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.6303905035509496
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352512.9319144022
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447487.0680855978
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 112583.13828667953
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 37416.86171332047
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 81.7005525237015
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.51535027287918
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.536235369122636
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 70.2970302116264
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 31.51952517827352
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.656342951456704
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.84778686761856
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.773342514038085
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.6303829197464428
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352506.81166928576
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447493.18833071424
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 112582.60064710767
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 37417.39935289233
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 81.68903473515175
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.51452654818824
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.53643892369038
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 70.28937299405075
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 31.51914598941803
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.654412508010864
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.847446302572887
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.77664744059245
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 88.85385630130767
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.54933733145396
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.82852957248688
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 16.961744872728982
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.7770771260608267
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 352165.49272020784
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 447834.50727979216
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 134716.5733803791
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 15283.426619620897
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 81.04609920888565
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.46874826300386
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.54866459083124
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 69.86649088433332
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.7137630759618374
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 351995.0709698141
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 448004.9290301859
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 123710.84066775604
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 26289.159332243966
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 80.72461983692693
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.44600392209344
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.55540844934243
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 69.6583580912758
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 35.688153799374895
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.498762472470602
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.819138419628143
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 17.054744386672972
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.21391521900824867
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 351411.0878321101
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 448588.9121678899
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 139067.29244720738
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 10932.707552792606
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 79.62050917346802
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.36858827992326
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.581722092104265
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 68.9599785564644
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 10.695760949452717
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.33490546941757
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.787210488319396
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 17.37637974421183
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 10.69550077120463
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.333739201227825
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.786973996957144
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 17.378793374697366
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 0.21391001540653914
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 351406.73686784273
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 448593.26313215727
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 139066.9161836885
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 10933.083816311486
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 79.6122677619424
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.3680143417923
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.58193667753148
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 68.95485995122819
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.5623212892398293
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 351232.239040484
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 448767.760959516
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.free",
+    "mount": "/",
+    "type": null,
+    "value": 123006.59441028495
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.inodes.used",
+    "mount": "/",
+    "type": null,
+    "value": 26993.40558971506
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memfree",
+    "mount": null,
+    "type": null,
+    "value": 79.28154681579231
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.memtotal",
+    "mount": null,
+    "type": null,
+    "value": 93.34502870210643
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.swaptotal",
+    "mount": null,
+    "type": null,
+    "value": 62.590767922096305
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.meminfo.buffers",
+    "mount": null,
+    "type": null,
+    "value": 68.75059057854673
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "user",
+    "value": 78.11463916574314
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "system",
+    "value": 19.28727479770084
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "nice",
+    "value": 23.77707138315371
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.stat.cpu_rate",
+    "mount": null,
+    "type": "iowait",
+    "value": 17.475486719787547
+  },
+  {
+    "source": "tsdb",
+    "metric": "proc.loadavg.1min",
+    "mount": null,
+    "type": null,
+    "value": 1.068726362083734
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.used",
+    "mount": "/",
+    "type": null,
+    "value": 351074.6257151108
+  },
+  {
+    "source": "tsdb",
+    "metric": "df.1kblocks.free",
+    "mount": "/",
+    "type": null,
+    "value": 448925.3742848892
+  }
+]

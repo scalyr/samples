@@ -1,0 +1,77 @@
+{
+  alerts: [
+    // security events
+    {
+    templateParameters: [
+        {event: 4732, description: "A user was added to a privileged local group", threshold: 0},
+        {event: 4723, description:"An attempt was made to change the password of an account", threshold: 0},
+        {event: 1102, description: "Audit log was cleared. This can relate to a potential attack", threshold: 0},
+        {event: 4624, description: "Successful account log on", threshold: 0},
+        {event: 4625, description: "Failed account log on", threshold: 0},
+        {event: 4634, description: "An account logged off", threshold: 0},
+        {event: 4648, description: "A logon attempt was made with explicit credentials", threshold: 0},
+        {event: 4719, description: "System audit policy was changed.", threshold: 0},
+        {event: 4964, description: "A special group has been assigned to a new log on", threshold: 0},
+        {event: 1102, description: "Audit log was cleared. This can relate to a potential attack", threshold: 0},
+        {event: 4720, description: "A user account was created", threshold: 0},
+        {event: 4722, description: "A user account was enabled", threshold: 0},
+        {event: 4723, description: "An attempt was made to change the password of an account", threshold: 0},
+        {event: 4725, description: "A user account was disabled", threshold: 0},
+        {event: 4728, description: "A user was added to a privileged global group", threshold: 0},
+        {event: 4732, description: "A user was added to a privileged local group", threshold: 0},
+        {event: 4756, description: "A user was added to a privileged universal group", threshold: 0},
+        {event: 4738, description: "A user account was changed", threshold: 0},
+        {event: 4740, description: "A user account was locked out", threshold: 0},
+        {event: 4767, description: "A user account was unlocked", threshold: 0},
+        {event: 4735, description: "A privileged local group was modified", threshold: 0},
+        {event: 4737, description: "A privileged global group was modified", threshold: 0},
+        {event: 4755, description: "A privileged universal group was modified", threshold: 0},
+        {event: 4772, description: "A Kerberos authentication ticket request failed", threshold: 0},
+        {event: 4777, description: "The domain controller failed to validate the credentials of an account.", threshold: 0},
+        {event: 4782, description: "Password hash an account was accessed", threshold: 0},
+        {event: 4616, description: "System time was changed", threshold: 0},
+        {event: 4657, description: "A registry value was changed", threshold: 0},
+        {event: 4697, description: "An attempt was made to install a service", threshold: 0},
+        {event: 4946, description: "A rule was added to the Windows Firewall exception list", threshold: 0},
+        {event: 4947, description: "A rule was modified in the Windows Firewall exception list", threshold: 0},
+        {event: 4950, description: "A setting was changed in Windows Firewall", threshold: 0},
+        {event: 4954, description: "Group Policy settings for Windows Firewall has changed", threshold: 0},
+        {event: 5025, description: "The Windows Firewall service has been stopped", threshold: 0},
+        {event: 5031, description: "Windows Firewall blocked an application from accepting incoming traffic", threshold: 0},
+        {event: 5155, description: "Windows Filtering Platform blocked an application or service from listening on a port", threshold: 0},
+        {event: 5157, description: "Windows Filtering Platform blocked a connection", threshold: 0},
+        {event: 5447, description: "A Windows Filtering Platform filter was changed", threshold: 0},
+      ],  
+      alerts: [
+        {
+          alertAddress: "test@example.com",
+          description: "#description#",
+          gracePeriodMinutes: 0,
+          renotifyPeriodMinutes: 0,
+          resolutionDelayMinutes: 0,
+          trigger: "countPerSecond:1 minutes(($EventID == #event#) ($logfile = \"C:\\\\Program Files (x86)\\\\Scalyr\\\\log\\\\windows_event_log_monitor.log\")) > #threshold#"
+        },
+      ]
+    },
+    // server uptime
+    {
+     byHosts: {
+        filter: "",              // Blank means "all hosts"
+        fields: ["serverHost"],  // Retrieve the "serverHost" (hostname) field for use in alert templates.
+                                 // (You can specify "serverHost", "serverIP", and/or any server-level fields
+                                 // defined in the Scalyr Agent configuration.)
+        maxAgeHours: 4           // Ignore hosts which have not sent any data in the last 4 hours
+      },
+      alerts: [
+             {
+              alertAddress: "youremail@example.com",
+              description: "#serverHost# Showing no Logs",
+              gracePeriodMinutes: 0,
+              renotifyPeriodMinutes: 0,
+              resolutionDelayMinutes: 0,
+              trigger: "count:5 minutes($serverHost == '#serverHost#') == 0"
+             }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  monitors: [
+    {
+      module: "scalyr_agent.builtin_monitors.syslog_monitor",
+      protocols: "tcp:601, udp:514",
+      accept_remote_connections: true,
+      message_log: "paloalto.log",
+      parser: "marketplace-paloaltonetworksfirewall-latest"
+    },
+    {
+      module: "scalyr_agent.builtin_monitors.syslog_monitor",
+      protocols: "tcp:602, udp:515",
+      accept_remote_connections: true,
+      message_log: "fortinet.log",
+      parser: "marketplace-fortinetfortigate-latest"
+    },
+    {
+      module: "scalyr_agent.builtin_monitors.syslog_monitor",
+      protocols: "tcp:603, udp:516",
+      accept_remote_connections: true,
+      message_log: "checkpoint.log",
+      parser: "checkpoint"
+    }
+  ]
+}

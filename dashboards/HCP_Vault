@@ -1,0 +1,188 @@
+{
+  parameters: [
+    {
+      facet: "tags.organization_id",
+      name: "Organization ID",
+      defaultValue: "*"
+    }, {
+      facet: "tags.project_id",
+      name: "Project ID",
+      defaultValue: "*",
+    }, {
+      facet: "tags.cluster_id",
+      name: "Vault Cluster",
+      defaultValue: "*",
+    }
+  ],
+  graphs: [
+    {
+      graphStyle: "",
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_core_unsealed'\n| group latest_value=newest(gauge.value)\n| let latest=(latest_value!='0') ? 'Unsealed' : 'Sealed'\n| columns latest",
+      showBarsColumn: "false",
+      title: "Sealed Status",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 0,
+        y: 0
+      }
+    }, {
+      graphStyle: "",
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_secret_kv_count'\n| group 'Number of Entries (mean)'=avg(gauge.value) by 'Mount Path'=tags.mount_point",
+      showBarsColumn: "false",
+      title: "KV Secrets by Mount",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 20,
+        y: 0
+      }
+    }, {
+      graphStyle: "",
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_identity_entity_count'\n| group Value=avg(gauge.value) by Namespace=tags.namespace",
+      showBarsColumn: "false",
+      title: "Identity Entities by Namespace",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 40,
+        y: 0
+      }
+    }, {
+      graphStyle: "line",
+      lineSmoothing: "straightLines",
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='filesystem_used_ratio'\n| group used_ratio = avg(gauge.value) by tags.device, tags.mountpoint, timestamp = timebucket()\n| let used_pct=used_ratio * 100\n| columns timestamp, device=tags.device, mount=tags.mountpoint, used_pct\n| transpose device on timestamp",
+      title: "Disk Utilization",
+      yScale: "linear",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 20,
+        y: 14
+      }
+    }, {
+      graphStyle: "line",
+      lineSmoothing: "straightLines",
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='cpu_seconds_total' tags.mode='idle'\n| group util=avg(counter.value) by timestamp=timebucket(), tags.instance_id, tags.cpu\n| columns timestamp, instance_cpu = tags.instance_id+\" - \"+tags.cpu, util\n| transpose instance_cpu on timestamp",
+      title: "CPU Utilization",
+      yScale: "linear",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 0,
+        y: 14
+      }
+    }, {
+      graphStyle: "line",
+      lineSmoothing: "straightLines",
+      query: "| join \n total_b=(tags.hcp_product='vault' name='memory_total_bytes' tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# | group total=avg(gauge.value) by tags.instance_id, timestamp=timebucket()), \n available_b=(tags.hcp_product='vault' name='memory_available_bytes' tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# | group free=avg(gauge.value) by tags.instance_id, timestamp=timebucket())\non tags.instance_id, timestamp\n| let pct_used=(number(total)-number(free))*100/total\n| columns timestamp, pct_used",
+      title: "Memory Utilization",
+      yScale: "linear",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 40,
+        y: 14
+      }
+    }, {
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_token_count'\n| group Count=avg(gauge.value) by Namespace=tags.namespace ",
+      title: "Available Tokens by Namespace",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 20,
+        y: 28
+      },
+      graphStyle: "pie",
+      maxPieSlices: 10
+    }, {
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_token_count_by_auth'\n| group Count=avg(gauge.value) by Namespace=tags.namespace, 'Auth Method'=tags.auth_method",
+      title: "Available tokens by namespace by auth method",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 40,
+        y: 28
+      }
+    }, {
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_token_count_by_policy'\n| group Count=avg(gauge.value) by Namespace=tags.namespace, Policy=tags.policy",
+      title: "Available tokens by namespace by policy",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 0,
+        y: 42
+      }
+    }, {
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_token_count_by_ttl'\n| group Count=avg(gauge.value) by 'Creation TTL'=tags.creation_ttl",
+      title: "Available tokens by TTL",
+      layout: {
+        h: 14,
+        i: "9",
+        minH: 3,
+        minW: 6,
+        w: 20,
+        x: 20,
+        y: 42
+      },
+      graphStyle: "pie",
+      maxPieSlices: 10
+    }, {
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_token_lookup'\n| group avg = average(aggregated_summary.count)",
+      title: "Token lookups",
+      graphStyle: "number",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 40,
+        y: 42
+      }
+    }, {
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_expire_num_leases'\n| group avg = average(gauge.value)",
+      title: "Active Leases",
+      layout: {
+        h: 14,
+        i: "11",
+        minH: 3,
+        minW: 6,
+        w: 20,
+        x: 0,
+        y: 56
+      },
+      graphStyle: "number"
+    }, {
+      graphStyle: "line",
+      lineSmoothing: "straightLines",
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_expire_revoke'\n| group all_observed_sum=average(aggregated_summary.sum), all_count=avg(aggregated_summary.count) by timestamp=timebucket()\n| let avg_vault_expire_revoke_time=all_observed_sum/all_count\n| columns timestamp, 'Time in ms'=avg_vault_expire_revoke_time",
+      title: "Token revoke latency",
+      yScale: "linear",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 20,
+        y: 56
+      }
+    }, {
+      graphStyle: "line",
+      lineSmoothing: "straightLines",
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_expire_renew'\n| group all_observed_sum=average(aggregated_summary.sum), all_count=avg(aggregated_summary.count) by timestamp=timebucket()\n| let avg_vault_expire_renew_time=all_observed_sum/all_count\n| columns timestamp, 'Time in ms'=avg_vault_expire_renew_time",
+      title: "Token renew latency",
+      yScale: "linear",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 40,
+        y: 56
+      }
+    }, {
+      query: "tags.organization_id=#Organization ID# tags.project_id=#Project ID# tags.cluster_id=#Vault Cluster# tags.hcp_product='vault' name='vault_token_count_by_auth'\n| group Count=avg(gauge.value) by 'Auth Method'=tags.auth_method",
+      title: "Batch and service tokens by methods",
+      layout: {
+        h: 14,
+        w: 20,
+        x: 0,
+        y: 28
+      }
+    }
+  ]
+}

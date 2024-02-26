@@ -1,0 +1,5 @@
+{
+  "graphStyle": "number",
+  "query": "{filter}\n| group count = count() ",
+  "title": "{name}"
+}

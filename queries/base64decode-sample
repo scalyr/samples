@@ -1,0 +1,13 @@
+// base64 decode an entry on the fly using the PQ "parse" command. Example below is decoding a base64 encoded command line entry
+
+src.process.cmdline contains '-enc '
+| parse "$base64_blob{regex=([A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/])([A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/])([A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/])([A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/])([A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/])([A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/])+([A-Za-z0-9+/][A-Za-z0-9+/]==|[A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/]=|[A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/][A-Za-z0-9+/])}$" from src.process.cmdline 
+| let decoded=from_base_64(base64_blob)
+| columns src.process.cmdline, decoded
+
+
+
+////and a second way to do this (using the not-yet-documented base64 decode command)
+
+| parse "$base64script{regex=\\S*}$$$" from src.process.cmdline 
+| columns timestamp, endpoint.name, src.process.cmdline, "Decoded Command"=from_base_64(base64script)

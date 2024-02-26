@@ -1,0 +1,232 @@
+[
+  {
+    "latency": null,
+    "ptrace": "719c8eb8-2b30-c871-cf07-62b22dfca335",
+    "rtrace": "719c8eb8-2b30-c871-cf07-62b22dfca335",
+    "status_code": 500,
+    "sca:operation": "detect_known_bad_content",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 451
+  },
+  {
+    "latency": null,
+    "ptrace": "bb607d6f-da37-fac7-7f28-8298804d46e5",
+    "rtrace": "bb607d6f-da37-fac7-7f28-8298804d46e5",
+    "status_code": 500,
+    "sca:operation": "analyze_image",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 178
+  },
+  {
+    "latency": null,
+    "ptrace": "10bc220b-7bf8-50d0-4ce6-8d17d7e18c70",
+    "rtrace": "10bc220b-7bf8-50d0-4ce6-8d17d7e18c70",
+    "status_code": 500,
+    "sca:operation": "analyze_image",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 213
+  },
+  {
+    "latency": null,
+    "ptrace": "e7f4782d-ac62-e0bf-c65e-b36bdb673d21",
+    "rtrace": "e7f4782d-ac62-e0bf-c65e-b36bdb673d21",
+    "status_code": 500,
+    "sca:operation": "detect_known_bad_content",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 499
+  },
+  {
+    "latency": null,
+    "ptrace": "27cd28ab-cbaf-8766-19f1-88e932a9c01d",
+    "rtrace": "27cd28ab-cbaf-8766-19f1-88e932a9c01d",
+    "status_code": 500,
+    "sca:operation": "detect_spammy_words",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 2692
+  },
+  {
+    "latency": null,
+    "ptrace": "80f61c75-20e2-ab83-eb72-022545c653f7",
+    "rtrace": "80f61c75-20e2-ab83-eb72-022545c653f7",
+    "status_code": 500,
+    "sca:operation": "detect_spammy_words",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 3038
+  },
+  {
+    "latency": null,
+    "ptrace": "62fc8137-b49d-35a5-04ab-3b81837b0887",
+    "rtrace": "62fc8137-b49d-35a5-04ab-3b81837b0887",
+    "status_code": 500,
+    "sca:operation": "detect_known_bad_content",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 428
+  },
+  {
+    "latency": null,
+    "ptrace": "533783e0-ce85-54c4-ddcb-67ef6de9747d",
+    "rtrace": "533783e0-ce85-54c4-ddcb-67ef6de9747d",
+    "status_code": 500,
+    "sca:operation": "detect_spammy_words",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 2374
+  },
+  {
+    "latency": null,
+    "ptrace": "50f3a5fe-3af8-2eb1-1c7b-5544e2d5af0e",
+    "rtrace": "50f3a5fe-3af8-2eb1-1c7b-5544e2d5af0e",
+    "status_code": 500,
+    "sca:operation": "analyze_image",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 199
+  },
+  {
+    "latency": null,
+    "ptrace": "9c71804a-ec45-840a-c7ec-875d85a05445",
+    "rtrace": "9c71804a-ec45-840a-c7ec-875d85a05445",
+    "status_code": 500,
+    "sca:operation": "analyze_image",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 200
+  },
+  {
+    "latency": null,
+    "ptrace": "4e99c638-9641-e565-113b-ee4696d8cef5",
+    "rtrace": "4e99c638-9641-e565-113b-ee4696d8cef5",
+    "status_code": 500,
+    "sca:operation": "detect_adult_content",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 800
+  },
+  {
+    "latency": null,
+    "ptrace": "08aa467a-9c4b-b219-b865-3fc0bedc3478",
+    "rtrace": "08aa467a-9c4b-b219-b865-3fc0bedc3478",
+    "status_code": 500,
+    "sca:operation": "detect_known_bad_content",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 410
+  },
+  {
+    "latency": null,
+    "ptrace": "44f42d21-44ff-b6d6-ed17-9fafa066284c",
+    "rtrace": "44f42d21-44ff-b6d6-ed17-9fafa066284c",
+    "status_code": 500,
+    "sca:operation": "detect_known_bad_content",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 477
+  },
+  {
+    "latency": null,
+    "ptrace": "1af91c65-76c4-233f-f32b-8af13d036193",
+    "rtrace": "1af91c65-76c4-233f-f32b-8af13d036193",
+    "status_code": 500,
+    "sca:operation": "detect_known_bad_content",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 361
+  },
+  {
+    "latency": null,
+    "ptrace": "395cb157-bbc9-0b53-2917-4f1bee1b578d",
+    "rtrace": "395cb157-bbc9-0b53-2917-4f1bee1b578d",
+    "status_code": 500,
+    "sca:operation": "detect_spammy_words",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 2305
+  },
+  {
+    "latency": null,
+    "ptrace": "7ef1d98b-2891-495e-b6d8-7182a09ed28a",
+    "rtrace": "7ef1d98b-2891-495e-b6d8-7182a09ed28a",
+    "status_code": 500,
+    "sca:operation": "detect_adult_content",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 1065
+  },
+  {
+    "latency": null,
+    "ptrace": "5da7c426-26e4-08b2-4f52-92d5930ed1c6",
+    "rtrace": "5da7c426-26e4-08b2-4f52-92d5930ed1c6",
+    "status_code": 500,
+    "sca:operation": "detect_known_bad_content",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 554
+  },
+  {
+    "latency": null,
+    "ptrace": "90c47c25-85e2-6c24-5338-c6e83d23b6b9",
+    "rtrace": "90c47c25-85e2-6c24-5338-c6e83d23b6b9",
+    "status_code": 500,
+    "sca:operation": "detect_spammy_words",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 2190
+  },
+  {
+    "latency": null,
+    "ptrace": "60a2c9a9-5606-f438-0d08-9e0a60c8a476",
+    "rtrace": "60a2c9a9-5606-f438-0d08-9e0a60c8a476",
+    "status_code": 500,
+    "sca:operation": "analyze_image",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 296
+  },
+  {
+    "latency": null,
+    "ptrace": "da7e6f69-e082-440b-4365-8d3717aab51f",
+    "rtrace": "da7e6f69-e082-440b-4365-8d3717aab51f",
+    "status_code": 500,
+    "sca:operation": "detect_spammy_words",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 3526
+  },
+  {
+    "latency": null,
+    "ptrace": "5fa27975-fa8f-72ec-60cf-a1213be1a80f",
+    "rtrace": "5fa27975-fa8f-72ec-60cf-a1213be1a80f",
+    "status_code": 500,
+    "sca:operation": "analyze_image",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 160
+  },
+  {
+    "latency": null,
+    "ptrace": "8831c820-16bc-869b-4f02-e4bd91f4b3bd",
+    "rtrace": "8831c820-16bc-869b-4f02-e4bd91f4b3bd",
+    "status_code": 500,
+    "sca:operation": "analyze_image",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 253
+  },
+  {
+    "latency": null,
+    "ptrace": "cb45ce4e-7b0f-91e4-2a20-54783a328523",
+    "rtrace": "cb45ce4e-7b0f-91e4-2a20-54783a328523",
+    "status_code": 500,
+    "sca:operation": "analyze_image",
+    "sca:outcome": "error",
+    "sca:service": "Image Spam Detection Pipeline",
+    "sca:latency": 166
+  }
+]

@@ -1,0 +1,5 @@
+{
+  server_attributes: {
+    // tier: "production"
+  }
+}

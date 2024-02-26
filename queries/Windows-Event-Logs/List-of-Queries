@@ -1,0 +1,63 @@
+Queries That Require full XML:
+
+Computer account changes:
+
+winEventLog.id in ('4742') 
+| columns endpoint.name,winEventLog.id,winEventLog.xml 
+| parse "<Data Name='SubjectUserName'>$subj_username$</Data>" from winEventLog.xml 
+| parse "<Data Name='TargetUserName'>$tgt_username$</Data>" from winEventLog.xml 
+| parse "<Data Name='PasswordLastSet'>$passwd_last_set$</Data>" from winEventLog.xml 
+| parse "<Data Name='LogonType'>$logon_type$</Data>" from winEventLog.xml 
+| parse "<Data Name='Application'>$listener_exe$</Data>" from winEventLog.xml 
+| parse "<Data Name='SourceAddress'>$evt_src_ip$</Data>" from winEventLog.xml 
+| parse "<Data Name='SourcePort'>$evt_src_port$</Data>" from winEventLog.xml 
+| parse "<Data Name='DestAddress'>$evt_dst_ip$</Data>" from winEventLog.xml 
+| parse "<Data Name='DestPort'>$evt_dst_port$</Data>" from winEventLog.xml 
+| parse "<Data Name='SubjectLogonId'>$logon_id$</Data>" from winEventLog.xml 
+| parse "<Data Name='ShareName'>$share_name$</Data>" from winEventLog.xml 
+| parse "<Data Name='AccessMask'>$access_mask$</Data>" from winEventLog.xml 
+| let dst_hostname = endpoint.name 
+| let event_id = winEventLog.id 
+| columns dst_hostname,event_id,subj_username,tgt_username,passwd_last_set,logon_type,evt_src_ip,evt_src_port,evt_dst_ip,evt_dst_port,logon_id,share_name,access_mask,listener_exe | limit 50000
+
+
+Network Share Object Checked
+
+winEventLog.id in (‘5145’) 
+| columns endpoint.name,winEventLog.id,winEventLog.xml 
+| parse "<Data Name='SubjectUserName'>$subj_username$</Data>" from winEventLog.xml 
+| parse "<Data Name='TargetUserName'>$tgt_username$</Data>" from winEventLog.xml 
+| parse "<Data Name='PasswordLastSet'>$passwd_last_set$</Data>" from winEventLog.xml 
+| parse "<Data Name='LogonType'>$logon_type$</Data>" from winEventLog.xml 
+| parse "<Data Name='Application'>$listener_exe$</Data>" from winEventLog.xml 
+| parse "<Data Name='SourceAddress'>$evt_src_ip$</Data>" from winEventLog.xml 
+| parse "<Data Name='SourcePort'>$evt_src_port$</Data>" from winEventLog.xml 
+| parse "<Data Name='DestAddress'>$evt_dst_ip$</Data>" from winEventLog.xml 
+| parse "<Data Name='DestPort'>$evt_dst_port$</Data>" from winEventLog.xml 
+| parse "<Data Name='SubjectLogonId'>$logon_id$</Data>" from winEventLog.xml 
+| parse "<Data Name='ShareName'>$share_name$</Data>" from winEventLog.xml 
+| parse "<Data Name='AccessMask'>$access_mask$</Data>" from winEventLog.xml 
+| let dst_hostname = endpoint.name 
+| let event_id = winEventLog.id 
+| columns dst_hostname,event_id,subj_username,tgt_username,passwd_last_set,logon_type,evt_src_ip,evt_src_port,evt_dst_ip,evt_dst_port,logon_id,share_name,access_mask,listener_exe | limit 50000
+
+Windows Filtering Platform events
+
+
+winEventLog.id in (‘5156’,’5157’,’5158’,’5159’) 
+| columns endpoint.name,winEventLog.id,winEventLog.xml 
+| parse "<Data Name='SubjectUserName'>$subj_username$</Data>" from winEventLog.xml 
+| parse "<Data Name='TargetUserName'>$tgt_username$</Data>" from winEventLog.xml 
+| parse "<Data Name='PasswordLastSet'>$passwd_last_set$</Data>" from winEventLog.xml 
+| parse "<Data Name='LogonType'>$logon_type$</Data>" from winEventLog.xml 
+| parse "<Data Name='Application'>$listener_exe$</Data>" from winEventLog.xml 
+| parse "<Data Name='SourceAddress'>$evt_src_ip$</Data>" from winEventLog.xml 
+| parse "<Data Name='SourcePort'>$evt_src_port$</Data>" from winEventLog.xml 
+| parse "<Data Name='DestAddress'>$evt_dst_ip$</Data>" from winEventLog.xml 
+| parse "<Data Name='DestPort'>$evt_dst_port$</Data>" from winEventLog.xml 
+| parse "<Data Name='SubjectLogonId'>$logon_id$</Data>" from winEventLog.xml 
+| parse "<Data Name='ShareName'>$share_name$</Data>" from winEventLog.xml 
+| parse "<Data Name='AccessMask'>$access_mask$</Data>" from winEventLog.xml 
+| let dst_hostname = endpoint.name 
+| let event_id = winEventLog.id 
+| columns dst_hostname,event_id,subj_username,tgt_username,passwd_last_set,logon_type,evt_src_ip,evt_src_port,evt_dst_ip,evt_dst_port,logon_id,share_name,access_mask,listener_exe | limit 50000

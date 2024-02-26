@@ -1,0 +1,134 @@
+{
+  tabs: [{"tabName":"Events",
+filters : [
+  {
+    facet: "actor.alternateId",
+    name: "Actor Email"
+  },
+  {
+    facet: "target.alternateId",
+    name: "Target Email"
+  },
+  {
+    facet: "client.ipAddress",
+    name: "Client IP"
+  },
+  {
+    facet: "eventType",
+    name: "Event Type"
+  }
+  ],
+graphs : [
+    {
+      graphStyle: "",
+      query: "((serverHost='okta' OR serverHost='okta-beats') (parser='okta' OR parser='okta-beats' ))  client.userAgent.rawUserAgent != 'GleanSearchCrawlerBot' | columns timestamp, actor.alternateId, client.ipAddress, displayMessage, factor=debugContext.debugData.factor, outcome.result, target=target.alternateId, userAgent=client.userAgent.rawUserAgent | sort -timestamp",
+      title: "Events",
+      layout: {
+  h: 18,
+  i: "0",
+  minH: 3,
+  minW: 6,
+  w: 60,
+  x: 0,
+  y: 1
+},
+      showBarsColumn: "false"
+    },
+    {
+      graphStyle: "donut",
+      maxPieSlices: 10,
+      query: "((serverHost='okta' OR serverHost='okta-beats') (parser='okta' OR parser='okta-beats' ))  client.userAgent.rawUserAgent != 'GleanSearchCrawlerBot'| group count = count() by client.ipAddress",
+      title: "Count by Client IP",
+      layout: {
+  h: 15,
+  i: "1",
+  minH: 3,
+  minW: 6,
+  w: 19,
+  x: 0,
+  y: 17
+}
+    ,
+    },
+    {
+      graphStyle: "donut",
+      maxPieSlices: 15,
+      query: "((serverHost='okta' OR serverHost='okta-beats') (parser='okta' OR parser='okta-beats' )) client.userAgent.rawUserAgent=* !(client.userAgent.rawUserAgent='GleanSearchCrawlerBot') actor.alternateId=* target=* | group count = count() by client.userAgent.rawUserAgent",
+      title: "User Agents",
+      layout: {
+  h: 15,
+  i: "2",
+  minH: 3,
+  minW: 6,
+  w: 21,
+  x: 19,
+  y: 19
+}
+    },
+    {
+      graphStyle: "donut",
+      maxPieSlices: 20,
+      query: "((serverHost='okta' OR serverHost='okta-beats') (parser='okta' OR parser='okta-beats' )) target.type='AppInstance' eventType='user.authentication.sso' target.alternateId != 'Glean Search Connector' | group count() by target.alternateId",
+      title: "App Sign-Ins",
+      layout: {
+  h: 15,
+  i: "3",
+  minH: 3,
+  minW: 6,
+  w: 20,
+  x: 40,
+  y: 19
+}
+    },
+    {
+      graphStyle: "donut",
+      maxPieSlices: 10,
+      query: "(serverHost contains 'okta' || k8s-cluster contains 'okta') and client.userAgent.rawUserAgent != 'GleanSearchCrawlerBot'\n| group count() by Location=client.geographicalContext.country + \", \" + client.geographicalContext.state + \", \" + client.geographicalContext.city",
+      title: "Geo Location Information",
+      layout: {
+  h: 17,
+  w: 19,
+  x: 0,
+  y: 33
+}
+    }
+  ]},
+{"tabName":"Test","graphs":[
+  {
+    barWidth: "auto",
+    breakdownFacet: "client.ipAddress",
+    graphStyle: "stacked_bar",
+    lineSmoothing: "straightLines",
+    plots: [
+  {
+    facet: "",
+    filter: "target.alternateId != 'Glean Search Connector' serverHost='okta'\n\n",
+    label: "rate"
+  }
+],
+    title: "test"
+  },
+  {
+    graphStyle: "",
+    query: "((serverHost='okta' parser='okta-beats') OR (serverHost='okta-beats')) client.userAgent.rawUserAgent != 'GleanSearchCrawlerBot' | columns timestamp, actor.alternateId, client.ipAddress, displayMessage, factor=debugContext.debugData.factor, outcome.result, target=target.alternateId, userAgent=client.userAgent.rawUserAgent | sort -timestamp",
+    showBarsColumn: "false",
+    title: "Test Old Query"
+  },
+  {
+    graphStyle: "",
+    query: "((serverHost='okta' OR serverHost='okta-beats') (parser='okta' OR parser='okta-beats' )) client.userAgent.rawUserAgent != 'GleanSearchCrawlerBot' | columns timestamp, actor.alternateId, client.ipAddress, displayMessage, factor=debugContext.debugData.factor, outcome.result, target=target.alternateId, userAgent=client.userAgent.rawUserAgent | sort -timestamp",
+    showBarsColumn: "false",
+    title: "Test New Query"
+  }
+],
+filters: [
+  {
+    facet: "actor.alternateId",
+    name: "Actor Email"
+  }
+]
+}],
+  configType: "TABBED"
+,
+
+}

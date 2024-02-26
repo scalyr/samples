@@ -1,0 +1,6 @@
+{
+  "graphStyle": "pie",
+  "query": "{filter}\n| group count() by {field.0.string}",
+  "maxPieSlices": 10,
+  "title": "{name}"
+}
