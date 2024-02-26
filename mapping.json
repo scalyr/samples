@@ -1,0 +1,195 @@
+{
+        "audit": {
+                "name": "Audit",
+                "path": "audit.csv",
+                "dashboard": "audit.conf",
+                "parser": "json.conf"
+        },
+        "accesslog": {
+                "name": "Web Access Log",
+                "path": "accesslog.json",
+                "dashboard": "webserver.conf",
+                "parser": "accessLog.conf"
+        },
+        "web_traffic": {
+                "name": "Web Traffic",
+                "path": "traffic.json",
+                "dashboard": "traffic.conf",
+                "parser": "agent-metrics.conf"
+        },
+        "cloudwatch": {
+                "name": "AWS - Cloudwatch",
+                "path": "cloudwatch_metrics.json",
+                "dashboard": "aws.conf",
+                "parser": "cloudwatchLogs.conf"
+        },
+        "ec2": {
+                "name": "AWS - EC2 Metrics",
+                "path": "ec2.json",
+                "dashboard": "aws.conf",
+                "parser": "agent-metrics.conf"
+        },
+         "Cloudflare": {
+                "name": "Cloudflare",
+                "path": "cloudflare.csv",
+                "dashboard": "cloudflare.conf",
+                "parser": "json.conf"
+        },
+        "cloudwatch_metrics_2": {
+                "name": "AWS - Cloudwatch EC2 System Metrics",
+                "path": "cloudwatch_metrics_cpu_mem_disk.json",
+                "dashboard": "aws.conf",
+                "parser": "cloudwatchLogs.conf"
+        },
+        "vpc_flow": {
+                "name": "AWS - VPC Flow Log",
+                "path": "vpc.csv",
+                "dashboard": "aws.conf",
+                "parser": "vpc.conf"
+        },
+        "lambda": {
+                "name": "AWS - Lambda",
+                "path": "lambda.json",
+                "dashboard": "aws.conf",
+                "parser": "spam-detection.conf"
+        },
+        "lambda_errors": {
+                "name": "AWS - Lambda Errors",
+                "path": "lambda-errors.json",
+                "dashboard": "aws.conf",
+                "parser": "spam-detection.conf"
+        },
+        "azure-ad": {
+                "name": "Azure AD User Info",
+                "path": "AADUSerInfo.csv",
+                "dashboard": "azure-ad.conf",
+                "parser": "json.conf"
+        },
+        "winEventLog": {
+                "name": "Windows Event Log",
+                "path": "windows_event_log.json",
+                "dashboard": "skylight-inspector.conf",
+                "parser": "json.conf"
+        },
+        "windows_metrics": {
+                "name": "Windows System Metrics",
+                "path": "windows_performance_monitor.json",
+                "dashboard": "windows-system-metrics.conf",
+                "parser": "windows_event_log.conf"
+        },
+        "windows_metrics_2": {
+                "name": "Windows System Metrics Extended",
+                "path": "windows_performance_monitor_2.json",
+                "dashboard": "windows-system-metrics.conf",
+                "parser": "windows_event_log.conf"
+        },
+        "okta-insights": {
+                "name": "Okta Insights",
+                "path": "okta_sample.csv",
+                "dashboard": "okta_insights.conf",
+                "parser": "json.conf"
+        },
+        "okta-analytics-ocsf": {
+                "name": "Okta Analytics OCSF",
+                "path": "okta_ocsf.csv",
+                "dashboard": "okta_xdr.conf",
+                "parser": "json.conf"
+        },
+        "okta-threats-ocsf": {
+                "name": "Okta Threats OCSF",
+                "path": "okta_threats_ocsf.csv",
+                "dashboard": "okta_xdr.conf",
+                "parser": "json.conf"
+        },
+        "microsoft-active-directory-ocsf": {
+                "name": "Azure Active Directory OCSF",
+                "path": "aad_ocsf.csv",
+                "dashboard": "microsoft.conf",
+                "parser": "json.conf"
+        },
+        "office-365-ocsf": {
+                "name": "Office 365 OCSF",
+                "path": "office365-ocsf.csv",
+                "dashboard": "microsoft.conf",
+                "parser": "json.conf"
+        },
+        "office-365-file-ocsf": {
+                "name": "Office 365 File OCSF",
+                "path": "office365-file-ocsf.csv",
+                "dashboard": "microsoft.conf",
+                "parser": "json.conf"
+        },
+        "office-365-logon-ocsf": {
+                "name": "Office 365 Logon OCSF",
+                "path": "office365-logon-ocsf.csv",
+                "dashboard": "microsoft.conf",
+                "parser": "json.conf"
+        },
+        "dhcp": {
+                "name": "DHCP Logs",
+                "path": "dhcp.csv",
+                "dashboard": "dhcp.conf",
+                "parser": "dhcp.conf"
+        },
+        "microservice": {
+                "name": "MicroService",
+                "path": "microservice.json",
+                "dashboard": "webserver.conf",
+                "parser": "tracing_microservice.conf",
+                "links": "microservice.conf"
+        },
+        "invalid-cache-errors": {
+                "name": "MicroService errors",
+                "path": "invalid-cache-errors.json",
+                "dashboard": "webserver.conf",
+                "parser": "tracing_microservice.conf"
+        },
+        "vpn": {
+                "name": "VPN",
+                "path": "vpn.json",
+                "dashboard": "vpn.conf",
+                "parser": "pa-vpn.conf"
+        },
+         "paloalto-firewall-pan-ocsf": {
+                "name": "Palo Alto Panorama - OCSF",
+                "path": "PaloAlto-Networks-Panorama-ocsf.csv",
+                "dashboard": "palo_firewall_ocsf.conf",
+                "parser": "palo-alto-firewall-ocsf.conf"
+        },            
+        "palo-firewall-ocsf-tabbed": {
+                "name": "Palo Alto Firewall - OCSF - Tabbed (Dashboard and Parser Only)",
+                "path": "no_sample_data.csv",
+                "dashboard": "palo_firewall_ocsf_tabbed.conf",
+                "parser": "palo-alto-firewall-ocsf.conf"
+        },
+        "palo": {
+                "name": "Palo Alto Panorama Traffic",
+                "path": "palo_traffic_1.csv",
+                "dashboard": "firewall-generic.conf",
+                "parser": "paloalto.conf"
+        },
+        "salesforce": {
+                "name": "Salesforce",
+                "path": "salesforce-events.csv",
+                "dashboard": "salesforce.conf",
+                "parser": "json.conf"
+        },
+        "log4shell": {
+                "name": "Log4Shell JNDI logs",
+                "path": "log4shell.json",
+                "dashboard": "minecraft.conf",
+                "parser": "json.conf"
+        },
+        "zscaler": {
+                "name": "zScaler",
+                "path": "zscaler_log_sample.csv",
+                "dashboard": "zscaler.conf",
+                "parser": "json.conf"
+        },
+        "zscaler_OCSF": {
+                "name": "Zscaler OCSF",
+                "path": "zscaler_ocsf.csv",
+                "dashboard": "zscaler.conf",
+                "parser": "json.conf"
+        }
+}

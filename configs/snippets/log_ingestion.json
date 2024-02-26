@@ -1,0 +1,11 @@
+// Set the path to log files to upload, and other attributes, 
+// for example a parser name. '*' wildcards are supported.
+
+{
+  logs: [
+    { 
+      path: "C:\\temp\\test.log", 
+      attributes: {parser: "test"}
+    }
+  ]
+}

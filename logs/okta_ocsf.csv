@@ -1,0 +1,1001 @@
+dataSource.vendor,metadata.product.name,metadata.product.vendor_name,dataSource.name,dataSource.category,src_endpoint.location.region,device.uid,actor.authorization.policy.rule.name,unmapped.client.userAgent.browser,status,unmapped.client.userAgent.os,event.type,status_detail,actor.user.name,actor.user.email_addr,actor.user.type_id,actor.user.type,dst_endpoint.svc_name,src_endpoint.ip,http_request.url.path,activity_name,device.hostname,severity,user.name,count
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Perform RealTimeSync by AD agent,,Blaze Thunderstrike,alice.smith@example.org,8,,,,,Perform RealTimeSync by AD agent,,3,,6272
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authenticate user with AD agent,,Nova Frostbane,melissa.kelly@dummyinbox.net,8,,,,,Authenticate user with AD agent,,3,,2884
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authenticate user with AD agent,,Crimson Tempest,olivia.perry@testinginbox.xyz,2,,,,,Authenticate user with AD agent,,3,,2867
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via Radius,,Seraphina Dragonheart,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via Radius,,3,,1443
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Windows,Logon,,Luna Moonshadow,emma.jenkins@examplemail.biz,8,User,,203.0.113.0,/oauth2/v1/introspect,Logon,,3,,1443
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via Radius,,Maximus Stormbringer,mike.anderson@mytestmail.org,8,,,,,Authentication of user via Radius,,3,,1442
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Windows,Logon,,Zara Midnightshadow,ryan.collins@fakemailbox.net,8,User,,10.0.0.6,/audit/logs/network,Logon,,3,,1442
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Maximus Stormbringer,emma.jenkins@examplemail.biz,8,,,,,Verify user identity,,3,,1251
+Okta,Okta,Okta,Okta,security,Ohio,,On Office Network,UNKNOWN,ALLOW,Linux,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.1.1,/oauth2/v1/introspect,Logon,,3,,1024
+Okta,Okta,Okta,Okta,security,Ohio,,DDS - No MFA - On Prem,UNKNOWN,ALLOW,Unknown,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.2,/oauth2/v1/introspect,Logon,,3,,883
+Okta,Okta,Okta,Okta,security,Illinois,,On Office Network,UNKNOWN,ALLOW,Linux,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.6,/audit/logs/system,Logon,,3,,792
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,UNKNOWN,ALLOW,Unknown,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,127.0.0.1,/security/logs/authentication,Logon,,3,,784
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Thunder Hammerstrike,emily.white@example.com,8,User,,172.16.0.7,/oauth2/v1/token,Logon,,3,,635
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Ragnarok Shadowblade,brian.hughes@samplemailing.co,8,User,Google Workspace,10.0.0.8,/audit/logs/system,Logon,,3,Valkyrie Firestorm,634
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Venus Starlight,alice.smith@example.org,8,User,Datadog,192.168.0.2,/security/logs/authorization,Logon,,3,Ignatius Inferno,619
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Nebula Stardust,bob.jones@fakecorp.net,8,User,,192.168.0.4,/security/logs/intrusion-detection,Logon,,3,,617
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Agentless DSSO Auth,,Astra Solarflare,daniel.ward@virtualmail.io,2,,,,,Agentless DSSO Auth,,3,,503
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Successfully imported new member to an app group,,Crimson Tempest,ryan.collins@fakemailbox.net,2,,,,,Successfully imported new member to an app group,,3,,496
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via Radius,,Thunder Hammerstrike,emily.white@dummyemail.biz,8,,,,,Authentication of user via Radius,,3,,455
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Orion Lightningstrike,sarah.wilson@example.com,11,,,,,OIDC authorization code request,,3,,415
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Venus Starlight,ryan.collins@fakemailbox.net,11,,,,,OIDC access token is granted,,3,,413
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Astra Solarflare,emily.white@example.com,11,,,,,OIDC id token is granted,,3,,413
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Successfully deleted member of an app group,,Maximus Stormbringer,emily.white@dummyemail.biz,2,,,,,Successfully deleted member of an app group,,3,,412
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Crimson Tempest,anna.hall@custommail.io,11,,,,,OIDC access token is granted,,3,,243
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Valkyrie Firestorm,alice.smith@example.org,11,,,,,OIDC id token is granted,,3,,243
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Valkyrie Firestorm,mark.miller@yourtestmail.biz,11,,,,,OIDC authorization code request,,3,,242
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,Claim evaluation for OAuth2 token,user_claim_evaluation_failure,Celestia Thunderstorm,mike.anderson@example.com,11,,,,,Claim evaluation for OAuth2 token,,3,,235
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Venus Starlight,lisa.brown@nonexistentmail.net,8,,,,,Verify user identity,,3,,180
+Okta,Okta,Okta,Okta,security,Ohio,,DDS - No MFA - On Prem,UNKNOWN,ALLOW,Linux,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.9,/security/logs/authorization,Logon,,3,,169
+Okta,Okta,Okta,Okta,security,,,,,,,,,,,,,,,,,,3,,142
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Phoenix Emberstorm,kevin.green@placeholderemail.co,11,,,,,OIDC access token is granted,,3,,114
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Nova Frostbane,mike.anderson@mytestmail.org,11,,,,,OIDC id token is granted,,3,,114
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC refresh token is granted,,Zara Midnightshadow,sarah.wilson@testingmail.xyz,11,,,,,OIDC refresh token is granted,,3,,114
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Thunder Hammerstrike,alice.smith@example.com,8,User,Cloudflare,192.0.2.7,/oauth2/v1/authorize,Logon,,3,Luna Moonshadow,113
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Ragnarok Shadowblade,ryan.collins@fakemailbox.net,8,User,,203.0.113.4,/security/logs/authorization,Logon,,3,,113
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Thunder Hammerstrike,anna.hall@custommail.io,8,,,,,Verify user identity,,3,,72
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,Authenticate user with AD agent,Authentication failed: bad username or password,Valkyrie Firestorm,sarah.wilson@testingmail.xyz,2,,,,,Authenticate user with AD agent,,3,,71
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,Perform RealTimeSync by AD agent,Group Membership Unchanged,Nova Frostbane,alice.smith@example.com,8,,,,,Perform RealTimeSync by AD agent,,3,,70
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Seraphina Dragonheart,kevin.green@placeholderemail.co,11,,,,,OIDC authorization code request,,3,,69
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Zara Midnightshadow,john.doe@acme.com,11,,,,,OIDC access token is granted,,3,,69
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Draven Nightshade,bob.jones@example.com,11,,,,,OIDC id token is granted,,3,,69
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Astra Solarflare,emily.white@dummyemail.biz,8,User,Salesforce,10.0.0.5,/oauth2/v1/introspect,Logon,,3,Celestia Thunderstorm,67
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Blaze Thunderstrike,brian.hughes@samplemailing.co,8,User,,192.168.0.2,/oauth2/v1/token,Logon,,3,,67
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,OIDC authorization request,login_required,Ragnarok Shadowblade,sarah.wilson@testingmail.xyz,11,,,,,OIDC authorization request,,3,,64
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Maximus Stormbringer,chris.martin@sampleco.co,8,User,Twilio,203.0.113.4,/audit/logs/access,Logon,,3,Blaze Thunderstrike,54
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Seraphina Dragonheart,kevin.green@example.com,8,User,,203.0.113.3,/audit/logs/system,Logon,,3,,54
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zephyr Blaze,emma.jenkins@examplemail.biz,8,,,,,Verify user identity,,3,,49
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Orion Lightningstrike,anna.hall@custommail.io,11,,,,,OIDC access token is granted,,3,,48
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Draven Nightshade,sarah.wilson@testingmail.xyz,11,,,,,OIDC authorization code request,,3,,48
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Orion Lightningstrike,laura.moore@sandboxmail.co,11,,,,,OIDC id token is granted,,3,,48
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Seraphina Dragonheart,melissa.kelly@dummyinbox.net,11,,,,,OIDC access token is granted,,3,,48
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Phoenix Emberstorm,chris.martin@example.com,11,,,,,OIDC authorization code request,,3,,48
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Seraphina Dragonheart,kevin.green@example.com,11,,,,,OIDC id token is granted,,3,,48
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Thunder Hammerstrike,sarah.wilson@testingmail.xyz,8,,,,,Verify user identity,,3,,44
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Maximus Stormbringer,melissa.kelly@dummyinbox.net,8,User,Zoom,192.168.0.2,/audit/logs/access,Logon,,3,Venus Starlight,42
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Nova Frostbane,john.doe@acme.com,8,User,,172.16.0.4,/audit/logs/system,Logon,,3,,42
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,Claim evaluation for OAuth2 token,user_claim_evaluation_failure,Ragnarok Shadowblade,sarah.wilson@example.com,11,,,,,Claim evaluation for OAuth2 token,,3,,41
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Xena Nebulosa,chris.martin@sampleco.co,11,,,,,OIDC access token is granted,,3,,41
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Draven Nightshade,jason.carter@tryoutmail.org,11,,,,,OIDC authorization code request,,3,,41
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Valkyrie Firestorm,emma.jenkins@examplemail.biz,11,,,,,OIDC id token is granted,,3,,41
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Xena Nebulosa,john.doe@acme.com,8,,,,,Verify user identity,,3,,38
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Thunder Hammerstrike,emma.jenkins@examplemail.biz,11,,,,,OIDC authorization code request,,3,,35
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Zephyr Blaze,alice.smith@example.com,11,,,,,OIDC access token is granted,,3,,34
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Nova Frostbane,daniel.ward@virtualmail.io,11,,,,,OIDC id token is granted,,3,,34
+Okta,Okta,Okta,Okta,security,Illinois,,Allow if on prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.6,/oauth2/v1/introspect,Logon,,3,,34
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Zephyr Blaze,kevin.green@example.com,11,,,,,OIDC authorization code request,,3,,29
+Okta,Okta,Okta,Okta,security,Illinois,,Require Password,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.6,/security/logs/authentication,Logon,,3,,29
+Okta,Okta,Okta,Okta,security,Illinois,,Require Password,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.5,/security/logs/authorization,Logon,,3,,28
+Okta,Okta,Okta,Okta,security,Ohio,,On Office Network,UNKNOWN,ALLOW,Linux,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,127.0.0.1,/audit/logs/network,Logon,,3,,27
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Maximus Stormbringer,daniel.ward@virtualmail.io,8,User,Cloudflare,192.0.2.5,/audit/logs/network,Logon,,3,Astra Solarflare,26
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Venus Starlight,mark.miller@yourtestmail.biz,8,User,,192.168.0.3,/audit/logs/network,Logon,,3,,26
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Maximus Stormbringer,bob.jones@example.com,8,User,Okta,192.168.0.8,/security/logs/authentication,Logon,,3,Zara Midnightshadow,25
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Valkyrie Firestorm,sarah.wilson@testingmail.xyz,8,User,,192.0.2.7,/security/logs/intrusion-detection,Logon,,3,,25
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Blaze Thunderstrike,john.doe@example.com,11,,,,,OIDC authorization code request,,3,,24
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Blaze Thunderstrike,lisa.brown@example.com,8,,,,,Verify user identity,,3,,24
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Astra Solarflare,bob.jones@fakecorp.net,8,User,DocuSign,192.0.2.6,/oauth2/v1/introspect,Logon,,3,Venus Starlight,24
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Nebula Stardust,sarah.wilson@example.com,8,User,,198.51.100.9,/audit/logs/network,Logon,,3,,24
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Ignatius Inferno,john.doe@example.com,11,,,,,OIDC access token is granted,,3,,23
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Luna Moonshadow,mark.miller@yourtestmail.biz,11,,,,,OIDC id token is granted,,3,,23
+Okta,Okta,Okta,Okta,security,Illinois,,Require Password,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.2,/oauth2/v1/token,Logon,,3,,23
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OAuth2 authorization code request,,Draven Nightshade,anna.hall@example.com,11,,,,,OAuth2 authorization code request,,3,,23
+Okta,Okta,Okta,Okta,security,New York,,Require Password,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.8,/oauth2/v1/introspect,Logon,,3,,23
+Okta,Okta,Okta,Okta,security,Illinois,,Allow if on prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.7,/audit/logs/access,Logon,,3,,22
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.6,/security/logs/authentication-failures,Logon,,3,,21
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Astra Solarflare,alice.smith@example.com,8,User,Microsoft 365,203.0.113.6,/oauth2/v1/token,Logon,,3,Celestia Thunderstorm,21
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Xena Nebulosa,alice.smith@example.com,8,User,,172.16.0.9,/oauth2/v1/authorize,Logon,,3,,21
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Astra Solarflare,mike.anderson@mytestmail.org,8,,,,,Verify user identity,,3,,21
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - Require MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.2,/security/logs/authentication,Logon,,3,,20
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OAuth2 access token is granted,,Seraphina Dragonheart,laura.moore@sandboxmail.co,11,,,,,OAuth2 access token is granted,,3,,20
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OAuth2 id token is granted,,Seraphina Dragonheart,mike.anderson@mytestmail.org,11,,,,,OAuth2 id token is granted,,3,,20
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Luna Moonshadow,daniel.ward@virtualmail.io,8,User,,203.0.113.5,/oauth2/v1/token,Logon,,3,,19
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ignatius Inferno,john.doe@acme.com,8,,,,,Verify user identity,,3,,19
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,UNKNOWN,ALLOW,Linux,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.6,/audit/logs/access,Logon,,3,,19
+Okta,Okta,Okta,Okta,security,Illinois,,Allow if on prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.9,/security/logs/authorization,Logon,,3,,19
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.1,/security/logs/authentication-failures,Logon,,3,,19
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Orion Lightningstrike,bob.jones@example.com,8,User,Stripe,203.0.113.0,/audit/logs/network,Logon,,3,Nova Frostbane,18
+Okta,Okta,Okta,Okta,security,New York,,Require Password,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.1,/audit/logs/system,Logon,,3,,18
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Seraphina Dragonheart,daniel.ward@virtualmail.io,8,User,Workday,198.51.100.8,/security/logs/authentication-failures,Logon,,3,Seraphina Dragonheart,18
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Astra Solarflare,sarah.wilson@example.com,8,User,,203.0.113.0,/oauth2/v1/introspect,Logon,,3,,18
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.6,/oauth2/v1/introspect,Logon,,3,,18
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - On Prem - Require Password,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.1,/security/logs/authorization,Logon,,3,,17
+Okta,Okta,Okta,Okta,security,Illinois,,Allow if on prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.8,/oauth2/v1/token,Logon,,3,,17
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Venus Starlight,bob.jones@fakecorp.net,11,,,,,OIDC access token is granted,,3,,17
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Xena Nebulosa,bob.jones@example.com,11,,,,,OIDC authorization code request,,3,,17
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Celestia Thunderstorm,mike.anderson@mytestmail.org,11,,,,,OIDC id token is granted,,3,,17
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Venus Starlight,chris.martin@example.com,8,,,,,A push was sent to a user for verification,,3,,16
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.2,/audit/logs/access,Logon,,3,,16
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Thunder Hammerstrike,daniel.ward@virtualmail.io,8,,,,,Verify user identity,,3,,16
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,emily.white@dummyemail.biz,8,,,,,Authentication of user via MFA,,3,,15
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.2,/oauth2/v1/introspect,Logon,,3,,15
+Okta,Okta,Okta,Okta,security,Arizona,,,CHROME,SUCCESS,Android,Logon,,Nova Frostbane,alice.smith@example.org,8,User,,192.168.0.2,/oauth2/v1/authorize,Logon,https://www.ideapalooza.foundation,3,,14
+Okta,Okta,Okta,Okta,security,Arizona,,,CHROME,SUCCESS,Android,Logon,,Nova Frostbane,bob.jones@fakecorp.net,8,User,Oracle Cloud,10.0.0.6,/oauth2/v1/authorize,Logon,,3,Maximus Stormbringer,14
+Okta,Okta,Okta,Okta,security,Arizona,,Allow external access for  NICE_EEM_Agent,CHROME,ALLOW,Android,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.9,/audit/logs/access,Logon,,3,,14
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Celestia Thunderstorm,kevin.green@example.com,8,,,,,Verify user identity,,3,,14
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zara Midnightshadow,mike.anderson@mytestmail.org,8,,,,,Verify user identity,,3,,14
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.6,/security/logs/intrusion-detection,Logon,,3,,14
+Okta,Okta,Okta,Okta,security,Illinois,,Require Password,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.7,/security/logs/intrusion-detection,Logon,,3,,14
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,lisa.brown@nonexistentmail.net,8,,,,,A push was sent to a user for verification,,3,,14
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Crimson Tempest,olivia.perry@testinginbox.xyz,8,User,ZenDesk,192.168.1.1,/audit/logs/system,Logon,,3,Astra Solarflare,13
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Celestia Thunderstorm,jessica.clark@mockmailing.org,8,User,,192.168.0.6,/oauth2/v1/token,Logon,,3,,13
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.4,/audit/logs/network,Logon,,3,,13
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ignatius Inferno,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,13
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zara Midnightshadow,anna.hall@example.com,8,,,,,A push was sent to a user for verification,,3,,13
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.1.1,/audit/logs/system,Logon,,3,,13
+Okta,Okta,Okta,Okta,security,Arizona,6a271f0d-af67-4e3b-9dfe-39909bb3e376,not on office network,CHROME,ALLOW,Android,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.5,/security/logs/authentication-failures,Logon,,3,,13
+Okta,Okta,Okta,Okta,security,New York,,Require Password,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.4,/audit/logs/network,Logon,,3,,13
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.8,/security/logs/authentication,Logon,,3,,13
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,Authentication of user via Radius,Login failed.,Seraphina Dragonheart,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via Radius,,3,,13
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Crimson Tempest,kevin.green@example.com,8,User,Stripe,192.0.2.5,/oauth2/v1/token,Logon,,3,Xena Nebulosa,12
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Nova Frostbane,jessica.clark@mockmailing.org,8,User,,172.16.0.8,/security/logs/authentication,Logon,,3,,12
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Valkyrie Firestorm,kevin.green@example.com,8,,,,,Verify user identity,,3,,12
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Ragnarok Shadowblade,brian.hughes@samplemailing.co,8,User,LogMeIn,172.16.0.4,/audit/logs/system,Logon,,3,Nova Frostbane,12
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Orion Lightningstrike,laura.moore@sandboxmail.co,8,User,,192.168.0.6,/security/logs/authentication,Logon,,3,,12
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.2,/oauth2/v1/token,Logon,,3,,12
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zephyr Blaze,john.doe@acme.com,8,,,,,Verify user identity,,3,,12
+Okta,Okta,Okta,Okta,security,New York,,Require Password,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.6,/security/logs/authorization,Logon,,3,,12
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.6,/audit/logs/system,Logon,,3,,12
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Email delivery,delivered,Valkyrie Firestorm,bob.jones@example.com,2,,,,,Email delivery,,3,,12
+Okta,Okta,Okta,Okta,security,Illinois,,On Office Network,UNKNOWN,ALLOW,Unknown,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.6,/security/logs/authentication-failures,Logon,,3,,11
+Okta,Okta,Okta,Okta,security,Illinois,,On Office Network,UNKNOWN,ALLOW,Linux,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.3,/security/logs/authentication,Logon,,3,,11
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Celestia Thunderstorm,bob.jones@example.com,8,User,Dropbox,10.0.0.6,/oauth2/v1/introspect,Logon,,3,Nova Frostbane,11
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Thunder Hammerstrike,anna.hall@custommail.io,8,User,,8.8.8.8,/oauth2/v1/authorize,Logon,,3,,11
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Crimson Tempest,ryan.collins@fakemailbox.net,8,User,GitHub,192.168.0.3,/oauth2/v1/token,Logon,,3,Celestia Thunderstorm,11
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Celestia Thunderstorm,alice.smith@example.com,8,User,,192.0.2.1,/audit/logs/system,Logon,,3,,11
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Celestia Thunderstorm,chris.martin@sampleco.co,8,,,,,Verify user identity,,3,,11
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Seraphina Dragonheart,chris.martin@sampleco.co,8,User,Dropbox,192.0.2.3,/security/logs/authentication,Logon,,3,Astra Solarflare,11
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Orion Lightningstrike,kevin.green@placeholderemail.co,8,User,,198.51.100.8,/security/logs/intrusion-detection,Logon,,3,,11
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.9,/oauth2/v1/token,Logon,,3,,11
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,203.0.113.0,/oauth2/v1/introspect,Logon,,3,,11
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,OIDC token revocation request,invalid_token,Venus Starlight,anna.hall@example.com,11,,,,,OIDC token revocation request,,3,,11
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.6,/oauth2/v1/introspect,Logon,,3,,11
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nebula Stardust,mike.anderson@mytestmail.org,8,,,,,Authentication of user via MFA,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,chris.martin@sampleco.co,8,,,,,Authentication of user via MFA,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ignatius Inferno,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,10
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Blaze Thunderstrike,ryan.collins@fakemailbox.net,8,User,GitHub,192.0.2.4,/oauth2/v1/token,Logon,,3,Phoenix Emberstorm,10
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Blaze Thunderstrike,alice.smith@example.com,8,User,,172.16.0.7,/security/logs/authorization,Logon,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nova Frostbane,anna.hall@example.com,8,,,,,Verify user identity,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Luna Moonshadow,jessica.clark@mockmailing.org,8,,,,,Authentication of user via MFA,,3,,10
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,8.8.8.8,/security/logs/authentication-failures,Logon,,3,,10
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.1,/audit/logs/access,Logon,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ignatius Inferno,kevin.green@placeholderemail.co,8,,,,,A push was sent to a user for verification,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Nova Frostbane,anna.hall@custommail.io,11,,,,,OIDC access token is granted,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Luna Moonshadow,mike.anderson@example.com,11,,,,,OIDC authorization code request,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Venus Starlight,olivia.perry@testinginbox.xyz,11,,,,,OIDC id token is granted,,3,,10
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Blaze Thunderstrike,sarah.wilson@example.com,8,User,Datadog,172.16.0.9,/security/logs/authentication,Logon,,3,Blaze Thunderstrike,10
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - Require MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.4,/audit/logs/network,Logon,,3,,10
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ignatius Inferno,sarah.wilson@example.com,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,alice.smith@example.com,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,chris.martin@sampleco.co,8,,,,,A push was sent to a user for verification,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Orion Lightningstrike,ryan.collins@fakemailbox.net,8,,,,,A push was sent to a user for verification,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,jason.carter@tryoutmail.org,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,daniel.ward@virtualmail.io,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,anna.hall@custommail.io,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,brian.hughes@samplemailing.co,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Ignatius Inferno,anna.hall@custommail.io,8,User,Snowflake,198.51.100.4,/audit/logs/access,Logon,,3,Valkyrie Firestorm,9
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Ragnarok Shadowblade,alice.smith@example.com,8,User,,10.0.0.4,/oauth2/v1/authorize,Logon,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,Virginia,,,CHROME,SUCCESS,Windows 10,Logon,,Astra Solarflare,lisa.brown@example.com,8,User,LogMeIn,1.1.1.1,/audit/logs/system,Logon,,3,Orion Lightningstrike,9
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,1.1.1.1,/security/logs/authentication-failures,Logon,,3,,9
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.3,/oauth2/v1/introspect,Logon,,3,,9
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.8,/security/logs/intrusion-detection,Logon,,3,,9
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.5,/audit/logs/system,Logon,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Phoenix Emberstorm,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,9
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,laura.moore@sandboxmail.co,8,,,,,A push was sent to a user for verification,,3,,9
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Thunder Hammerstrike,ryan.collins@fakemailbox.net,8,User,Dropbox,192.168.0.3,/security/logs/authorization,Logon,,3,Thunder Hammerstrike,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,brian.hughes@samplemailing.co,8,,,,,Authentication of user via MFA,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,emily.white@example.com,8,,,,,A push was sent to a user for verification,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Luna Moonshadow,daniel.ward@virtualmail.io,8,,,,,Verify user identity,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Xena Nebulosa,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,8
+Okta,Okta,Okta,Okta,security,Arizona,,,CHROME,SUCCESS,Android,Logon,,Draven Nightshade,kevin.green@placeholderemail.co,8,User,Google Workspace,192.168.0.8,/audit/logs/network,Logon,,3,Astra Solarflare,8
+Okta,Okta,Okta,Okta,security,Arizona,,Allow external access for  NICE_EEM_Agent,CHROME,ALLOW,Android,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.8,/security/logs/authentication-failures,Logon,,3,,8
+Okta,Okta,Okta,Okta,security,Arizona,14e8d26d-62df-4bb2-9440-5abbe9d50024,not on office network,CHROME,ALLOW,Android,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.4,/audit/logs/network,Logon,,3,,8
+Okta,Okta,Okta,Okta,security,Arizona,,,CHROME,SUCCESS,Android,Logon,,Maximus Stormbringer,emily.white@dummyemail.biz,8,User,,172.16.0.1,/oauth2/v1/introspect,Logon,https://www.innovoid.space,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ragnarok Shadowblade,ryan.collins@fakemailbox.net,8,,,,,Verify user identity,,3,,8
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Thunder Hammerstrike,chris.martin@example.com,8,User,Datadog,203.0.113.0,/audit/logs/access,Logon,,3,Phoenix Emberstorm,8
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Nebula Stardust,brian.hughes@samplemailing.co,8,User,DocuSign,192.168.0.2,/security/logs/authentication,Logon,,3,Astra Solarflare,8
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Blaze Thunderstrike,olivia.perry@testinginbox.xyz,8,User,,192.0.2.6,/security/logs/intrusion-detection,Logon,,3,,8
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.0,/oauth2/v1/authorize,Logon,,3,,8
+Okta,Okta,Okta,Okta,security,New York,,MaW Agent MFA Bypass,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.1,/audit/logs/access,Logon,,3,,8
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.1,/oauth2/v1/authorize,Logon,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,mike.anderson@mytestmail.org,8,,,,,Authentication of user via MFA,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,anna.hall@example.com,8,,,,,Authentication of user via MFA,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ignatius Inferno,brian.hughes@samplemailing.co,8,,,,,A push was sent to a user for verification,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,chris.martin@sampleco.co,8,,,,,Authentication of user via MFA,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,OIDC authorization request,invalid_state,Maximus Stormbringer,john.doe@example.com,11,,,,,OIDC authorization request,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,8
+Okta,Okta,Okta,Okta,security,București,,DDS - Require MFA - All Zones,UNKNOWN,ALLOW,Mac OS X,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.4,/security/logs/intrusion-detection,Logon,,3,,8
+Okta,Okta,Okta,Okta,security,București,,,UNKNOWN,SUCCESS,Mac OS X,Logon,,Blaze Thunderstrike,kevin.green@placeholderemail.co,8,User,Oracle Cloud,192.0.2.3,/audit/logs/system,Logon,,3,Zara Midnightshadow,8
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.6,/oauth2/v1/introspect,Logon,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Orion Lightningstrike,bob.jones@fakecorp.net,8,,,,,A push was sent to a user for verification,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,emily.white@dummyemail.biz,8,,,,,Authentication of user via MFA,,3,,8
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,lisa.brown@example.com,8,,,,,A push was sent to a user for verification,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,kevin.green@placeholderemail.co,8,,,,,Authentication of user via MFA,,3,,7
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Phoenix Emberstorm,kevin.green@placeholderemail.co,8,User,Snowflake,192.168.0.7,/security/logs/intrusion-detection,Logon,,3,Venus Starlight,7
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Luna Moonshadow,john.doe@example.com,8,User,,192.0.2.4,/audit/logs/system,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Blaze Thunderstrike,anna.hall@custommail.io,8,,,,,Verify user identity,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Valkyrie Firestorm,anna.hall@custommail.io,8,,,,,A push was sent to a user for verification,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,brian.hughes@samplemailing.co,8,,,,,Authentication of user via MFA,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Luna Moonshadow,brian.hughes@samplemailing.co,8,,,,,Verify user identity,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Thunder Hammerstrike,anna.hall@example.com,11,,,,,OIDC access token is granted,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Nebula Stardust,lisa.brown@nonexistentmail.net,11,,,,,OIDC authorization code request,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Ragnarok Shadowblade,ryan.collins@fakemailbox.net,11,,,,,OIDC id token is granted,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Astra Solarflare,emily.white@example.com,8,,,,,A push was sent to a user for verification,,3,,7
+Okta,Okta,Okta,Okta,security,Karnataka,d0a9512d-2a8c-4c4d-a4a0-9d867f5722e5,not on office network,IE11,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,10.0.0.9,/security/logs/authentication-failures,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,Karnataka,,,IE11,SUCCESS,Windows 10,Logon,,Venus Starlight,sarah.wilson@example.com,8,User,,192.168.1.1,/oauth2/v1/introspect,Logon,https://www.innovoid.space,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Xena Nebulosa,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,7
+Okta,Okta,Okta,Okta,security,Karnataka,,,IE11,SUCCESS,Windows 10,Logon,,Zephyr Blaze,kevin.green@example.com,8,User,GitHub,192.168.0.2,/security/logs/authentication,Logon,,3,Xena Nebulosa,7
+Okta,Okta,Okta,Okta,security,Karnataka,,DDS - Require MFA - All Zones,IE11,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.7,/audit/logs/access,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zara Midnightshadow,laura.moore@sandboxmail.co,8,,,,,Verify user identity,,3,,7
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.7,/oauth2/v1/token,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,anna.hall@example.com,8,,,,,A push was sent to a user for verification,,3,,7
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Luna Moonshadow,alice.smith@example.com,8,User,,203.0.113.9,/audit/logs/access,Logon,https://www.innovoid.space,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Thunder Hammerstrike,anna.hall@example.com,8,,,,,A push was sent to a user for verification,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,sarah.wilson@testingmail.xyz,8,,,,,A push was sent to a user for verification,,3,,7
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.8,/audit/logs/network,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,bob.jones@example.com,8,,,,,A push was sent to a user for verification,,3,,7
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - On Prem - Require Password,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.8,/oauth2/v1/authorize,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Phoenix Emberstorm,chris.martin@example.com,8,,,,,A push was sent to a user for verification,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zephyr Blaze,bob.jones@example.com,8,,,,,Verify user identity,,3,,7
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.9,/oauth2/v1/introspect,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.4,/oauth2/v1/token,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,București,,,UNKNOWN,SUCCESS,Mac OS X,Logon,,Blaze Thunderstrike,alice.smith@example.org,8,User,ZenDesk,192.168.0.2,/security/logs/intrusion-detection,Logon,,3,Orion Lightningstrike,7
+Okta,Okta,Okta,Okta,security,București,,DDS - Require MFA - All Zones,UNKNOWN,ALLOW,Mac OS X,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.1.1,/audit/logs/system,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Crimson Tempest,jessica.clark@mockmailing.org,8,,,,,A push was sent to a user for verification,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Draven Nightshade,jessica.clark@mockmailing.org,8,,,,,Authentication of user via MFA,,3,,7
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.7,/oauth2/v1/introspect,Logon,,3,,7
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,laura.moore@sandboxmail.co,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Draven Nightshade,alice.smith@example.org,8,User,Microsoft 365,203.0.113.9,/audit/logs/access,Logon,,3,Ignatius Inferno,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,mike.anderson@mytestmail.org,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Astra Solarflare,mike.anderson@mytestmail.org,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Venus Starlight,emily.white@example.com,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,jason.carter@tryoutmail.org,8,User,Okta,10.0.0.4,/security/logs/authentication-failures,Logon,,3,Venus Starlight,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,olivia.perry@testinginbox.xyz,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Celestia Thunderstorm,brian.hughes@samplemailing.co,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Perform LDAP write by AD agent,,Ignatius Inferno,brian.hughes@samplemailing.co,8,,,,,Perform LDAP write by AD agent,,3,,6
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Nebula Stardust,alice.smith@example.org,8,User,,192.168.0.7,/oauth2/v1/authorize,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nebula Stardust,sarah.wilson@example.com,8,,,,,Verify user identity,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,jessica.clark@mockmailing.org,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Seraphina Dragonheart,john.doe@acme.com,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.2,/security/logs/authentication-failures,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,lisa.brown@example.com,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.7,/security/logs/authorization,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nova Frostbane,ryan.collins@fakemailbox.net,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,New York,,MaW Agent MFA Bypass,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.9,/audit/logs/access,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.5,/security/logs/authentication,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Valkyrie Firestorm,sarah.wilson@example.com,8,User,Stripe,203.0.113.7,/audit/logs/system,Logon,,3,Astra Solarflare,6
+Okta,Okta,Okta,Okta,security,Ohio,,On Office Network,UNKNOWN,ALLOW,Unknown,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.7,/oauth2/v1/introspect,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROMIUM_EDGE,FAILURE,Windows 10,Logon,INVALID_CREDENTIALS,Nebula Stardust,chris.martin@example.com,8,User,,127.0.0.1,/oauth2/v1/authorize,Logon,,4,,6
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,OIDC authorization request,login_required,Crimson Tempest,sarah.wilson@testingmail.xyz,11,,,,,OIDC authorization request,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,Allow all users access to Okta Dashboard (auto created),CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.0,/security/logs/authentication,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Orion Lightningstrike,chris.martin@example.com,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Orion Lightningstrike,kevin.green@placeholderemail.co,8,User,Okta,192.0.2.7,/security/logs/authentication-failures,Logon,,3,Ragnarok Shadowblade,6
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Blaze Thunderstrike,lisa.brown@example.com,8,User,,192.0.2.8,/oauth2/v1/authorize,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ragnarok Shadowblade,jason.carter@tryoutmail.org,8,,,,,Verify user identity,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Xena Nebulosa,jason.carter@tryoutmail.org,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Xena Nebulosa,anna.hall@custommail.io,8,User,Zoom,172.16.0.2,/audit/logs/network,Logon,,3,Celestia Thunderstorm,6
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.9,/audit/logs/system,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ignatius Inferno,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,alice.smith@example.org,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ignatius Inferno,bob.jones@fakecorp.net,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Valkyrie Firestorm,mike.anderson@example.com,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.2,/audit/logs/system,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,Telangana,ea78a2e2-6901-49eb-9f8c-f6db42e835f8,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,192.168.0.8,/security/logs/authentication-failures,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nebula Stardust,jason.carter@tryoutmail.org,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Draven Nightshade,chris.martin@example.com,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.2,/security/logs/intrusion-detection,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.7,/security/logs/authentication-failures,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Celestia Thunderstorm,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,mike.anderson@example.com,8,User,Workday,192.0.2.2,/audit/logs/network,Logon,,3,Draven Nightshade,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC token revocation request,,Seraphina Dragonheart,olivia.perry@testinginbox.xyz,11,,,,,OIDC token revocation request,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.4,/security/logs/authentication-failures,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Venus Starlight,melissa.kelly@dummyinbox.net,8,,,,,Verify user identity,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,Allow all users access to Okta Dashboard (auto created),CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.5,/oauth2/v1/token,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.7,/security/logs/authorization,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Draven Nightshade,kevin.green@example.com,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,laura.moore@sandboxmail.co,8,,,,,Authentication of user via MFA,,3,,6
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.4,/oauth2/v1/authorize,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.3,/audit/logs/network,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.1.1,/oauth2/v1/introspect,Logon,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ignatius Inferno,brian.hughes@samplemailing.co,8,,,,,A push was sent to a user for verification,,3,,6
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Draven Nightshade,sarah.wilson@example.com,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,kevin.green@placeholderemail.co,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,Authentication of user via MFA,INVALID_CREDENTIALS,Venus Starlight,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Luna Moonshadow,chris.martin@sampleco.co,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Phoenix Emberstorm,mark.miller@yourtestmail.biz,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Blaze Thunderstrike,emily.white@example.com,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,jason.carter@tryoutmail.org,8,User,LogMeIn,192.168.0.2,/audit/logs/system,Logon,,3,Thunder Hammerstrike,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Celestia Thunderstorm,anna.hall@custommail.io,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.4,/security/logs/authentication-failures,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ignatius Inferno,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,bob.jones@example.com,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Orion Lightningstrike,anna.hall@custommail.io,11,,,,,OIDC authorization code request,,3,,5
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.0,/security/logs/intrusion-detection,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ragnarok Shadowblade,alice.smith@example.com,8,,,,,Verify user identity,,3,,5
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Mac OS X,Logon,,Blaze Thunderstrike,kevin.green@placeholderemail.co,8,User,Oracle Cloud,172.16.0.3,/audit/logs/access,Logon,,3,Phoenix Emberstorm,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,bob.jones@fakecorp.net,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,bob.jones@example.com,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ragnarok Shadowblade,lisa.brown@example.com,8,,,,,Verify user identity,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zara Midnightshadow,bob.jones@fakecorp.net,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ignatius Inferno,bob.jones@example.com,8,,,,,Verify user identity,,3,,5
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,127.0.0.1,/security/logs/authentication,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Blaze Thunderstrike,mark.miller@yourtestmail.biz,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - On Prem - Require Password,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.8,/security/logs/authentication-failures,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Orion Lightningstrike,kevin.green@placeholderemail.co,8,,,,,Verify user identity,,3,,5
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Maximus Stormbringer,emily.white@dummyemail.biz,8,User,Slack,172.16.0.6,/oauth2/v1/authorize,Logon,,3,Venus Starlight,5
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.2,/audit/logs/network,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Valkyrie Firestorm,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,laura.moore@sandboxmail.co,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Thunder Hammerstrike,anna.hall@custommail.io,8,,,,,Verify user identity,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,mike.anderson@example.com,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Orion Lightningstrike,jason.carter@tryoutmail.org,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,john.doe@acme.com,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,Illinois,,On Office Network,UNKNOWN,ALLOW,Unknown,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.9,/security/logs/authentication,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Valkyrie Firestorm,mike.anderson@example.com,11,,,,,OIDC access token is granted,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Venus Starlight,anna.hall@custommail.io,11,,,,,OIDC authorization code request,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Zara Midnightshadow,olivia.perry@testinginbox.xyz,11,,,,,OIDC id token is granted,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nova Frostbane,john.doe@acme.com,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Zephyr Blaze,bob.jones@fakecorp.net,8,User,Dropbox,127.0.0.1,/security/logs/intrusion-detection,Logon,,3,Orion Lightningstrike,5
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Seraphina Dragonheart,emily.white@example.com,8,User,,192.168.0.5,/security/logs/authentication,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Phoenix Emberstorm,kevin.green@placeholderemail.co,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Draven Nightshade,mike.anderson@example.com,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Luna Moonshadow,daniel.ward@virtualmail.io,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,Telangana,5b6359b4-7600-4b58-9c63-e06b23f9ab87,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,192.0.2.7,/oauth2/v1/authorize,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,sarah.wilson@example.com,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zara Midnightshadow,mark.miller@yourtestmail.biz,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Luna Moonshadow,anna.hall@example.com,8,,,,,Verify user identity,,3,,5
+Okta,Okta,Okta,Okta,security,Virginia,,Require Password,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.1,/oauth2/v1/authorize,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,Perform RealTimeSync by AD agent,Login Failed,Draven Nightshade,laura.moore@sandboxmail.co,8,,,,,Perform RealTimeSync by AD agent,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Crimson Tempest,emily.white@example.com,8,User,Atlassian,192.168.0.4,/audit/logs/system,Logon,,3,Crimson Tempest,5
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Phoenix Emberstorm,lisa.brown@nonexistentmail.net,8,User,,203.0.113.7,/oauth2/v1/introspect,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,bob.jones@fakecorp.net,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,Karnataka,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.3,/oauth2/v1/introspect,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,Karnataka,,,CHROME,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,olivia.perry@testinginbox.xyz,8,User,Adobe Creative Cloud,192.168.0.2,/audit/logs/network,Logon,,3,Maximus Stormbringer,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nova Frostbane,alice.smith@example.com,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Celestia Thunderstorm,lisa.brown@example.com,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,anna.hall@custommail.io,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.2,/security/logs/authentication,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Valkyrie Firestorm,mike.anderson@mytestmail.org,8,User,ZenDesk,198.51.100.6,/audit/logs/access,Logon,,3,Luna Moonshadow,5
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Ignatius Inferno,jessica.clark@mockmailing.org,8,User,,198.51.100.9,/security/logs/authentication,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.1,/security/logs/authorization,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Celestia Thunderstorm,daniel.ward@virtualmail.io,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Luna Moonshadow,alice.smith@example.com,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,Virginia,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Astra Solarflare,alice.smith@example.org,8,User,Twilio,192.0.2.6,/audit/logs/system,Logon,,3,Ragnarok Shadowblade,5
+Okta,Okta,Okta,Okta,security,Virginia,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.4,/oauth2/v1/token,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,Virginia,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Nebula Stardust,emily.white@example.com,8,User,,127.0.0.1,/oauth2/v1/introspect,Logon,https://www.flimflam.biz,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Thunder Hammerstrike,melissa.kelly@dummyinbox.net,8,,,,,Verify user identity,,3,,5
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.8,/oauth2/v1/token,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,5
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.3,/security/logs/authentication-failures,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,anna.hall@custommail.io,8,User,DocuSign,192.168.0.9,/security/logs/intrusion-detection,Logon,,3,Orion Lightningstrike,5
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.2,/audit/logs/network,Logon,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Phoenix Emberstorm,olivia.perry@testinginbox.xyz,8,,,,,A push was sent to a user for verification,,3,,5
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Luna Moonshadow,laura.moore@sandboxmail.co,8,User,Salesforce,172.16.0.2,/security/logs/authentication,Logon,,3,Ragnarok Shadowblade,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nebula Stardust,alice.smith@example.com,8,,,,,Verify user identity,,3,,5
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,lisa.brown@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,sarah.wilson@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,kevin.green@example.com,8,User,Adobe Creative Cloud,192.168.0.4,/security/logs/authentication-failures,Logon,,3,Venus Starlight,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Celestia Thunderstorm,melissa.kelly@dummyinbox.net,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Crimson Tempest,mark.miller@yourtestmail.biz,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Thunder Hammerstrike,anna.hall@custommail.io,8,User,Salesforce,192.168.0.8,/security/logs/intrusion-detection,Logon,,3,Astra Solarflare,4
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - Require MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.9,/oauth2/v1/authorize,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Zephyr Blaze,john.doe@acme.com,8,User,DocuSign,192.0.2.9,/audit/logs/access,Logon,,3,Phoenix Emberstorm,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Crimson Tempest,john.doe@acme.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Phoenix Emberstorm,john.doe@acme.com,8,User,Dropbox,203.0.113.1,/audit/logs/access,Logon,,3,Ignatius Inferno,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Draven Nightshade,mike.anderson@mytestmail.org,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nebula Stardust,chris.martin@example.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Maximus Stormbringer,anna.hall@custommail.io,8,User,Dropbox,203.0.113.4,/audit/logs/network,Logon,,3,Draven Nightshade,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Luna Moonshadow,anna.hall@example.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Orion Lightningstrike,anna.hall@example.com,8,User,Dropbox,192.0.2.3,/oauth2/v1/authorize,Logon,,3,Nova Frostbane,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zara Midnightshadow,emily.white@dummyemail.biz,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,anna.hall@custommail.io,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Celestia Thunderstorm,john.doe@example.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Venus Starlight,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Phoenix Emberstorm,emma.jenkins@examplemail.biz,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Blaze Thunderstrike,anna.hall@custommail.io,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Auto-unlock user account for Okta,Automatically unlocked,Seraphina Dragonheart,anna.hall@example.com,2,,,,,Auto-unlock user account for Okta,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Perform unlock user account by AD agent,,Luna Moonshadow,laura.moore@sandboxmail.co,2,,,,,Perform unlock user account by AD agent,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ignatius Inferno,anna.hall@custommail.io,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Virginia,,,CHROME,SUCCESS,Windows 10,Logon,,Thunder Hammerstrike,ryan.collins@fakemailbox.net,8,User,Datadog,203.0.113.4,/security/logs/authentication-failures,Logon,,3,Luna Moonshadow,4
+Okta,Okta,Okta,Okta,security,Arizona,,,CHROME,SUCCESS,Windows 10,Logon,,Crimson Tempest,ryan.collins@fakemailbox.net,8,User,AWS S3,172.16.0.3,/security/logs/authorization,Logon,,3,Crimson Tempest,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,emily.white@example.com,8,User,,172.16.0.3,/audit/logs/access,Logon,https://www.intellisphere.smart,3,,4
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Nebula Stardust,john.doe@acme.com,8,User,GitHub,198.51.100.9,/oauth2/v1/introspect,Logon,,3,Astra Solarflare,4
+Okta,Okta,Okta,Okta,security,California,,,CHROME,SUCCESS,Windows 10,Logon,,Ignatius Inferno,melissa.kelly@dummyinbox.net,8,User,GitHub,203.0.113.7,/security/logs/authorization,Logon,,3,Zephyr Blaze,4
+Okta,Okta,Okta,Okta,security,California,,DDS - On Prem - Require Password,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.6,/security/logs/authentication,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,alice.smith@example.com,8,User,Workday,203.0.113.8,/audit/logs/network,Logon,,3,Nova Frostbane,4
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Zephyr Blaze,brian.hughes@samplemailing.co,8,User,Workday,10.0.0.2,/security/logs/authentication,Logon,,3,Seraphina Dragonheart,4
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.4,/security/logs/authorization,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,chris.martin@example.com,8,User,Oracle Cloud,198.51.100.9,/security/logs/intrusion-detection,Logon,,3,Maximus Stormbringer,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,kevin.green@placeholderemail.co,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Blaze Thunderstrike,lisa.brown@example.com,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Venus Starlight,sarah.wilson@example.com,11,,,,,OIDC access token is granted,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Seraphina Dragonheart,bob.jones@example.com,11,,,,,OIDC id token is granted,,3,,4
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Phoenix Emberstorm,kevin.green@example.com,8,User,Cloudflare,198.51.100.5,/oauth2/v1/authorize,Logon,,3,Astra Solarflare,4
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Luna Moonshadow,kevin.green@example.com,8,User,,198.51.100.4,/audit/logs/system,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,alice.smith@example.org,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,sarah.wilson@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Xena Nebulosa,chris.martin@sampleco.co,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nebula Stardust,chris.martin@sampleco.co,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Blaze Thunderstrike,lisa.brown@nonexistentmail.net,8,User,Workday,10.0.0.9,/security/logs/intrusion-detection,Logon,,3,Draven Nightshade,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,brian.hughes@samplemailing.co,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,b1d7a914-7db0-45b3-986d-c5f6bc36a198,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,192.168.0.1,/security/logs/intrusion-detection,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,emily.white@dummyemail.biz,8,User,,203.0.113.9,/oauth2/v1/introspect,Logon,https://www.quantalin.analytics,3,,4
+Okta,Okta,Okta,Okta,security,Karnataka,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.9,/audit/logs/access,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.3,/oauth2/v1/introspect,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Phoenix Emberstorm,lisa.brown@example.com,8,User,Dropbox,8.8.8.8,/oauth2/v1/authorize,Logon,,3,Crimson Tempest,4
+Okta,Okta,Okta,Okta,security,Greater Poland,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.4,/security/logs/authentication-failures,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Greater Poland,,,CHROME,SUCCESS,Windows 10,Logon,,Ignatius Inferno,john.doe@example.com,8,User,Dropbox,192.168.1.1,/audit/logs/system,Logon,,3,Astra Solarflare,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,kevin.green@placeholderemail.co,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Valkyrie Firestorm,lisa.brown@example.com,8,User,Zoom,192.168.1.1,/audit/logs/system,Logon,,3,Ignatius Inferno,4
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Xena Nebulosa,ryan.collins@fakemailbox.net,8,User,,172.16.0.5,/security/logs/authorization,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Draven Nightshade,laura.moore@sandboxmail.co,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Phoenix Emberstorm,emily.white@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Karnataka,8b201ded-12c1-4a3b-8a36-df548fa0a745,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,172.16.0.8,/oauth2/v1/token,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Karnataka,,,CHROME,SUCCESS,Windows 10,Logon,,Astra Solarflare,mike.anderson@mytestmail.org,8,User,,192.168.0.2,/oauth2/v1/token,Logon,https://www.quantalin.analytics,3,,4
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.5,/security/logs/intrusion-detection,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,anna.hall@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,New York,,Require Password,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.9,/audit/logs/system,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Ragnarok Shadowblade,emma.jenkins@examplemail.biz,11,,,,,OIDC access token is granted,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Ignatius Inferno,alice.smith@example.com,11,,,,,OIDC authorization code request,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Nebula Stardust,sarah.wilson@testingmail.xyz,11,,,,,OIDC id token is granted,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,sarah.wilson@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,bob.jones@example.com,8,User,Google Workspace,203.0.113.7,/oauth2/v1/authorize,Logon,,3,Zara Midnightshadow,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,mike.anderson@mytestmail.org,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,emily.white@dummyemail.biz,8,User,,10.0.0.6,/security/logs/intrusion-detection,Logon,https://www.quantalin.analytics,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Crimson Tempest,jessica.clark@mockmailing.org,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ragnarok Shadowblade,emma.jenkins@examplemail.biz,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,Perform RealTimeSync by AD agent,No User found,Crimson Tempest,anna.hall@example.com,8,,,,,Perform RealTimeSync by AD agent,,3,,4
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,kevin.green@example.com,8,User,Oracle Cloud,198.51.100.5,/audit/logs/network,Logon,,3,Orion Lightningstrike,4
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Thunder Hammerstrike,bob.jones@fakecorp.net,8,User,Salesforce,192.168.1.1,/security/logs/authentication,Logon,,3,Valkyrie Firestorm,4
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Ignatius Inferno,emily.white@example.com,8,User,,172.16.0.2,/oauth2/v1/introspect,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,anna.hall@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.8,/oauth2/v1/token,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Maximus Stormbringer,emma.jenkins@examplemail.biz,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,OIDC authorization request,login_required,Blaze Thunderstrike,anna.hall@example.com,11,,,,,OIDC authorization request,,3,,4
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Celestia Thunderstorm,mike.anderson@mytestmail.org,8,User,Dropbox,203.0.113.4,/oauth2/v1/introspect,Logon,,3,Seraphina Dragonheart,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Crimson Tempest,jason.carter@tryoutmail.org,8,User,Box,203.0.113.2,/audit/logs/network,Logon,,3,Nebula Stardust,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zara Midnightshadow,john.doe@acme.com,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Luna Moonshadow,mike.anderson@example.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,brian.hughes@samplemailing.co,8,User,Microsoft Azure,10.0.0.9,/security/logs/intrusion-detection,Logon,,3,Xena Nebulosa,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ignatius Inferno,mike.anderson@mytestmail.org,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Astra Solarflare,emily.white@dummyemail.biz,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Crimson Tempest,emily.white@example.com,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Zephyr Blaze,emily.white@example.com,8,User,ServiceNow,10.0.0.1,/security/logs/intrusion-detection,Logon,,3,Zara Midnightshadow,4
+Okta,Okta,Okta,Okta,security,Karnataka,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,kevin.green@placeholderemail.co,8,User,Oracle Cloud,203.0.113.0,/security/logs/authentication-failures,Logon,,3,Ignatius Inferno,4
+Okta,Okta,Okta,Okta,security,Karnataka,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.8,/oauth2/v1/token,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Crimson Tempest,john.doe@example.com,8,User,Stripe,198.51.100.8,/security/logs/authentication,Logon,,3,Venus Starlight,4
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,203.0.113.4,/security/logs/authentication,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Crimson Tempest,sarah.wilson@testingmail.xyz,8,User,Dropbox,10.0.0.9,/audit/logs/system,Logon,,3,Valkyrie Firestorm,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Draven Nightshade,anna.hall@custommail.io,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - On Prem - Require Password,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.1,/audit/logs/network,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Orion Lightningstrike,lisa.brown@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,MaW Agent MFA Bypass,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.3,/security/logs/intrusion-detection,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Nebula Stardust,bob.jones@fakecorp.net,8,User,AWS S3,10.0.0.9,/security/logs/authentication-failures,Logon,,3,Thunder Hammerstrike,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ignatius Inferno,melissa.kelly@dummyinbox.net,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Luna Moonshadow,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Luna Moonshadow,kevin.green@example.com,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Thunder Hammerstrike,brian.hughes@samplemailing.co,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,alice.smith@example.com,8,User,Stripe,172.16.0.1,/security/logs/intrusion-detection,Logon,,3,Nebula Stardust,4
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.3,/oauth2/v1/authorize,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Venus Starlight,anna.hall@custommail.io,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Nova Frostbane,daniel.ward@virtualmail.io,8,User,,192.168.0.7,/security/logs/authentication-failures,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Phoenix Emberstorm,emily.white@dummyemail.biz,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Celestia Thunderstorm,mike.anderson@mytestmail.org,8,User,GitHub,192.0.2.6,/oauth2/v1/token,Logon,,3,Ignatius Inferno,4
+Okta,Okta,Okta,Okta,security,Illinois,,Require MFA for All Users,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.3,/security/logs/authentication-failures,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,lisa.brown@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Zephyr Blaze,chris.martin@sampleco.co,8,User,GitHub,1.1.1.1,/audit/logs/access,Logon,,3,Luna Moonshadow,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,laura.moore@sandboxmail.co,8,User,ZenDesk,192.0.2.7,/oauth2/v1/token,Logon,,3,Celestia Thunderstorm,4
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.9,/audit/logs/network,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,laura.moore@sandboxmail.co,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,New York,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Draven Nightshade,mike.anderson@example.com,8,User,Okta,203.0.113.9,/security/logs/authentication,Logon,,3,Xena Nebulosa,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Luna Moonshadow,ryan.collins@fakemailbox.net,11,,,,,OIDC access token is granted,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Xena Nebulosa,lisa.brown@example.com,11,,,,,OIDC authorization code request,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Orion Lightningstrike,emily.white@example.com,11,,,,,OIDC id token is granted,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,mike.anderson@example.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Luna Moonshadow,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROME,SUCCESS,Windows 10,Logon,,Zephyr Blaze,ryan.collins@fakemailbox.net,8,User,Stripe,172.16.0.7,/audit/logs/system,Logon,,3,Venus Starlight,4
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.4,/security/logs/authentication,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nebula Stardust,alice.smith@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Orion Lightningstrike,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,Allow all users access to Okta Dashboard (auto created),CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,127.0.0.1,/oauth2/v1/token,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Astra Solarflare,laura.moore@sandboxmail.co,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,kevin.green@example.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.9,/security/logs/authentication,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,bob.jones@example.com,8,User,Twilio,172.16.0.5,/oauth2/v1/authorize,Logon,,3,Celestia Thunderstorm,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,sarah.wilson@testingmail.xyz,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Blaze Thunderstrike,olivia.perry@testinginbox.xyz,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Astra Solarflare,sarah.wilson@testingmail.xyz,8,User,Okta,203.0.113.8,/oauth2/v1/authorize,Logon,,3,Thunder Hammerstrike,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,emily.white@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Orion Lightningstrike,chris.martin@sampleco.co,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Zephyr Blaze,anna.hall@custommail.io,8,User,Stripe,172.16.0.5,/security/logs/authentication-failures,Logon,,3,Ragnarok Shadowblade,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Draven Nightshade,bob.jones@fakecorp.net,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.4,/security/logs/intrusion-detection,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Draven Nightshade,emily.white@example.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nebula Stardust,mike.anderson@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,john.doe@acme.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Crimson Tempest,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Nova Frostbane,olivia.perry@testinginbox.xyz,8,User,Datadog,8.8.8.8,/security/logs/authentication,Logon,,3,Nebula Stardust,4
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.5,/security/logs/authorization,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,19a1d2a0-29e7-4bd4-86d5-11c137efbd0c,not on office network,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.7,/audit/logs/access,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Draven Nightshade,jessica.clark@mockmailing.org,8,User,,192.168.0.7,/security/logs/authentication,Logon,https://www.awesomium.awesome,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,anna.hall@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.7,/audit/logs/access,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Luna Moonshadow,lisa.brown@example.com,8,User,ZenDesk,172.16.0.8,/security/logs/authorization,Logon,,3,Ignatius Inferno,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Venus Starlight,jason.carter@tryoutmail.org,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,5b0a8109-dde2-4f8a-8c79-d6c541dbf312,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,172.16.0.9,/oauth2/v1/introspect,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,jessica.clark@mockmailing.org,8,User,,203.0.113.8,/security/logs/authentication-failures,Logon,https://www.ideapalooza.foundation,3,,4
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.2,/oauth2/v1/introspect,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Thunder Hammerstrike,chris.martin@example.com,8,User,DocuSign,192.0.2.7,/oauth2/v1/token,Logon,,3,Thunder Hammerstrike,4
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.2,/audit/logs/network,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Draven Nightshade,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,MaW Agent MFA Bypass,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,172.16.0.5,/oauth2/v1/token,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Xena Nebulosa,anna.hall@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Valkyrie Firestorm,lisa.brown@nonexistentmail.net,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Luna Moonshadow,melissa.kelly@dummyinbox.net,11,,,,,OIDC access token is granted,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Xena Nebulosa,kevin.green@placeholderemail.co,11,,,,,OIDC authorization code request,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Valkyrie Firestorm,anna.hall@example.com,11,,,,,OIDC id token is granted,,3,,4
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Crimson Tempest,lisa.brown@example.com,8,User,LogMeIn,172.16.0.2,/oauth2/v1/token,Logon,,3,Zephyr Blaze,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Thunder Hammerstrike,lisa.brown@example.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - Require MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,1.1.1.1,/security/logs/authorization,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Celestia Thunderstorm,emily.white@dummyemail.biz,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,emily.white@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Karnataka,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.4,/security/logs/intrusion-detection,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Nebula Stardust,emma.jenkins@examplemail.biz,8,User,Datadog,10.0.0.8,/audit/logs/system,Logon,,3,Phoenix Emberstorm,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,emily.white@dummyemail.biz,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,mark.miller@yourtestmail.biz,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Astra Solarflare,jessica.clark@mockmailing.org,8,User,GitHub,203.0.113.2,/security/logs/authentication,Logon,,3,Nebula Stardust,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nova Frostbane,jason.carter@tryoutmail.org,8,,,,,Verify user identity,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ignatius Inferno,bob.jones@example.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,brian.hughes@samplemailing.co,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Xena Nebulosa,bob.jones@fakecorp.net,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Valkyrie Firestorm,john.doe@acme.com,8,,,,,A push was sent to a user for verification,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,MaW Agent MFA Bypass,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.1,/oauth2/v1/token,Logon,,3,,4
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,lisa.brown@example.com,8,,,,,Authentication of user via MFA,,3,,4
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Maximus Stormbringer,laura.moore@sandboxmail.co,8,User,GitHub,203.0.113.9,/security/logs/authentication-failures,Logon,,3,Crimson Tempest,4
+Okta,Okta,Okta,Okta,security,California,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,sarah.wilson@example.com,8,User,GitHub,192.168.0.4,/security/logs/authorization,Logon,,3,Nova Frostbane,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Seraphina Dragonheart,daniel.ward@virtualmail.io,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,john.doe@acme.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,anna.hall@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Luna Moonshadow,emily.white@dummyemail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,anna.hall@custommail.io,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Phoenix Emberstorm,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Virginia,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,anna.hall@example.com,8,User,Box,198.51.100.2,/security/logs/authentication-failures,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Celestia Thunderstorm,lisa.brown@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Celestia Thunderstorm,brian.hughes@samplemailing.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROME,SUCCESS,Windows 10,Logon,,Phoenix Emberstorm,olivia.perry@testinginbox.xyz,8,User,Box,192.0.2.2,/oauth2/v1/token,Logon,,3,Zara Midnightshadow,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.3,/security/logs/authentication-failures,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,jessica.clark@mockmailing.org,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,jessica.clark@mockmailing.org,8,User,Salesforce,192.168.0.6,/oauth2/v1/introspect,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.6,/security/logs/authentication,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Valkyrie Firestorm,alice.smith@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Blaze Thunderstrike,emma.jenkins@examplemail.biz,8,User,Google Workspace,198.51.100.9,/oauth2/v1/introspect,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Orion Lightningstrike,lisa.brown@example.com,8,User,Oracle Cloud,203.0.113.7,/security/logs/authentication,Logon,,3,Astra Solarflare,3
+Okta,Okta,Okta,Okta,security,Arizona,,,CHROME,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,alice.smith@example.com,8,User,Okta,192.0.2.3,/security/logs/authorization,Logon,,3,Crimson Tempest,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,emily.white@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Mac OS X,Logon,,Zara Midnightshadow,ryan.collins@fakemailbox.net,8,User,SAP,198.51.100.2,/security/logs/intrusion-detection,Logon,,3,Nebula Stardust,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Draven Nightshade,mark.miller@yourtestmail.biz,8,User,Twilio,10.0.0.4,/audit/logs/network,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Zara Midnightshadow,emma.jenkins@examplemail.biz,8,User,,172.16.0.8,/security/logs/authentication,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Arizona,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,john.doe@acme.com,8,User,Slack,192.0.2.9,/oauth2/v1/token,Logon,,3,Blaze Thunderstrike,3
+Okta,Okta,Okta,Okta,security,Texas,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,john.doe@example.com,8,User,Box,192.168.0.3,/audit/logs/system,Logon,,3,Thunder Hammerstrike,3
+Okta,Okta,Okta,Okta,security,England,,,CHROME,SUCCESS,Mac OS X,Logon,,Maximus Stormbringer,mike.anderson@mytestmail.org,8,User,Twilio,8.8.8.8,/security/logs/authorization,Logon,,3,Ignatius Inferno,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Mac OS X,Logon,,Nebula Stardust,bob.jones@fakecorp.net,8,User,Zoom,172.16.0.5,/oauth2/v1/introspect,Logon,,3,Ignatius Inferno,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Maximus Stormbringer,anna.hall@example.com,8,User,Atlassian,192.168.0.4,/security/logs/intrusion-detection,Logon,,3,Celestia Thunderstorm,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Nebula Stardust,sarah.wilson@testingmail.xyz,8,User,ZenDesk,10.0.0.8,/oauth2/v1/authorize,Logon,,3,Celestia Thunderstorm,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Venus Starlight,brian.hughes@samplemailing.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Orion Lightningstrike,daniel.ward@virtualmail.io,8,User,ZenDesk,172.16.0.4,/security/logs/authentication,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,bob.jones@fakecorp.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,National Capital Territory of Delhi,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Venus Starlight,emily.white@example.com,8,User,Atlassian,172.16.0.7,/security/logs/authentication-failures,Logon,,3,Zara Midnightshadow,3
+Okta,Okta,Okta,Okta,security,National Capital Territory of Delhi,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,203.0.113.8,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Arizona,,,CHROME,SUCCESS,Windows 10,Logon,,Orion Lightningstrike,brian.hughes@samplemailing.co,8,User,Slack,198.51.100.4,/audit/logs/system,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Phoenix Emberstorm,john.doe@example.com,8,User,Stripe,10.0.0.1,/audit/logs/access,Logon,,3,Xena Nebulosa,3
+Okta,Okta,Okta,Okta,security,Pennsylvania,,Allow external access for  NICE_EEM_Agent,UNKNOWN,ALLOW,Mac OS X (iPhone),Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.1,/security/logs/authentication,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Pennsylvania,,,UNKNOWN,SUCCESS,Mac OS X (iPhone),Logon,,Nebula Stardust,olivia.perry@testinginbox.xyz,8,User,Salesforce,192.168.0.9,/security/logs/intrusion-detection,Logon,,3,Zephyr Blaze,3
+Okta,Okta,Okta,Okta,security,Pennsylvania,7f71a485-499e-42f5-9c49-1e2e4cb4870f,not on office network,UNKNOWN,ALLOW,Mac OS X (iPhone),Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.8,/security/logs/intrusion-detection,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Pennsylvania,,,UNKNOWN,SUCCESS,Mac OS X (iPhone),Logon,,Draven Nightshade,kevin.green@placeholderemail.co,8,User,,203.0.113.3,/security/logs/authentication,Logon,https://www.imaginariumlabs.io,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Thunder Hammerstrike,bob.jones@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Draven Nightshade,alice.smith@example.org,8,User,SAP,192.168.0.3,/oauth2/v1/introspect,Logon,,3,Seraphina Dragonheart,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Luna Moonshadow,olivia.perry@testinginbox.xyz,8,User,,198.51.100.5,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Orion Lightningstrike,laura.moore@sandboxmail.co,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Nebula Stardust,chris.martin@sampleco.co,8,User,Okta,198.51.100.5,/audit/logs/access,Logon,,3,Blaze Thunderstrike,3
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.5,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Seraphina Dragonheart,alice.smith@example.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.4,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Madhya Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Nebula Stardust,mike.anderson@mytestmail.org,8,User,DocuSign,192.0.2.2,/audit/logs/network,Logon,,3,Thunder Hammerstrike,3
+Okta,Okta,Okta,Okta,security,Madhya Pradesh,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.9,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ragnarok Shadowblade,anna.hall@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,California,,,CHROME,SUCCESS,Windows 10,Logon,,Crimson Tempest,mike.anderson@mytestmail.org,8,User,Adobe Creative Cloud,172.16.0.2,/oauth2/v1/token,Logon,,3,Nebula Stardust,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Zephyr Blaze,emma.jenkins@examplemail.biz,8,User,Zoom,198.51.100.2,/security/logs/authentication,Logon,,3,Maximus Stormbringer,3
+Okta,Okta,Okta,Okta,security,California,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,melissa.kelly@dummyinbox.net,8,User,AWS S3,192.0.2.3,/security/logs/intrusion-detection,Logon,,3,Nova Frostbane,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,sarah.wilson@example.com,8,User,GitHub,203.0.113.0,/security/logs/authorization,Logon,,3,Blaze Thunderstrike,3
+Okta,Okta,Okta,Okta,security,Maharashtra,06de8ec4-8f47-45d8-92a8-6621d3e6cdd5,not on office network,IE11,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,172.16.0.2,/security/logs/authentication,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,IE11,SUCCESS,Windows 10,Logon,,Ignatius Inferno,jessica.clark@mockmailing.org,8,User,,192.168.0.4,/oauth2/v1/token,Logon,https://www.synaptogen.synapse,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - Require Password - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,127.0.0.1,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Crimson Tempest,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Texas,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,anna.hall@custommail.io,8,User,Box,172.16.0.9,/security/logs/authentication,Logon,,3,Nebula Stardust,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Phoenix Emberstorm,mark.miller@yourtestmail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nova Frostbane,olivia.perry@testinginbox.xyz,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Crimson Tempest,kevin.green@placeholderemail.co,8,User,,10.0.0.8,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.8,/security/logs/authentication,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Astra Solarflare,alice.smith@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Thunder Hammerstrike,daniel.ward@virtualmail.io,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Luna Moonshadow,lisa.brown@nonexistentmail.net,8,User,Okta,192.168.0.9,/audit/logs/system,Logon,,3,Crimson Tempest,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Crimson Tempest,mike.anderson@mytestmail.org,8,User,Okta,203.0.113.1,/oauth2/v1/authorize,Logon,,3,Thunder Hammerstrike,3
+Okta,Okta,Okta,Okta,security,Texas,,,CHROME,SUCCESS,Mac OS X,Logon,,Blaze Thunderstrike,emma.jenkins@examplemail.biz,8,User,Okta,10.0.0.3,/oauth2/v1/authorize,Logon,,3,Seraphina Dragonheart,3
+Okta,Okta,Okta,Okta,security,Telangana,8b201ded-12c1-4a3b-8a36-df548fa0a745,not on office network,CHROMIUM_EDGE,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,198.51.100.9,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Celestia Thunderstorm,john.doe@acme.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Karnataka,,,CHROME,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,anna.hall@custommail.io,8,User,LogMeIn,198.51.100.8,/audit/logs/system,Logon,,3,Phoenix Emberstorm,3
+Okta,Okta,Okta,Okta,security,Karnataka,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.3,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Karnataka,1b20ecab-2b0a-442c-9b79-478cfb1df6e9,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,1.1.1.1,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Karnataka,,,CHROME,SUCCESS,Windows 10,Logon,,Xena Nebulosa,brian.hughes@samplemailing.co,8,User,,198.51.100.1,/audit/logs/network,Logon,https://www.synaptogen.synapse,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nebula Stardust,anna.hall@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nova Frostbane,olivia.perry@testinginbox.xyz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zephyr Blaze,mike.anderson@mytestmail.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Crimson Tempest,anna.hall@custommail.io,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Maximus Stormbringer,brian.hughes@samplemailing.co,8,User,Microsoft Azure,192.168.0.3,/oauth2/v1/token,Logon,,3,Zara Midnightshadow,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Astra Solarflare,alice.smith@example.org,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,alice.smith@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Karnataka,8f03b7f1-f632-4a98-832c-99d1460b33ea,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,172.16.0.9,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Karnataka,,,CHROME,SUCCESS,Windows 10,Logon,,Maximus Stormbringer,bob.jones@example.com,8,User,,10.0.0.7,/security/logs/authentication-failures,Logon,https://www.innovoid.space,3,,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Blaze Thunderstrike,bob.jones@example.com,8,User,Snowflake,192.168.0.1,/audit/logs/access,Logon,,3,Seraphina Dragonheart,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Xena Nebulosa,emily.white@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Crimson Tempest,anna.hall@custommail.io,8,User,Okta,192.0.2.6,/security/logs/intrusion-detection,Logon,,3,Astra Solarflare,3
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,203.0.113.8,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,alice.smith@example.org,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Venus Starlight,emily.white@dummyemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,FAILURE,Android,Logon,INVALID_CREDENTIALS,Venus Starlight,mike.anderson@example.com,8,User,,172.16.0.9,/audit/logs/system,Logon,,4,,3
+Okta,Okta,Okta,Okta,security,Arizona,,,CHROME,SUCCESS,Windows 10,Logon,,Xena Nebulosa,ryan.collins@fakemailbox.net,8,User,Okta,192.168.1.1,/audit/logs/network,Logon,,3,Seraphina Dragonheart,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,kevin.green@placeholderemail.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Astra Solarflare,laura.moore@sandboxmail.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Astra Solarflare,emily.white@dummyemail.biz,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,emily.white@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Valkyrie Firestorm,daniel.ward@virtualmail.io,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Astra Solarflare,laura.moore@sandboxmail.co,8,User,Datadog,192.0.2.5,/security/logs/intrusion-detection,Logon,,3,Zephyr Blaze,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ignatius Inferno,mike.anderson@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Orion Lightningstrike,anna.hall@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zephyr Blaze,chris.martin@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Valkyrie Firestorm,olivia.perry@testinginbox.xyz,8,User,Google Workspace,172.16.0.9,/oauth2/v1/authorize,Logon,,3,Maximus Stormbringer,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Astra Solarflare,john.doe@example.com,8,User,LogMeIn,203.0.113.8,/audit/logs/system,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Orion Lightningstrike,mike.anderson@example.com,8,User,,172.16.0.4,/oauth2/v1/authorize,Logon,https://www.imaginariumlabs.io,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Astra Solarflare,laura.moore@sandboxmail.co,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,lisa.brown@nonexistentmail.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Phoenix Emberstorm,anna.hall@custommail.io,8,User,Microsoft Azure,10.0.0.5,/audit/logs/network,Logon,,3,Celestia Thunderstorm,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.9,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.2,/security/logs/authentication,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROME,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,anna.hall@custommail.io,8,User,Salesforce,192.168.1.1,/security/logs/authentication,Logon,,3,Luna Moonshadow,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,alice.smith@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nebula Stardust,chris.martin@sampleco.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,emily.white@dummyemail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Seraphina Dragonheart,jason.carter@tryoutmail.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Venus Starlight,mike.anderson@mytestmail.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Crimson Tempest,kevin.green@placeholderemail.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,brian.hughes@samplemailing.co,8,User,ZenDesk,172.16.0.3,/audit/logs/access,Logon,,3,Celestia Thunderstorm,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,mike.anderson@example.com,8,User,,192.168.1.1,/oauth2/v1/introspect,Logon,https://www.intellisphere.smart,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nova Frostbane,jason.carter@tryoutmail.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,bob.jones@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,melissa.kelly@dummyinbox.net,8,User,Datadog,10.0.0.3,/security/logs/authorization,Logon,,3,Nova Frostbane,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.4,/security/logs/authentication-failures,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,IE11,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,8.8.8.8,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,IE11,SUCCESS,Windows 10,Logon,,Maximus Stormbringer,john.doe@example.com,8,User,ZenDesk,192.0.2.1,/oauth2/v1/authorize,Logon,,3,Nebula Stardust,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.1,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Blaze Thunderstrike,emily.white@dummyemail.biz,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.5,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Valkyrie Firestorm,anna.hall@example.com,8,User,ServiceNow,8.8.8.8,/audit/logs/network,Logon,,3,Seraphina Dragonheart,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Blaze Thunderstrike,alice.smith@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Rajasthan,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Ignatius Inferno,alice.smith@example.org,8,User,Stripe,198.51.100.9,/security/logs/authentication-failures,Logon,,3,Ignatius Inferno,3
+Okta,Okta,Okta,Okta,security,Rajasthan,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.4,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Celestia Thunderstorm,jessica.clark@mockmailing.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Orion Lightningstrike,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nebula Stardust,emma.jenkins@examplemail.biz,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Luna Moonshadow,jessica.clark@mockmailing.org,8,User,Dropbox,203.0.113.7,/oauth2/v1/token,Logon,,3,Crimson Tempest,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Ignatius Inferno,jason.carter@tryoutmail.org,8,User,Stripe,172.16.0.2,/security/logs/authentication,Logon,,3,Nova Frostbane,3
+Okta,Okta,Okta,Okta,security,California,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Blaze Thunderstrike,jessica.clark@mockmailing.org,8,User,Salesforce,198.51.100.7,/oauth2/v1/authorize,Logon,,3,Thunder Hammerstrike,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Nova Frostbane,mark.miller@yourtestmail.biz,8,User,Salesforce,192.0.2.6,/oauth2/v1/token,Logon,,3,Ignatius Inferno,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Nebula Stardust,bob.jones@fakecorp.net,8,User,SAP,10.0.0.4,/security/logs/intrusion-detection,Logon,,3,Ragnarok Shadowblade,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Seraphina Dragonheart,emily.white@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.3,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,198.51.100.3,/oauth2/v1/introspect,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Luna Moonshadow,jason.carter@tryoutmail.org,8,User,,203.0.113.5,/oauth2/v1/introspect,Logon,https://www.ideapalooza.foundation,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Draven Nightshade,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Venus Starlight,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zephyr Blaze,mike.anderson@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,chris.martin@sampleco.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Draven Nightshade,lisa.brown@nonexistentmail.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ragnarok Shadowblade,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROME,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,sarah.wilson@testingmail.xyz,8,User,Box,127.0.0.1,/audit/logs/network,Logon,,3,Nova Frostbane,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.9,/security/logs/intrusion-detection,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nebula Stardust,mike.anderson@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.4,/security/logs/authentication,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - Require MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.5,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Crimson Tempest,alice.smith@example.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Crimson Tempest,olivia.perry@testinginbox.xyz,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Luna Moonshadow,john.doe@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Luna Moonshadow,bob.jones@fakecorp.net,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,lisa.brown@nonexistentmail.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.1.1,/audit/logs/network,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ragnarok Shadowblade,ryan.collins@fakemailbox.net,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Draven Nightshade,brian.hughes@samplemailing.co,8,User,Atlassian,172.16.0.3,/audit/logs/network,Logon,,3,Maximus Stormbringer,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Venus Starlight,jessica.clark@mockmailing.org,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Mac OS X,Logon,,Valkyrie Firestorm,emily.white@example.com,8,User,Zoom,198.51.100.2,/oauth2/v1/token,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROME,SUCCESS,Windows 10,Logon,,Orion Lightningstrike,laura.moore@sandboxmail.co,8,User,Twilio,192.168.0.9,/security/logs/authentication-failures,Logon,,3,Nebula Stardust,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.8,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,a430cfd3-5a3b-4212-aa8d-c2ba1a62a04e,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,198.51.100.6,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROME,SUCCESS,Windows 10,Logon,,Phoenix Emberstorm,emily.white@example.com,8,User,,10.0.0.9,/audit/logs/system,Logon,https://www.quantalin.analytics,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ignatius Inferno,lisa.brown@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Venus Starlight,laura.moore@sandboxmail.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.5,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Luna Moonshadow,jessica.clark@mockmailing.org,8,User,Zoom,198.51.100.2,/oauth2/v1/token,Logon,,3,Blaze Thunderstrike,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Venus Starlight,chris.martin@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nebula Stardust,lisa.brown@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,jessica.clark@mockmailing.org,8,User,Twilio,8.8.8.8,/security/logs/intrusion-detection,Logon,,3,Luna Moonshadow,3
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.7,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Astra Solarflare,emma.jenkins@examplemail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Phoenix Emberstorm,bob.jones@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,b68c8b07-e684-4a23-9c7f-d927c6f23f19,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,192.168.0.7,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Zephyr Blaze,laura.moore@sandboxmail.co,8,User,,203.0.113.5,/oauth2/v1/token,Logon,https://www.flimflam.biz,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zara Midnightshadow,alice.smith@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,Require MFA for All Users,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,8.8.8.8,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Phoenix Emberstorm,sarah.wilson@testingmail.xyz,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Windows 10,Logon,,Crimson Tempest,mike.anderson@mytestmail.org,8,User,Workday,192.0.2.1,/oauth2/v1/authorize,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Seraphina Dragonheart,sarah.wilson@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.9,/security/logs/authentication,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Crimson Tempest,jessica.clark@mockmailing.org,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,203.0.113.6,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROME,SUCCESS,Windows 10,Logon,,Thunder Hammerstrike,chris.martin@sampleco.co,8,User,LogMeIn,172.16.0.6,/oauth2/v1/token,Logon,,3,Xena Nebulosa,3
+Okta,Okta,Okta,Okta,security,California,,,CHROME,SUCCESS,Mac OS X,Logon,,Zara Midnightshadow,kevin.green@example.com,8,User,Microsoft Azure,172.16.0.9,/security/logs/authorization,Logon,,3,Crimson Tempest,3
+Okta,Okta,Okta,Okta,security,Maharashtra,ea78a2e2-6901-49eb-9f8c-f6db42e835f8,not on office network,IE11,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,10.0.0.4,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,IE11,SUCCESS,Windows 10,Logon,,Celestia Thunderstorm,ryan.collins@fakemailbox.net,8,User,,10.0.0.1,/audit/logs/system,Logon,https://www.synaptogen.synapse,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Crimson Tempest,anna.hall@custommail.io,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,alice.smith@example.org,8,User,Google Workspace,192.168.0.8,/security/logs/authentication,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.7,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,Authenticate user with AD agent,Authentication failed: account is locked,Thunder Hammerstrike,chris.martin@sampleco.co,2,,,,,Authenticate user with AD agent,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,FAILURE,Windows 10,Logon,LOCKED_OUT,Venus Starlight,emily.white@example.com,8,User,,172.16.0.4,/oauth2/v1/authorize,Logon,,4,,3
+Okta,Okta,Okta,Okta,security,Texas,,,CHROME,SUCCESS,Mac OS X,Logon,,Venus Starlight,melissa.kelly@dummyinbox.net,8,User,Salesforce,198.51.100.6,/audit/logs/network,Logon,,3,Nebula Stardust,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Orion Lightningstrike,sarah.wilson@testingmail.xyz,8,User,Zoom,10.0.0.9,/audit/logs/system,Logon,,3,Blaze Thunderstrike,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,anna.hall@custommail.io,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Luna Moonshadow,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ragnarok Shadowblade,anna.hall@custommail.io,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Luna Moonshadow,emily.white@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Orion Lightningstrike,lisa.brown@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,3c0cbad3-951a-45cf-b4b3-1b7781b45b46,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,198.51.100.6,/audit/logs/network,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Crimson Tempest,john.doe@acme.com,8,User,,192.168.0.9,/oauth2/v1/authorize,Logon,https://www.innovoid.space,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Astra Solarflare,chris.martin@sampleco.co,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nebula Stardust,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,c47bdf19-daf1-4d46-9b6a-524ea68e833f,not on office network,CHROMIUM_EDGE,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,203.0.113.4,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Ignatius Inferno,ryan.collins@fakemailbox.net,8,User,,203.0.113.0,/security/logs/authorization,Logon,https://www.disruptionista.rebel,3,,3
+Okta,Okta,Okta,Okta,security,Karnataka,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,lisa.brown@nonexistentmail.net,8,User,DocuSign,198.51.100.9,/security/logs/authentication-failures,Logon,,3,Orion Lightningstrike,3
+Okta,Okta,Okta,Okta,security,Karnataka,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.7,/security/logs/intrusion-detection,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Luna Moonshadow,sarah.wilson@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Phoenix Emberstorm,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Madhya Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Ignatius Inferno,mike.anderson@mytestmail.org,8,User,Snowflake,203.0.113.4,/security/logs/authorization,Logon,,3,Crimson Tempest,3
+Okta,Okta,Okta,Okta,security,Madhya Pradesh,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.6,/oauth2/v1/introspect,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,lisa.brown@nonexistentmail.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Astra Solarflare,lisa.brown@nonexistentmail.net,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zara Midnightshadow,john.doe@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,42d0d22a-7f8a-4966-9754-257b6e525eb4,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,192.0.2.4,/oauth2/v1/introspect,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - On Prem - Require Password,CHROME,ALLOW,Mac OS X,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.9,/oauth2/v1/introspect,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Xena Nebulosa,ryan.collins@fakemailbox.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,FAILURE,,User rejected Okta push verify,User rejected Okta push verify,Seraphina Dragonheart,laura.moore@sandboxmail.co,8,,,,,User rejected Okta push verify,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,laura.moore@sandboxmail.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Valkyrie Firestorm,bob.jones@fakecorp.net,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Virginia,,DDS - No MFA - On Prem,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.3,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Valkyrie Firestorm,ryan.collins@fakemailbox.net,8,User,Microsoft Azure,10.0.0.5,/audit/logs/network,Logon,,3,Nebula Stardust,3
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,1.1.1.1,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,bob.jones@fakecorp.net,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.8,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Celestia Thunderstorm,emma.jenkins@examplemail.biz,8,User,Microsoft Azure,203.0.113.2,/security/logs/authorization,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,emily.white@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,c109d1c1-af2a-450c-a7ea-d9514a9d1402,not on office network,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.3,/security/logs/intrusion-detection,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Blaze Thunderstrike,laura.moore@sandboxmail.co,8,User,,192.168.0.8,/security/logs/authorization,Logon,https://www.innovoid.space,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Celestia Thunderstorm,bob.jones@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Astra Solarflare,alice.smith@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC access token is granted,,Blaze Thunderstrike,alice.smith@example.com,11,,,,,OIDC access token is granted,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC authorization code request,,Orion Lightningstrike,emily.white@dummyemail.biz,11,,,,,OIDC authorization code request,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,OIDC id token is granted,,Xena Nebulosa,mike.anderson@mytestmail.org,11,,,,,OIDC id token is granted,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.1,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,On Office Network,UNKNOWN,ALLOW,Unknown,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.168.0.8,/security/logs/intrusion-detection,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Celestia Thunderstorm,emily.white@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Unknown,Logon,,Valkyrie Firestorm,bob.jones@example.com,8,User,Salesforce,192.168.1.1,/security/logs/intrusion-detection,Logon,,3,Zephyr Blaze,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Astra Solarflare,alice.smith@example.org,8,User,,192.0.2.8,/oauth2/v1/introspect,Logon,https://www.imaginariumlabs.io,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Luna Moonshadow,anna.hall@example.com,8,User,Dropbox,203.0.113.4,/security/logs/authentication,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ignatius Inferno,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Draven Nightshade,mark.miller@yourtestmail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Seraphina Dragonheart,kevin.green@example.com,8,User,Datadog,198.51.100.5,/oauth2/v1/authorize,Logon,,3,Zara Midnightshadow,3
+Okta,Okta,Okta,Okta,security,New York,,,CHROME,SUCCESS,Mac OS X,Logon,,Seraphina Dragonheart,alice.smith@example.com,8,User,Salesforce,203.0.113.8,/oauth2/v1/token,Logon,,3,Nebula Stardust,3
+Okta,Okta,Okta,Okta,security,Utah,,,SAFARI,FAILURE,Mac OS X (iPhone),Logon,INVALID_CREDENTIALS,Zara Midnightshadow,lisa.brown@example.com,8,User,,198.51.100.9,/oauth2/v1/token,Logon,,4,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nova Frostbane,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.6,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Valkyrie Firestorm,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,emma.jenkins@examplemail.biz,8,User,Dropbox,192.0.2.2,/audit/logs/system,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,anna.hall@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Crimson Tempest,john.doe@acme.com,8,User,,203.0.113.3,/security/logs/authentication,Logon,https://www.innovoid.space,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Orion Lightningstrike,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.5,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,kevin.green@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Astra Solarflare,laura.moore@sandboxmail.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Orion Lightningstrike,brian.hughes@samplemailing.co,8,User,ZenDesk,192.0.2.7,/oauth2/v1/introspect,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Maximus Stormbringer,bob.jones@example.com,8,User,Box,192.168.0.8,/oauth2/v1/token,Logon,,3,Ragnarok Shadowblade,3
+Okta,Okta,Okta,Okta,security,Andhra Pradesh,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.8,/oauth2/v1/introspect,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Phoenix Emberstorm,alice.smith@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zara Midnightshadow,mark.miller@yourtestmail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Venus Starlight,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Ragnarok Shadowblade,chris.martin@sampleco.co,8,User,LogMeIn,203.0.113.7,/oauth2/v1/introspect,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,Telangana,d0a9512d-2a8c-4c4d-a4a0-9d867f5722e5,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,192.168.0.2,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nebula Stardust,alice.smith@example.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,lisa.brown@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Valkyrie Firestorm,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Mac OS X,Logon,,Luna Moonshadow,bob.jones@example.com,8,User,Cloudflare,172.16.0.9,/oauth2/v1/token,Logon,,3,Crimson Tempest,3
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Nebula Stardust,sarah.wilson@testingmail.xyz,8,User,AWS S3,192.0.2.5,/security/logs/intrusion-detection,Logon,,3,Seraphina Dragonheart,3
+Okta,Okta,Okta,Okta,security,Illinois,,,UNKNOWN,SUCCESS,Linux,Logon,,Astra Solarflare,emily.white@example.com,8,User,,192.168.0.1,/oauth2/v1/introspect,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ignatius Inferno,alice.smith@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,jessica.clark@mockmailing.org,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Phoenix Emberstorm,brian.hughes@samplemailing.co,8,User,Slack,192.0.2.4,/security/logs/intrusion-detection,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.9,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.8,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Orion Lightningstrike,mike.anderson@mytestmail.org,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zephyr Blaze,bob.jones@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,14e8d26d-62df-4bb2-9440-5abbe9d50024,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,192.0.2.6,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROME,SUCCESS,Windows 10,Logon,,Astra Solarflare,brian.hughes@samplemailing.co,8,User,,203.0.113.8,/security/logs/authorization,Logon,https://www.ideapalooza.foundation,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Venus Starlight,john.doe@acme.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Nova Frostbane,melissa.kelly@dummyinbox.net,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Orion Lightningstrike,jessica.clark@mockmailing.org,8,User,DocuSign,172.16.0.1,/security/logs/authentication,Logon,,3,Seraphina Dragonheart,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Seraphina Dragonheart,laura.moore@sandboxmail.co,8,User,,192.168.0.8,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Maximus Stormbringer,ryan.collins@fakemailbox.net,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Luna Moonshadow,bob.jones@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Valkyrie Firestorm,emma.jenkins@examplemail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,john.doe@acme.com,8,User,LogMeIn,192.0.2.7,/audit/logs/network,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.4,/security/logs/intrusion-detection,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Luna Moonshadow,bob.jones@fakecorp.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Thunder Hammerstrike,daniel.ward@virtualmail.io,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Orion Lightningstrike,bob.jones@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,emily.white@dummyemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.6,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROME,SUCCESS,Windows 10,Logon,,Thunder Hammerstrike,daniel.ward@virtualmail.io,8,User,Oracle Cloud,192.0.2.7,/security/logs/authorization,Logon,,3,Celestia Thunderstorm,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Zara Midnightshadow,john.doe@acme.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Valkyrie Firestorm,chris.martin@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Xena Nebulosa,john.doe@acme.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Orion Lightningstrike,kevin.green@placeholderemail.co,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.1,/audit/logs/network,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nebula Stardust,anna.hall@custommail.io,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,IE11,SUCCESS,Windows 10,Logon,,Ignatius Inferno,chris.martin@example.com,8,User,Twilio,198.51.100.4,/security/logs/authentication-failures,Logon,,3,Nebula Stardust,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,IE11,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.2,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Venus Starlight,emma.jenkins@examplemail.biz,8,User,ZenDesk,198.51.100.1,/oauth2/v1/token,Logon,,3,Zara Midnightshadow,3
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.3,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,olivia.perry@testinginbox.xyz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Valkyrie Firestorm,emily.white@dummyemail.biz,8,User,,192.168.0.3,/audit/logs/access,Logon,https://www.imaginariumlabs.io,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Valkyrie Firestorm,john.doe@acme.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Draven Nightshade,chris.martin@sampleco.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nebula Stardust,chris.martin@sampleco.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Unknown,Logon,,Blaze Thunderstrike,olivia.perry@testinginbox.xyz,8,User,Twilio,198.51.100.2,/audit/logs/network,Logon,,3,Ragnarok Shadowblade,3
+Okta,Okta,Okta,Okta,security,Ohio,,,UNKNOWN,SUCCESS,Linux,Logon,,Venus Starlight,kevin.green@example.com,8,User,,198.51.100.8,/security/logs/authentication-failures,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Luna Moonshadow,brian.hughes@samplemailing.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Nova Frostbane,chris.martin@example.com,8,User,ServiceNow,10.0.0.2,/audit/logs/access,Logon,,3,Zara Midnightshadow,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROME,SUCCESS,Windows 10,Logon,,Phoenix Emberstorm,melissa.kelly@dummyinbox.net,8,User,Datadog,198.51.100.4,/oauth2/v1/token,Logon,,3,Crimson Tempest,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.5,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Xena Nebulosa,mike.anderson@mytestmail.org,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zara Midnightshadow,alice.smith@example.org,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Orion Lightningstrike,kevin.green@placeholderemail.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.1,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROME,SUCCESS,Windows 10,Logon,,Draven Nightshade,mike.anderson@example.com,8,User,SAP,10.0.0.5,/security/logs/authorization,Logon,,3,Venus Starlight,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Crimson Tempest,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,192.0.2.3,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,Allow all users access to Okta Dashboard (auto created),CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.6,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Ignatius Inferno,emma.jenkins@examplemail.biz,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nebula Stardust,sarah.wilson@testingmail.xyz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,jessica.clark@mockmailing.org,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Valkyrie Firestorm,chris.martin@sampleco.co,8,User,Workday,198.51.100.7,/oauth2/v1/authorize,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,,06de8ec4-8f47-45d8-92a8-6621d3e6cdd5,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,192.0.2.3,/oauth2/v1/introspect,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Zephyr Blaze,anna.hall@example.com,8,User,,198.51.100.6,/security/logs/intrusion-detection,Logon,https://www.disruptionista.rebel,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Ignatius Inferno,emily.white@dummyemail.biz,8,User,Microsoft 365,172.16.0.5,/audit/logs/system,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Astra Solarflare,emily.white@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Nebula Stardust,mark.miller@yourtestmail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Celestia Thunderstorm,kevin.green@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Thunder Hammerstrike,chris.martin@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Ignatius Inferno,bob.jones@fakecorp.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Phoenix Emberstorm,john.doe@example.com,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Orion Lightningstrike,kevin.green@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,laura.moore@sandboxmail.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,emily.white@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ragnarok Shadowblade,ryan.collins@fakemailbox.net,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,4e09f1c4-2999-451c-9426-15a9e254e23d,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,198.51.100.7,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROME,SUCCESS,Windows 10,Logon,,Astra Solarflare,anna.hall@example.com,8,User,,198.51.100.5,/audit/logs/system,Logon,https://www.awesomium.awesome,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Xena Nebulosa,chris.martin@sampleco.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Venus Starlight,lisa.brown@nonexistentmail.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROME,SUCCESS,Windows 10,Logon,,Blaze Thunderstrike,anna.hall@example.com,8,User,Workday,192.0.2.2,/security/logs/authentication-failures,Logon,,3,Seraphina Dragonheart,3
+Okta,Okta,Okta,Okta,security,,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Celestia Thunderstorm,bob.jones@fakecorp.net,8,User,SAP,192.0.2.1,/audit/logs/access,Logon,,3,Maximus Stormbringer,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Crimson Tempest,brian.hughes@samplemailing.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROME,SUCCESS,Windows 10,Logon,,Crimson Tempest,daniel.ward@virtualmail.io,8,User,AWS S3,192.168.0.8,/audit/logs/access,Logon,,3,Zara Midnightshadow,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.4,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,emily.white@example.com,8,User,SAP,10.0.0.1,/security/logs/intrusion-detection,Logon,,3,Phoenix Emberstorm,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Orion Lightningstrike,emily.white@dummyemail.biz,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Venus Starlight,anna.hall@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Blaze Thunderstrike,anna.hall@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Maximus Stormbringer,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.1,/security/logs/authentication-failures,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,CHROMIUM_EDGE,SUCCESS,Windows 10,Logon,,Nova Frostbane,kevin.green@example.com,8,User,Google Workspace,10.0.0.1,/security/logs/authentication,Logon,,3,Ignatius Inferno,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,daniel.ward@virtualmail.io,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Crimson Tempest,ryan.collins@fakemailbox.net,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Phoenix Emberstorm,mark.miller@yourtestmail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Maximus Stormbringer,john.doe@acme.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Uttar Pradesh,,,CHROME,SUCCESS,Windows 10,Logon,,Blaze Thunderstrike,alice.smith@example.com,8,User,Twilio,1.1.1.1,/security/logs/authorization,Logon,,3,Valkyrie Firestorm,3
+Okta,Okta,Okta,Okta,security,Uttar Pradesh,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,172.16.0.5,/audit/logs/system,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,daniel.ward@virtualmail.io,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Blaze Thunderstrike,emma.jenkins@examplemail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,IE11,SUCCESS,Windows 10,Logon,,Ignatius Inferno,ryan.collins@fakemailbox.net,8,User,Slack,203.0.113.3,/security/logs/authorization,Logon,,3,Ragnarok Shadowblade,3
+Okta,Okta,Okta,Okta,security,Telangana,,DDS - Require MFA - All Zones,IE11,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.2,/security/logs/authentication,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Crimson Tempest,mark.miller@yourtestmail.biz,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,New York,,DDS - No MFA - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,198.51.100.4,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Orion Lightningstrike,bob.jones@fakecorp.net,8,User,Zoom,192.168.1.1,/security/logs/intrusion-detection,Logon,,3,Crimson Tempest,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Blaze Thunderstrike,emily.white@dummyemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.168.0.6,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROME,SUCCESS,Windows 10,Logon,,Draven Nightshade,jessica.clark@mockmailing.org,8,User,Stripe,192.168.0.9,/security/logs/authentication,Logon,,3,Venus Starlight,3
+Okta,Okta,Okta,Okta,security,Telangana,5b6359b4-7600-4b58-9c63-e06b23f9ab87,not on office network,IE11,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,10.0.0.5,/security/logs/authorization,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Telangana,,,IE11,SUCCESS,Windows 10,Logon,,Phoenix Emberstorm,sarah.wilson@testingmail.xyz,8,User,,172.16.0.2,/audit/logs/access,Logon,https://www.imaginariumlabs.io,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Crimson Tempest,daniel.ward@virtualmail.io,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.5,/security/logs/intrusion-detection,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Rajasthan,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.4,/oauth2/v1/introspect,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Rajasthan,,,CHROME,SUCCESS,Windows 10,Logon,,Xena Nebulosa,alice.smith@example.org,8,User,Okta,203.0.113.1,/security/logs/authentication,Logon,,3,Maximus Stormbringer,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Seraphina Dragonheart,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,emily.white@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Celestia Thunderstorm,sarah.wilson@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,198.51.100.1,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Maharashtra,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,ryan.collins@fakemailbox.net,8,User,SAP,192.0.2.9,/audit/logs/access,Logon,,3,Luna Moonshadow,3
+Okta,Okta,Okta,Okta,security,West Bengal,,,CHROME,FAILURE,Windows 10,Logon,INVALID_CREDENTIALS,Thunder Hammerstrike,bob.jones@fakecorp.net,8,User,,192.168.0.2,/security/logs/authentication-failures,Logon,,4,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Luna Moonshadow,jessica.clark@mockmailing.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Xena Nebulosa,lisa.brown@nonexistentmail.net,8,User,AWS S3,192.168.0.3,/audit/logs/system,Logon,,3,Zara Midnightshadow,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,10.0.0.5,/audit/logs/network,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,West Bengal,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.1,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Phoenix Emberstorm,kevin.green@placeholderemail.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Xena Nebulosa,john.doe@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zara Midnightshadow,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,CHROME,SUCCESS,Windows 10,Logon,,Nova Frostbane,bob.jones@fakecorp.net,8,User,Microsoft Azure,172.16.0.7,/oauth2/v1/introspect,Logon,,3,Nova Frostbane,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,5f4bca98-5b6d-4019-b3e3-ee54108c20fc,not on office network,CHROME,CHALLENGE,Windows 10,Logon,Sign-on policy evaluation resulted in CHALLENGE,,,8,,,172.16.0.3,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Tamil Nadu,,,CHROME,SUCCESS,Windows 10,Logon,,Nebula Stardust,mike.anderson@mytestmail.org,8,User,,192.168.0.8,/security/logs/authorization,Logon,https://www.awesomium.awesome,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zara Midnightshadow,emma.jenkins@examplemail.biz,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Zephyr Blaze,melissa.kelly@dummyinbox.net,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Phoenix Emberstorm,kevin.green@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Luna Moonshadow,chris.martin@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Karnataka,,,CHROME,SUCCESS,Windows 10,Logon,,Zara Midnightshadow,john.doe@example.com,8,User,Okta,192.168.1.1,/security/logs/authorization,Logon,,3,Orion Lightningstrike,3
+Okta,Okta,Okta,Okta,security,Karnataka,,DDS - Require MFA - All Zones,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,192.0.2.6,/audit/logs/access,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Blaze Thunderstrike,bob.jones@example.com,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,sarah.wilson@testingmail.xyz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Crimson Tempest,emma.jenkins@examplemail.biz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,,CHROME,SUCCESS,Windows 10,Logon,,Nebula Stardust,bob.jones@example.com,8,User,Snowflake,10.0.0.5,/audit/logs/system,Logon,,3,Draven Nightshade,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Zephyr Blaze,kevin.green@placeholderemail.co,8,,,,,A push was sent to a user for verification,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Verify user identity,,Seraphina Dragonheart,mike.anderson@mytestmail.org,8,,,,,Verify user identity,,3,,3
+Okta,Okta,Okta,Okta,security,New York,,Require Password,CHROMIUM_EDGE,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in ALLOW,,,8,,,203.0.113.3,/oauth2/v1/token,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,Illinois,,DDS - Require Password - On Prem,CHROME,ALLOW,Windows 10,Logon,Sign-on policy evaluation resulted in REQUIRE_FACTOR,,,8,,,203.0.113.9,/oauth2/v1/authorize,Logon,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Astra Solarflare,brian.hughes@samplemailing.co,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Thunder Hammerstrike,kevin.green@example.com,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Valkyrie Firestorm,olivia.perry@testinginbox.xyz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,Authentication of user via MFA,,Nebula Stardust,sarah.wilson@testingmail.xyz,8,,,,,Authentication of user via MFA,,3,,3
+Okta,Okta,Okta,Okta,security,,,,,SUCCESS,,A push was sent to a user for verification,,Ignatius Inferno,emma.jenkins@examplemail.biz,8,,,,,A push was sent to a user for verification,,3,,3

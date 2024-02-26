@@ -1,0 +1,52 @@
+use case:
+count the number of errors associated with each pod_uid, extract the IP and port for error message "Error while dialing dial tcp". then look for patterns / combinations of IP and port, sorting in descending
+order to find the IP and Port combinations with the highest number of errors
+
+
+full query:
+
+k8s-deployment='frontend' k8s-cluster='scalyr_training' error=*
+| group count() by pod_uid, error
+| parse ".*transport: Error while dialing dial tcp $ip{regex=\\d+\\.\\d+\\.\\d+\\.\\d+}$:$port=number$: " from error
+| sort -count\(\)
+
+
+notes:
+
+//query to pull logs that match the frontend conainer image / deployment and the scalyr_training k8s cluster, and gets for all error values (*). This will return the message field which is the full log message
+
+      k8s-deployment='frontend' k8s-cluster='scalyr_training' error=*
+
+// the following takes all the log results and creates a table where each line is a unique combination of pod_uid and error, with a column for count() which in this case is the count of errors for that unique
+// pod_uid and error combination
+
+      | group count() by pod_uid, error
+
+
+// now we are parsing out the ip and port fields. so in the parse function we have started with a long match condition that is looking for logs where the error field has
+// the string starting with "transport:" and ending in "dial tcp"
+// when an log is found that has this string, it then looks for an ip
+// $ip{}$ specifies that we are pulling the value out and writing it to the newly created ip field in the table, and the regex pattern inside {} is looking for a string of the format x.x.x.x
+// once that is found, the parse function continues through the log message to the ':' character, and immediately afterward is looking for the $port$ value which will 
+// be written to the newly created 'port' field. in this case, port is just a number. we know it always comes after the colon in "x.x.x.x:" and is always followed again 
+// by the character ": " so we do not need to write a regex for it. we can simply write ":port=number:" and it will grab this pattern immediately following the IP it has found
+// lastly we are specifying that we are looking to get all of this out of the error field. The error field is something we have already pulled from the log
+
+      | parse ".*transport: Error while dialing dial tcp $ip{regex=\\d+\\.\\d+\\.\\d+\\.\\d+}$:$port=number$: " from error
+
+
+//finally we are specifying that we want to sort the results in descending order. in this case we DID NOT create a variable name for count(), which results in the name of the column being literally count()
+//now since we are calling this as a column name, we must use the slashes to escape the name and indicate that the parentheses are part of the name, not a function
+
+      | sort -count\(\)
+
+
+alternatively in the second line of the overall powerquery we could have done something like
+
+      | group error_count = count() by pod_uid, error
+
+this would have named count() column to error_count instead
+
+and then our sort command count have been cleaner:
+
+      |sort -error_count

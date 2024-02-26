@@ -1,0 +1,13 @@
+{
+  "graphStyle": "line",
+  "lineSmoothing": "straightLines",
+  "breakdownFacet": "{field.0.string}",
+  "title": "{name}",
+  "plots": [
+    {
+      "filter": "{filter}",
+      "label": "rate",
+      "facet": "rate"
+    }
+  ]
+}

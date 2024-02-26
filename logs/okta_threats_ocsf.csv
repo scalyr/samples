@@ -1,0 +1,777 @@
+dataSource.vendor,dataSource.name,dataSource.category,status_detail,src_endpoint.location.region,actor.user.type,actor.user.name,actor.email_addr,src_endpoint.ip,unmapped.debug_context,status,unmapped.actor.alternateId,http_request.url.path
+Okta,Okta,security,LOCKED_OUT,Illinois,User,Zephyr Blaze,,172.16.0.7,,FAILURE,,/audit/logs/access
+Okta,Okta,security,LOCKED_OUT,Illinois,User,Luna Moonshadow,,172.16.0.3,,FAILURE,,/security/logs/authentication
+Okta,Okta,security,LOCKED_OUT,Pennsylvania,User,Luna Moonshadow,,192.0.2.7,,FAILURE,,/security/logs/authentication
+Okta,Okta,security,LOCKED_OUT,Florida,User,Seraphina Dragonheart,,172.16.0.3,,FAILURE,,/audit/logs/access
+Okta,Okta,security,LOCKED_OUT,Arizona,User,Orion Lightningstrike,,203.0.113.3,,FAILURE,,/oauth2/v1/introspect
+Okta,Okta,security,LOCKED_OUT,Georgia,User,Zara Midnightshadow,,172.16.0.7,,FAILURE,,/audit/logs/system
+Okta,Okta,security,LOCKED_OUT,Delaware,User,Valkyrie Firestorm,,8.8.8.8,,FAILURE,,/audit/logs/network
+Okta,Okta,security,LOCKED_OUT,Delaware,User,Phoenix Emberstorm,,192.168.0.5,,FAILURE,,/security/logs/intrusion-detection
+Okta,Okta,security,LOCKED_OUT,Delaware,User,Phoenix Emberstorm,,1.1.1.1,,FAILURE,,/security/logs/authentication-failures
+Okta,Okta,security,LOCKED_OUT,Delaware,User,Venus Starlight,,8.8.8.8,,FAILURE,,/security/logs/authentication
+Okta,Okta,security,LOCKED_OUT,Delaware,User,Zephyr Blaze,,203.0.113.0,,FAILURE,,/security/logs/authorization
+Okta,Okta,security,LOCKED_OUT,Pennsylvania,User,Phoenix Emberstorm,,203.0.113.9,,FAILURE,,/oauth2/v1/authorize
+Okta,Okta,security,LOCKED_OUT,Pennsylvania,User,Nebula Stardust,,203.0.113.0,,FAILURE,,/oauth2/v1/authorize
+Okta,Okta,security,LOCKED_OUT,Pennsylvania,User,Maximus Stormbringer,,203.0.113.7,,FAILURE,,/audit/logs/network
+Okta,Okta,security,LOCKED_OUT,Florida,User,Thunder Hammerstrike,,172.16.0.2,,FAILURE,,/security/logs/authentication-failures
+Okta,Okta,security,LOCKED_OUT,Pennsylvania,User,Blaze Thunderstrike,,203.0.113.8,,FAILURE,,/security/logs/authentication-failures
+Okta,Okta,security,LOCKED_OUT,Pennsylvania,User,Draven Nightshade,,203.0.113.2,,FAILURE,,/audit/logs/access
+Okta,Okta,security,LOCKED_OUT,Pennsylvania,User,Draven Nightshade,,192.0.2.5,,FAILURE,,/audit/logs/network
+Okta,Okta,security,LOCKED_OUT,Pennsylvania,User,Orion Lightningstrike,,10.0.0.3,,FAILURE,,/audit/logs/access
+Okta,Okta,security,LOCKED_OUT,Georgia,User,Draven Nightshade,,172.16.0.9,,FAILURE,,/oauth2/v1/authorize
+Okta,Okta,security,LOCKED_OUT,Delaware,User,Nova Frostbane,,172.16.0.9,,FAILURE,,/oauth2/v1/token
+Okta,Okta,security,LOCKED_OUT,Delaware,User,Astra Solarflare,,198.51.100.4,,FAILURE,,/audit/logs/access
+Okta,Okta,security,LOCKED_OUT,Delaware,User,Celestia Thunderstorm,,172.16.0.9,,FAILURE,,/audit/logs/network
+Okta,Okta,security,LOCKED_OUT,Pennsylvania,User,Thunder Hammerstrike,,203.0.113.4,,FAILURE,,/audit/logs/system
+Okta,Okta,security,LOCKED_OUT,Tamil Nadu,User,Nebula Stardust,,203.0.113.6,,FAILURE,,/security/logs/intrusion-detection
+Okta,Okta,security,LOCKED_OUT,Tamil Nadu,User,Celestia Thunderstorm,,127.0.0.1,,FAILURE,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,chris.martin@example.com,127.0.0.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Astra Solarflare,emma.jenkins@examplemail.biz,198.51.100.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Draven Nightshade,,172.16.0.8,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,daniel.ward@virtualmail.io,172.16.0.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Seraphina Dragonheart,,203.0.113.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Arizona,User,Crimson Tempest,daniel.ward@virtualmail.io,172.16.0.6,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,sarah.wilson@testingmail.xyz,192.0.2.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,New York,User,Maximus Stormbringer,mike.anderson@mytestmail.org,198.51.100.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Texas,User,Celestia Thunderstorm,sarah.wilson@example.com,198.51.100.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,mike.anderson@mytestmail.org,192.0.2.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,chris.martin@sampleco.co,192.168.0.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Texas,User,Zephyr Blaze,,198.51.100.2,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Texas,User,Crimson Tempest,ryan.collins@fakemailbox.net,192.0.2.9,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,New York,User,Ragnarok Shadowblade,lisa.brown@nonexistentmail.net,203.0.113.5,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,,10.0.0.5,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Astra Solarflare,mike.anderson@example.com,203.0.113.9,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New Jersey,User,Nebula Stardust,chris.martin@sampleco.co,172.16.0.8,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,California,User,Astra Solarflare,bob.jones@example.com,192.168.0.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,California,User,Phoenix Emberstorm,ryan.collins@fakemailbox.net,192.0.2.9,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Arizona,User,Thunder Hammerstrike,mark.miller@yourtestmail.biz,172.16.0.6,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Orion Lightningstrike,kevin.green@example.com,172.16.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,melissa.kelly@dummyinbox.net,192.0.2.4,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Arizona,User,Xena Nebulosa,ryan.collins@fakemailbox.net,198.51.100.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,California,User,Venus Starlight,alice.smith@example.com,192.0.2.2,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Orion Lightningstrike,jessica.clark@mockmailing.org,172.16.0.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,,8.8.8.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ontario,User,Venus Starlight,sarah.wilson@testingmail.xyz,192.168.0.1,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,New York,User,Thunder Hammerstrike,kevin.green@placeholderemail.co,192.0.2.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Astra Solarflare,anna.hall@custommail.io,10.0.0.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,California,User,Maximus Stormbringer,daniel.ward@virtualmail.io,203.0.113.8,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,alice.smith@example.org,172.16.0.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Astra Solarflare,alice.smith@example.org,203.0.113.7,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,lisa.brown@example.com,203.0.113.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Crimson Tempest,sarah.wilson@example.com,198.51.100.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Venus Starlight,john.doe@acme.com,192.0.2.9,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,john.doe@acme.com,192.168.0.5,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,,User,Celestia Thunderstorm,mike.anderson@example.com,10.0.0.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Ragnarok Shadowblade,laura.moore@sandboxmail.co,203.0.113.7,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Venus Starlight,bob.jones@example.com,192.0.2.3,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,kevin.green@example.com,172.16.0.5,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,alice.smith@example.org,203.0.113.5,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Draven Nightshade,anna.hall@custommail.io,203.0.113.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Texas,User,Crimson Tempest,,8.8.8.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Nebula Stardust,lisa.brown@nonexistentmail.net,172.16.0.2,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,lisa.brown@nonexistentmail.net,192.0.2.6,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,emily.white@dummyemail.biz,192.0.2.7,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Draven Nightshade,sarah.wilson@example.com,198.51.100.2,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Astra Solarflare,,192.168.0.7,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,California,User,Venus Starlight,melissa.kelly@dummyinbox.net,192.0.2.7,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,daniel.ward@virtualmail.io,192.168.1.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Phoenix Emberstorm,chris.martin@sampleco.co,198.51.100.9,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,emily.white@dummyemail.biz,10.0.0.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,anna.hall@example.com,172.16.0.3,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,bob.jones@example.com,192.168.0.6,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Virginia,User,Ragnarok Shadowblade,bob.jones@fakecorp.net,192.168.0.5,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Nova Frostbane,mike.anderson@mytestmail.org,10.0.0.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,anna.hall@example.com,192.0.2.6,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Arizona,User,Ragnarok Shadowblade,kevin.green@placeholderemail.co,172.16.0.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Arizona,User,Ragnarok Shadowblade,,198.51.100.3,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Draven Nightshade,john.doe@acme.com,192.168.0.3,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,,203.0.113.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Crimson Tempest,emily.white@example.com,192.168.0.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,brian.hughes@samplemailing.co,203.0.113.8,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Venus Starlight,mike.anderson@mytestmail.org,192.168.0.9,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Draven Nightshade,ryan.collins@fakemailbox.net,203.0.113.6,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Astra Solarflare,lisa.brown@example.com,192.168.0.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Virginia,User,Ignatius Inferno,sarah.wilson@example.com,10.0.0.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Orion Lightningstrike,mike.anderson@mytestmail.org,192.168.0.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Virginia,User,Zephyr Blaze,,10.0.0.4,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Blaze Thunderstrike,lisa.brown@nonexistentmail.net,10.0.0.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Arizona,User,Venus Starlight,ryan.collins@fakemailbox.net,192.168.0.7,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,sarah.wilson@testingmail.xyz,203.0.113.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,ryan.collins@fakemailbox.net,172.16.0.9,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Venus Starlight,,192.168.0.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,California,User,Ignatius Inferno,brian.hughes@samplemailing.co,192.168.0.7,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,New York,User,Crimson Tempest,,203.0.113.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Xena Nebulosa,sarah.wilson@testingmail.xyz,192.0.2.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,California,User,Draven Nightshade,emily.white@example.com,192.168.0.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Nebula Stardust,alice.smith@example.org,203.0.113.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,California,User,Ignatius Inferno,chris.martin@example.com,203.0.113.5,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Astra Solarflare,daniel.ward@virtualmail.io,10.0.0.9,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,,172.16.0.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,kevin.green@example.com,192.0.2.5,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Texas,User,Orion Lightningstrike,alice.smith@example.com,203.0.113.4,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Astra Solarflare,laura.moore@sandboxmail.co,203.0.113.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Arizona,User,Astra Solarflare,lisa.brown@example.com,192.168.1.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,alice.smith@example.org,198.51.100.4,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Arizona,User,Seraphina Dragonheart,jason.carter@tryoutmail.org,192.168.1.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,anna.hall@custommail.io,192.0.2.9,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Draven Nightshade,bob.jones@fakecorp.net,192.168.0.2,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Nebula Stardust,emma.jenkins@examplemail.biz,192.168.1.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Xena Nebulosa,daniel.ward@virtualmail.io,203.0.113.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Venus Starlight,emily.white@example.com,192.0.2.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,,172.16.0.6,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Orion Lightningstrike,emily.white@example.com,172.16.0.2,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,jessica.clark@mockmailing.org,192.0.2.2,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Draven Nightshade,chris.martin@sampleco.co,172.16.0.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Maharashtra,User,Zara Midnightshadow,chris.martin@example.com,198.51.100.7,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Arizona,User,Draven Nightshade,john.doe@acme.com,192.168.0.2,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,brian.hughes@samplemailing.co,198.51.100.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Seraphina Dragonheart,lisa.brown@nonexistentmail.net,1.1.1.1,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,alice.smith@example.org,203.0.113.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,emily.white@dummyemail.biz,192.168.0.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Virginia,User,Astra Solarflare,anna.hall@custommail.io,192.0.2.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Texas,User,Luna Moonshadow,jessica.clark@mockmailing.org,172.16.0.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Arizona,User,Zara Midnightshadow,laura.moore@sandboxmail.co,172.16.0.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,john.doe@example.com,203.0.113.7,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,melissa.kelly@dummyinbox.net,192.0.2.7,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,jessica.clark@mockmailing.org,10.0.0.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Astra Solarflare,sarah.wilson@example.com,203.0.113.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,,10.0.0.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,mark.miller@yourtestmail.biz,198.51.100.1,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Florida,User,Xena Nebulosa,emma.jenkins@examplemail.biz,192.168.0.3,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,alice.smith@example.com,192.168.0.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,New York,User,Nebula Stardust,melissa.kelly@dummyinbox.net,127.0.0.1,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Ohio,User,Seraphina Dragonheart,melissa.kelly@dummyinbox.net,192.0.2.4,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Phoenix Emberstorm,,10.0.0.6,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,anna.hall@example.com,203.0.113.2,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Ragnarok Shadowblade,mike.anderson@example.com,172.16.0.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,mike.anderson@mytestmail.org,198.51.100.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,jessica.clark@mockmailing.org,198.51.100.5,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Astra Solarflare,emily.white@example.com,203.0.113.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,olivia.perry@testinginbox.xyz,192.168.0.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,melissa.kelly@dummyinbox.net,172.16.0.7,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,lisa.brown@nonexistentmail.net,203.0.113.6,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Zara Midnightshadow,john.doe@acme.com,172.16.0.9,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Arizona,User,Nebula Stardust,jason.carter@tryoutmail.org,10.0.0.5,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New Jersey,User,Nebula Stardust,anna.hall@custommail.io,1.1.1.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Crimson Tempest,alice.smith@example.org,172.16.0.2,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,anna.hall@example.com,172.16.0.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Luna Moonshadow,lisa.brown@nonexistentmail.net,192.168.0.2,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Thunder Hammerstrike,laura.moore@sandboxmail.co,192.0.2.8,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,kevin.green@placeholderemail.co,198.51.100.4,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Crimson Tempest,chris.martin@example.com,192.168.0.7,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,,192.0.2.4,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Blaze Thunderstrike,,10.0.0.3,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,mike.anderson@example.com,203.0.113.4,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,john.doe@acme.com,172.16.0.6,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,daniel.ward@virtualmail.io,172.16.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Nebula Stardust,jason.carter@tryoutmail.org,10.0.0.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,alice.smith@example.com,192.168.0.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Nebula Stardust,daniel.ward@virtualmail.io,198.51.100.9,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,jason.carter@tryoutmail.org,172.16.0.3,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Crimson Tempest,anna.hall@custommail.io,172.16.0.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Nebula Stardust,,192.0.2.2,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Venus Starlight,lisa.brown@example.com,192.0.2.7,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,lisa.brown@nonexistentmail.net,8.8.8.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Valkyrie Firestorm,kevin.green@example.com,192.0.2.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Draven Nightshade,,10.0.0.7,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,,10.0.0.9,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Utah,User,Zara Midnightshadow,mark.miller@yourtestmail.biz,203.0.113.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Crimson Tempest,mike.anderson@example.com,192.0.2.6,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,mike.anderson@example.com,192.168.1.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,mike.anderson@mytestmail.org,203.0.113.9,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Crimson Tempest,brian.hughes@samplemailing.co,203.0.113.9,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,New York,User,Blaze Thunderstrike,melissa.kelly@dummyinbox.net,10.0.0.7,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Nova Frostbane,anna.hall@example.com,198.51.100.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Thunder Hammerstrike,,10.0.0.5,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,North Carolina,User,Celestia Thunderstorm,chris.martin@sampleco.co,1.1.1.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,olivia.perry@testinginbox.xyz,10.0.0.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Blaze Thunderstrike,chris.martin@example.com,192.168.0.7,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,California,User,Phoenix Emberstorm,mike.anderson@mytestmail.org,172.16.0.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Xena Nebulosa,anna.hall@example.com,172.16.0.6,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Draven Nightshade,alice.smith@example.com,198.51.100.7,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,California,User,Valkyrie Firestorm,,198.51.100.9,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,john.doe@acme.com,198.51.100.7,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,mark.miller@yourtestmail.biz,198.51.100.5,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Draven Nightshade,lisa.brown@example.com,172.16.0.7,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,sarah.wilson@example.com,192.168.0.9,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,,198.51.100.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,alice.smith@example.org,203.0.113.4,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,emma.jenkins@examplemail.biz,203.0.113.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Draven Nightshade,bob.jones@fakecorp.net,192.168.0.2,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,bob.jones@fakecorp.net,10.0.0.9,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Draven Nightshade,alice.smith@example.org,172.16.0.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,emma.jenkins@examplemail.biz,172.16.0.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,California,User,Draven Nightshade,olivia.perry@testinginbox.xyz,198.51.100.4,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Crimson Tempest,john.doe@acme.com,192.0.2.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,brian.hughes@samplemailing.co,198.51.100.2,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Nova Frostbane,bob.jones@example.com,192.168.0.2,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Crimson Tempest,mike.anderson@example.com,203.0.113.5,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Virginia,User,Blaze Thunderstrike,john.doe@acme.com,1.1.1.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,emily.white@dummyemail.biz,10.0.0.2,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,anna.hall@custommail.io,10.0.0.5,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,jason.carter@tryoutmail.org,10.0.0.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,mike.anderson@example.com,198.51.100.5,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,bob.jones@example.com,192.0.2.5,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Nova Frostbane,melissa.kelly@dummyinbox.net,192.0.2.5,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Orion Lightningstrike,kevin.green@placeholderemail.co,172.16.0.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Phoenix Emberstorm,sarah.wilson@testingmail.xyz,192.0.2.3,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,emily.white@dummyemail.biz,198.51.100.7,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Ignatius Inferno,john.doe@example.com,203.0.113.2,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Seraphina Dragonheart,chris.martin@sampleco.co,172.16.0.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,emma.jenkins@examplemail.biz,192.168.1.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,chris.martin@example.com,10.0.0.2,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Luna Moonshadow,lisa.brown@nonexistentmail.net,192.168.0.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,lisa.brown@example.com,172.16.0.4,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Thunder Hammerstrike,,172.16.0.6,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,New York,User,Maximus Stormbringer,,172.16.0.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Crimson Tempest,kevin.green@placeholderemail.co,172.16.0.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Nebula Stardust,brian.hughes@samplemailing.co,203.0.113.2,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,lisa.brown@example.com,192.0.2.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Arizona,User,Blaze Thunderstrike,bob.jones@example.com,10.0.0.9,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Venus Starlight,sarah.wilson@example.com,192.0.2.9,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,ryan.collins@fakemailbox.net,198.51.100.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Venus Starlight,chris.martin@example.com,198.51.100.7,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,emily.white@example.com,192.168.0.9,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Crimson Tempest,,203.0.113.2,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,California,User,Phoenix Emberstorm,anna.hall@example.com,192.168.0.4,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,anna.hall@example.com,127.0.0.1,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,jason.carter@tryoutmail.org,172.16.0.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Thunder Hammerstrike,john.doe@acme.com,203.0.113.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,California,User,Nebula Stardust,bob.jones@example.com,203.0.113.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,chris.martin@sampleco.co,172.16.0.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,jessica.clark@mockmailing.org,10.0.0.2,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,,198.51.100.3,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Astra Solarflare,lisa.brown@example.com,192.0.2.3,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,olivia.perry@testinginbox.xyz,203.0.113.0,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,,10.0.0.5,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,jessica.clark@mockmailing.org,127.0.0.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,chris.martin@example.com,192.0.2.6,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Virginia,User,Seraphina Dragonheart,jessica.clark@mockmailing.org,203.0.113.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,bob.jones@example.com,10.0.0.9,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Draven Nightshade,lisa.brown@nonexistentmail.net,192.168.1.1,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Virginia,User,Nebula Stardust,bob.jones@example.com,192.0.2.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Arizona,User,Thunder Hammerstrike,lisa.brown@example.com,192.168.0.4,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Texas,User,Crimson Tempest,jessica.clark@mockmailing.org,172.16.0.9,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Texas,User,Phoenix Emberstorm,laura.moore@sandboxmail.co,10.0.0.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Nova Frostbane,brian.hughes@samplemailing.co,198.51.100.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,kevin.green@placeholderemail.co,192.0.2.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Ignatius Inferno,kevin.green@placeholderemail.co,192.168.0.7,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Virginia,User,Ragnarok Shadowblade,bob.jones@example.com,198.51.100.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Tamil Nadu,User,Nova Frostbane,lisa.brown@example.com,10.0.0.4,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Xena Nebulosa,sarah.wilson@example.com,203.0.113.3,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Venus Starlight,jessica.clark@mockmailing.org,192.168.0.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Virginia,User,Maximus Stormbringer,john.doe@acme.com,192.168.0.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Pennsylvania,User,Zephyr Blaze,jessica.clark@mockmailing.org,198.51.100.3,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,New York,User,Thunder Hammerstrike,kevin.green@example.com,198.51.100.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Nova Frostbane,laura.moore@sandboxmail.co,198.51.100.5,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Crimson Tempest,sarah.wilson@example.com,10.0.0.7,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,,198.51.100.6,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,bob.jones@example.com,192.168.0.6,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Ignatius Inferno,chris.martin@example.com,10.0.0.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Valkyrie Firestorm,alice.smith@example.org,10.0.0.7,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,anna.hall@custommail.io,198.51.100.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,bob.jones@fakecorp.net,192.0.2.2,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Arizona,User,Zephyr Blaze,kevin.green@placeholderemail.co,8.8.8.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Maximus Stormbringer,emily.white@dummyemail.biz,172.16.0.9,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Ignatius Inferno,bob.jones@example.com,10.0.0.4,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Nebula Stardust,alice.smith@example.org,203.0.113.0,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,sarah.wilson@example.com,198.51.100.3,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,sarah.wilson@testingmail.xyz,10.0.0.7,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,bob.jones@example.com,172.16.0.5,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,anna.hall@custommail.io,198.51.100.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,,198.51.100.7,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,mike.anderson@example.com,192.0.2.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,mark.miller@yourtestmail.biz,192.168.1.1,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,New York,User,Nebula Stardust,mike.anderson@mytestmail.org,8.8.8.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,California,User,Thunder Hammerstrike,sarah.wilson@example.com,198.51.100.8,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,lisa.brown@nonexistentmail.net,192.168.0.4,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,,172.16.0.6,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,alice.smith@example.org,192.0.2.7,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,mike.anderson@example.com,192.168.0.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,kevin.green@placeholderemail.co,172.16.0.6,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,New York,User,Zara Midnightshadow,anna.hall@example.com,1.1.1.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Venus Starlight,alice.smith@example.com,192.168.0.7,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Nova Frostbane,anna.hall@custommail.io,192.168.1.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Crimson Tempest,daniel.ward@virtualmail.io,172.16.0.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Virginia,User,Xena Nebulosa,,192.0.2.4,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,bob.jones@example.com,198.51.100.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,emily.white@dummyemail.biz,172.16.0.8,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,jason.carter@tryoutmail.org,192.0.2.9,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,anna.hall@example.com,192.168.1.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,sarah.wilson@testingmail.xyz,203.0.113.0,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,jason.carter@tryoutmail.org,203.0.113.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Astra Solarflare,lisa.brown@example.com,172.16.0.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,New York,User,Draven Nightshade,bob.jones@example.com,192.168.0.3,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Karnataka,User,Orion Lightningstrike,bob.jones@fakecorp.net,192.168.0.9,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,emma.jenkins@examplemail.biz,192.0.2.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Nova Frostbane,,192.168.1.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Draven Nightshade,emily.white@example.com,203.0.113.2,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,,198.51.100.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,New York,User,Nebula Stardust,brian.hughes@samplemailing.co,203.0.113.6,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,mark.miller@yourtestmail.biz,198.51.100.4,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Nova Frostbane,chris.martin@sampleco.co,192.0.2.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,,198.51.100.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Astra Solarflare,mark.miller@yourtestmail.biz,203.0.113.0,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Xena Nebulosa,daniel.ward@virtualmail.io,203.0.113.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,,10.0.0.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Crimson Tempest,emily.white@dummyemail.biz,198.51.100.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Crimson Tempest,chris.martin@example.com,8.8.8.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,,203.0.113.9,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Arizona,User,Nova Frostbane,melissa.kelly@dummyinbox.net,192.0.2.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,emily.white@dummyemail.biz,192.0.2.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Draven Nightshade,,10.0.0.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,john.doe@example.com,198.51.100.7,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Virginia,User,Zara Midnightshadow,lisa.brown@nonexistentmail.net,192.168.0.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Venus Starlight,john.doe@acme.com,10.0.0.2,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,,10.0.0.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Draven Nightshade,sarah.wilson@testingmail.xyz,10.0.0.4,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Nebula Stardust,mike.anderson@example.com,203.0.113.4,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Nebula Stardust,mike.anderson@mytestmail.org,192.0.2.4,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Blaze Thunderstrike,bob.jones@fakecorp.net,172.16.0.5,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,melissa.kelly@dummyinbox.net,192.168.0.3,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,emma.jenkins@examplemail.biz,192.168.0.5,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,daniel.ward@virtualmail.io,203.0.113.4,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Thunder Hammerstrike,alice.smith@example.com,8.8.8.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,New Jersey,User,Ignatius Inferno,kevin.green@example.com,10.0.0.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Draven Nightshade,john.doe@example.com,192.168.0.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Nova Frostbane,,10.0.0.5,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Venus Starlight,emma.jenkins@examplemail.biz,198.51.100.9,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,john.doe@acme.com,172.16.0.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,emily.white@dummyemail.biz,203.0.113.9,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,jessica.clark@mockmailing.org,8.8.8.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,john.doe@example.com,172.16.0.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,emma.jenkins@examplemail.biz,10.0.0.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Virginia,User,Astra Solarflare,anna.hall@custommail.io,10.0.0.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,alice.smith@example.org,10.0.0.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,brian.hughes@samplemailing.co,10.0.0.4,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Venus Starlight,lisa.brown@example.com,203.0.113.7,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Astra Solarflare,emily.white@example.com,10.0.0.5,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Nova Frostbane,anna.hall@custommail.io,203.0.113.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Maryland,User,Maximus Stormbringer,melissa.kelly@dummyinbox.net,198.51.100.6,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,sarah.wilson@example.com,203.0.113.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,jason.carter@tryoutmail.org,10.0.0.6,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,bob.jones@example.com,192.0.2.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Nova Frostbane,sarah.wilson@example.com,198.51.100.1,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,laura.moore@sandboxmail.co,192.168.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Texas,User,Crimson Tempest,emily.white@dummyemail.biz,1.1.1.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,,172.16.0.2,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,emily.white@example.com,203.0.113.8,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Orion Lightningstrike,ryan.collins@fakemailbox.net,198.51.100.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Maximus Stormbringer,ryan.collins@fakemailbox.net,1.1.1.1,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,kevin.green@example.com,198.51.100.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,,10.0.0.5,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,melissa.kelly@dummyinbox.net,192.168.0.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Nova Frostbane,,203.0.113.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,melissa.kelly@dummyinbox.net,192.168.0.1,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Astra Solarflare,chris.martin@example.com,192.168.0.2,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,melissa.kelly@dummyinbox.net,203.0.113.2,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,emma.jenkins@examplemail.biz,10.0.0.3,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Virginia,User,Venus Starlight,mark.miller@yourtestmail.biz,172.16.0.5,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Arizona,User,Ragnarok Shadowblade,kevin.green@example.com,203.0.113.1,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,California,User,Maximus Stormbringer,,192.0.2.3,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Virginia,User,Nova Frostbane,emily.white@example.com,172.16.0.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,mike.anderson@mytestmail.org,192.168.0.4,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Nebula Stardust,john.doe@acme.com,172.16.0.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,ryan.collins@fakemailbox.net,192.168.0.5,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,lisa.brown@nonexistentmail.net,198.51.100.3,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Nova Frostbane,jason.carter@tryoutmail.org,192.0.2.2,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Thunder Hammerstrike,mike.anderson@example.com,192.168.0.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,California,User,Xena Nebulosa,emma.jenkins@examplemail.biz,198.51.100.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,chris.martin@example.com,192.0.2.7,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,chris.martin@sampleco.co,172.16.0.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Texas,User,Ignatius Inferno,emma.jenkins@examplemail.biz,192.0.2.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,jason.carter@tryoutmail.org,192.168.0.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Bogota D.C.,User,Zara Midnightshadow,mike.anderson@example.com,10.0.0.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Arizona,User,Astra Solarflare,mark.miller@yourtestmail.biz,192.168.0.4,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Venus Starlight,jason.carter@tryoutmail.org,203.0.113.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Zephyr Blaze,mike.anderson@example.com,192.0.2.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Luna Moonshadow,alice.smith@example.org,203.0.113.6,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Texas,User,Phoenix Emberstorm,sarah.wilson@example.com,10.0.0.2,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,daniel.ward@virtualmail.io,198.51.100.3,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Phoenix Emberstorm,mike.anderson@example.com,198.51.100.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,chris.martin@sampleco.co,203.0.113.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,lisa.brown@nonexistentmail.net,10.0.0.5,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,mike.anderson@mytestmail.org,10.0.0.7,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,olivia.perry@testinginbox.xyz,192.168.0.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,mike.anderson@example.com,192.0.2.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,emily.white@dummyemail.biz,203.0.113.7,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,lisa.brown@nonexistentmail.net,10.0.0.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Luna Moonshadow,laura.moore@sandboxmail.co,192.168.1.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Nebula Stardust,melissa.kelly@dummyinbox.net,198.51.100.4,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,bob.jones@fakecorp.net,10.0.0.4,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Draven Nightshade,emily.white@dummyemail.biz,172.16.0.2,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Nebula Stardust,,10.0.0.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,mark.miller@yourtestmail.biz,192.168.0.5,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,melissa.kelly@dummyinbox.net,172.16.0.9,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,bob.jones@example.com,198.51.100.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Luna Moonshadow,mike.anderson@example.com,10.0.0.3,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,,203.0.113.6,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,bob.jones@fakecorp.net,203.0.113.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,New York,User,Luna Moonshadow,sarah.wilson@example.com,192.0.2.7,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,anna.hall@custommail.io,192.0.2.9,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,sarah.wilson@testingmail.xyz,172.16.0.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,chris.martin@sampleco.co,203.0.113.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Zephyr Blaze,bob.jones@fakecorp.net,10.0.0.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,olivia.perry@testinginbox.xyz,192.168.0.6,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Nebula Stardust,bob.jones@fakecorp.net,10.0.0.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Ignatius Inferno,,192.168.0.7,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,California,User,Thunder Hammerstrike,lisa.brown@nonexistentmail.net,192.0.2.6,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Zephyr Blaze,emma.jenkins@examplemail.biz,192.0.2.8,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Virginia,User,Seraphina Dragonheart,,192.0.2.5,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Crimson Tempest,melissa.kelly@dummyinbox.net,1.1.1.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Venus Starlight,john.doe@example.com,198.51.100.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,jason.carter@tryoutmail.org,198.51.100.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,California,User,Phoenix Emberstorm,jessica.clark@mockmailing.org,172.16.0.2,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Crimson Tempest,,192.168.0.7,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,sarah.wilson@testingmail.xyz,172.16.0.7,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,jason.carter@tryoutmail.org,203.0.113.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,anna.hall@example.com,192.168.0.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Texas,User,Celestia Thunderstorm,sarah.wilson@example.com,10.0.0.4,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Arizona,User,Phoenix Emberstorm,mike.anderson@example.com,192.168.0.2,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,kevin.green@placeholderemail.co,127.0.0.1,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,California,User,Phoenix Emberstorm,john.doe@acme.com,10.0.0.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,brian.hughes@samplemailing.co,198.51.100.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,New York,User,Draven Nightshade,ryan.collins@fakemailbox.net,203.0.113.0,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,alice.smith@example.org,192.0.2.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Venus Starlight,,203.0.113.2,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Arizona,User,Valkyrie Firestorm,chris.martin@sampleco.co,1.1.1.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,kevin.green@placeholderemail.co,192.0.2.6,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,,192.168.1.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Nova Frostbane,,192.0.2.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,bob.jones@fakecorp.net,192.168.0.7,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Arizona,User,Xena Nebulosa,bob.jones@fakecorp.net,192.0.2.7,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Virginia,User,Draven Nightshade,mike.anderson@example.com,10.0.0.9,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Nova Frostbane,sarah.wilson@testingmail.xyz,192.0.2.4,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,john.doe@example.com,172.16.0.7,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Arizona,User,Luna Moonshadow,brian.hughes@samplemailing.co,198.51.100.9,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,,127.0.0.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Utah,User,Blaze Thunderstrike,alice.smith@example.com,8.8.8.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Orion Lightningstrike,lisa.brown@nonexistentmail.net,192.168.0.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Venus Starlight,daniel.ward@virtualmail.io,172.16.0.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,,192.0.2.2,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Zephyr Blaze,chris.martin@example.com,172.16.0.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Nebula Stardust,bob.jones@example.com,172.16.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,kevin.green@placeholderemail.co,203.0.113.6,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Arizona,User,Nova Frostbane,kevin.green@example.com,203.0.113.9,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,john.doe@acme.com,192.168.0.4,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Venus Starlight,bob.jones@fakecorp.net,192.168.0.9,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,john.doe@acme.com,192.168.0.9,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Arizona,User,Luna Moonshadow,olivia.perry@testinginbox.xyz,192.168.0.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,lisa.brown@nonexistentmail.net,198.51.100.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Draven Nightshade,emily.white@dummyemail.biz,10.0.0.7,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Ragnarok Shadowblade,laura.moore@sandboxmail.co,203.0.113.4,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,alice.smith@example.org,172.16.0.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Ragnarok Shadowblade,jessica.clark@mockmailing.org,192.168.0.4,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Zephyr Blaze,olivia.perry@testinginbox.xyz,10.0.0.5,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Arizona,User,Phoenix Emberstorm,lisa.brown@nonexistentmail.net,10.0.0.9,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,daniel.ward@virtualmail.io,10.0.0.5,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Arizona,User,Orion Lightningstrike,,10.0.0.6,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,mike.anderson@example.com,10.0.0.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,mark.miller@yourtestmail.biz,10.0.0.7,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Seraphina Dragonheart,sarah.wilson@testingmail.xyz,172.16.0.2,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Nova Frostbane,john.doe@acme.com,10.0.0.8,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Zephyr Blaze,alice.smith@example.com,192.168.0.7,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,,203.0.113.6,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,bob.jones@fakecorp.net,203.0.113.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,olivia.perry@testinginbox.xyz,203.0.113.9,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,kevin.green@placeholderemail.co,192.0.2.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,,203.0.113.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Maximus Stormbringer,anna.hall@example.com,172.16.0.5,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,lisa.brown@example.com,127.0.0.1,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Astra Solarflare,bob.jones@fakecorp.net,198.51.100.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,bob.jones@fakecorp.net,1.1.1.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Virginia,User,Astra Solarflare,,198.51.100.9,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,lisa.brown@nonexistentmail.net,127.0.0.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Xena Nebulosa,jason.carter@tryoutmail.org,192.168.0.7,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Astra Solarflare,lisa.brown@example.com,192.168.0.5,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Virginia,User,Celestia Thunderstorm,bob.jones@example.com,10.0.0.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Texas,User,Luna Moonshadow,emily.white@dummyemail.biz,192.0.2.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,brian.hughes@samplemailing.co,192.168.0.3,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,alice.smith@example.org,10.0.0.2,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,brian.hughes@samplemailing.co,203.0.113.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,mike.anderson@mytestmail.org,192.168.1.1,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,California,User,Thunder Hammerstrike,bob.jones@fakecorp.net,198.51.100.7,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Nova Frostbane,lisa.brown@nonexistentmail.net,192.0.2.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Phoenix Emberstorm,jason.carter@tryoutmail.org,10.0.0.5,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Luna Moonshadow,mark.miller@yourtestmail.biz,198.51.100.3,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Xena Nebulosa,john.doe@acme.com,198.51.100.8,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,laura.moore@sandboxmail.co,172.16.0.4,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Phoenix Emberstorm,melissa.kelly@dummyinbox.net,198.51.100.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Blaze Thunderstrike,mike.anderson@mytestmail.org,203.0.113.4,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,,10.0.0.6,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,emily.white@dummyemail.biz,172.16.0.8,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Zephyr Blaze,,192.168.0.9,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,alice.smith@example.com,10.0.0.6,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Seraphina Dragonheart,emma.jenkins@examplemail.biz,203.0.113.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,California,User,Ignatius Inferno,john.doe@acme.com,192.168.0.9,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,,1.1.1.1,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,ryan.collins@fakemailbox.net,192.0.2.8,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Draven Nightshade,chris.martin@example.com,10.0.0.5,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,New York,User,Thunder Hammerstrike,,198.51.100.2,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,mike.anderson@example.com,1.1.1.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Virginia,User,Celestia Thunderstorm,,192.168.0.9,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Blaze Thunderstrike,emily.white@example.com,172.16.0.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,ryan.collins@fakemailbox.net,10.0.0.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Nova Frostbane,emily.white@example.com,203.0.113.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,emily.white@example.com,192.168.0.7,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,mark.miller@yourtestmail.biz,192.168.0.5,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Maryland,User,Blaze Thunderstrike,emma.jenkins@examplemail.biz,10.0.0.6,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Arizona,User,Zara Midnightshadow,chris.martin@sampleco.co,198.51.100.7,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,mike.anderson@mytestmail.org,198.51.100.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,California,User,Astra Solarflare,melissa.kelly@dummyinbox.net,203.0.113.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,New York,User,Nova Frostbane,mike.anderson@example.com,192.168.0.6,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,laura.moore@sandboxmail.co,203.0.113.7,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Orion Lightningstrike,alice.smith@example.org,172.16.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,john.doe@acme.com,192.168.0.7,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Crimson Tempest,emma.jenkins@examplemail.biz,192.168.0.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Crimson Tempest,john.doe@acme.com,192.0.2.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Draven Nightshade,emma.jenkins@examplemail.biz,203.0.113.2,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,melissa.kelly@dummyinbox.net,192.0.2.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Astra Solarflare,,192.0.2.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,,203.0.113.2,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,anna.hall@custommail.io,8.8.8.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Draven Nightshade,chris.martin@example.com,203.0.113.6,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,,192.168.0.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,,10.0.0.2,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Virginia,User,Ragnarok Shadowblade,melissa.kelly@dummyinbox.net,172.16.0.1,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,,192.0.2.6,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,,127.0.0.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,California,User,Zara Midnightshadow,alice.smith@example.com,192.168.0.7,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Texas,User,Celestia Thunderstorm,sarah.wilson@testingmail.xyz,192.0.2.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,emma.jenkins@examplemail.biz,10.0.0.9,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Venus Starlight,bob.jones@example.com,10.0.0.5,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,mike.anderson@mytestmail.org,198.51.100.8,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Karnataka,User,Draven Nightshade,kevin.green@example.com,203.0.113.5,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,,192.168.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,sarah.wilson@example.com,198.51.100.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,California,User,Crimson Tempest,chris.martin@sampleco.co,10.0.0.7,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,,172.16.0.6,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Nova Frostbane,,203.0.113.6,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Texas,User,Zara Midnightshadow,john.doe@acme.com,10.0.0.2,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Nebula Stardust,,10.0.0.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,California,User,Orion Lightningstrike,alice.smith@example.com,192.0.2.2,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,kevin.green@example.com,203.0.113.6,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Luna Moonshadow,mark.miller@yourtestmail.biz,192.168.0.4,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Nova Frostbane,,198.51.100.8,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,olivia.perry@testinginbox.xyz,10.0.0.5,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Crimson Tempest,anna.hall@example.com,198.51.100.8,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,bob.jones@fakecorp.net,198.51.100.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Nova Frostbane,,203.0.113.3,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,,172.16.0.3,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,,10.0.0.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Astra Solarflare,,203.0.113.5,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,,192.168.0.6,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,jason.carter@tryoutmail.org,198.51.100.9,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Texas,User,Maximus Stormbringer,ryan.collins@fakemailbox.net,198.51.100.7,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Draven Nightshade,mark.miller@yourtestmail.biz,198.51.100.2,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,,198.51.100.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,,127.0.0.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Astra Solarflare,chris.martin@example.com,198.51.100.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Telangana,User,Crimson Tempest,chris.martin@sampleco.co,203.0.113.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Nebula Stardust,,203.0.113.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Zephyr Blaze,anna.hall@example.com,192.168.0.7,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Crimson Tempest,emma.jenkins@examplemail.biz,192.168.0.5,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,sarah.wilson@example.com,172.16.0.1,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,,198.51.100.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,,172.16.0.5,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Astra Solarflare,john.doe@example.com,192.0.2.3,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Karnataka,User,Celestia Thunderstorm,,10.0.0.8,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,chris.martin@sampleco.co,192.0.2.2,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,kevin.green@placeholderemail.co,192.168.0.2,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,,192.168.0.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Venus Starlight,,172.16.0.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Venus Starlight,,192.168.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,jason.carter@tryoutmail.org,192.168.0.4,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Nova Scotia,User,Orion Lightningstrike,sarah.wilson@testingmail.xyz,8.8.8.8,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,,172.16.0.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Draven Nightshade,,192.168.0.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Thunder Hammerstrike,,192.168.0.1,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,brian.hughes@samplemailing.co,198.51.100.1,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,,172.16.0.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,mark.miller@yourtestmail.biz,203.0.113.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Nova Frostbane,bob.jones@example.com,192.168.0.8,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,,192.168.0.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,,192.168.0.7,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,,192.0.2.4,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Draven Nightshade,jessica.clark@mockmailing.org,172.16.0.5,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,brian.hughes@samplemailing.co,192.168.0.2,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,anna.hall@custommail.io,192.0.2.1,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Draven Nightshade,,172.16.0.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,jason.carter@tryoutmail.org,192.168.0.5,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Xena Nebulosa,sarah.wilson@testingmail.xyz,192.0.2.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,,10.0.0.3,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Nebula Stardust,chris.martin@sampleco.co,192.168.0.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Nebula Stardust,,192.0.2.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Draven Nightshade,,192.0.2.9,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,anna.hall@example.com,10.0.0.3,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,emily.white@dummyemail.biz,198.51.100.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,ryan.collins@fakemailbox.net,192.0.2.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,,10.0.0.5,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,,192.0.2.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,alice.smith@example.com,172.16.0.7,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,sarah.wilson@testingmail.xyz,203.0.113.4,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,sarah.wilson@example.com,192.168.0.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,,198.51.100.7,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,,192.168.0.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Crimson Tempest,,192.0.2.2,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,,8.8.8.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,,172.16.0.6,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Crimson Tempest,mark.miller@yourtestmail.biz,10.0.0.3,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,New York,User,Xena Nebulosa,john.doe@example.com,10.0.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,emma.jenkins@examplemail.biz,203.0.113.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,emily.white@example.com,172.16.0.3,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Xena Nebulosa,mike.anderson@mytestmail.org,10.0.0.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Seraphina Dragonheart,,198.51.100.4,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,,203.0.113.1,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,,172.16.0.9,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,bob.jones@example.com,8.8.8.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,,192.168.0.3,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Zara Midnightshadow,chris.martin@example.com,203.0.113.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Astra Solarflare,emma.jenkins@examplemail.biz,192.168.0.3,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Astra Solarflare,,203.0.113.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,emily.white@example.com,172.16.0.6,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Blaze Thunderstrike,,172.16.0.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,,172.16.0.4,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Astra Solarflare,mark.miller@yourtestmail.biz,172.16.0.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,anna.hall@example.com,198.51.100.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Nova Frostbane,chris.martin@sampleco.co,192.0.2.9,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Ohio,User,Venus Starlight,,10.0.0.7,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,,192.168.0.8,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,,198.51.100.8,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,,192.0.2.7,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Xena Nebulosa,,192.168.0.6,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Venus Starlight,kevin.green@placeholderemail.co,192.168.0.2,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Michigan,User,Blaze Thunderstrike,john.doe@example.com,198.51.100.7,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,,198.51.100.5,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Crimson Tempest,chris.martin@sampleco.co,192.0.2.5,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Ohio,User,Xena Nebulosa,,192.0.2.7,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Crimson Tempest,lisa.brown@nonexistentmail.net,8.8.8.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Nova Scotia,User,Maximus Stormbringer,,198.51.100.9,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,,198.51.100.3,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,olivia.perry@testinginbox.xyz,198.51.100.6,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Zephyr Blaze,alice.smith@example.org,172.16.0.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,,8.8.8.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,olivia.perry@testinginbox.xyz,192.0.2.3,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,anna.hall@example.com,172.16.0.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,,172.16.0.6,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Nova Frostbane,,127.0.0.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,kevin.green@placeholderemail.co,203.0.113.5,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,,172.16.0.4,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,chris.martin@example.com,198.51.100.4,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,,203.0.113.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Draven Nightshade,,192.0.2.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,sarah.wilson@testingmail.xyz,172.16.0.4,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,,203.0.113.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Venus Starlight,anna.hall@custommail.io,10.0.0.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Venus Starlight,,203.0.113.5,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,,172.16.0.6,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Ignatius Inferno,anna.hall@custommail.io,172.16.0.3,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,New York,User,Draven Nightshade,olivia.perry@testinginbox.xyz,198.51.100.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,emily.white@example.com,192.0.2.8,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Illinois,User,Luna Moonshadow,,203.0.113.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,New York,User,Ragnarok Shadowblade,laura.moore@sandboxmail.co,192.168.0.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Celestia Thunderstorm,,203.0.113.1,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,bob.jones@fakecorp.net,198.51.100.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Seraphina Dragonheart,,172.16.0.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,New York,User,Seraphina Dragonheart,anna.hall@example.com,172.16.0.4,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,lisa.brown@example.com,10.0.0.6,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Nova Frostbane,lisa.brown@nonexistentmail.net,192.168.0.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,jessica.clark@mockmailing.org,198.51.100.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,bob.jones@fakecorp.net,8.8.8.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Phoenix Emberstorm,mark.miller@yourtestmail.biz,8.8.8.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,chris.martin@sampleco.co,10.0.0.6,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,alice.smith@example.org,172.16.0.6,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,chris.martin@example.com,127.0.0.1,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Ragnarok Shadowblade,,192.168.0.6,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Phoenix Emberstorm,,1.1.1.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Crimson Tempest,,198.51.100.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Nova Frostbane,,172.16.0.6,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Astra Solarflare,bob.jones@fakecorp.net,10.0.0.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Venus Starlight,jessica.clark@mockmailing.org,192.0.2.3,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Draven Nightshade,,198.51.100.6,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Ragnarok Shadowblade,bob.jones@example.com,192.168.0.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Venus Starlight,bob.jones@fakecorp.net,203.0.113.0,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,anna.hall@custommail.io,198.51.100.5,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Illinois,User,Draven Nightshade,anna.hall@example.com,10.0.0.9,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,bob.jones@example.com,198.51.100.7,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Nova Frostbane,melissa.kelly@dummyinbox.net,10.0.0.6,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,mark.miller@yourtestmail.biz,192.168.0.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Texas,User,Zephyr Blaze,melissa.kelly@dummyinbox.net,203.0.113.5,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,,10.0.0.4,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Valkyrie Firestorm,,10.0.0.3,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,emma.jenkins@examplemail.biz,192.0.2.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Crimson Tempest,,10.0.0.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,,192.168.0.6,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,,198.51.100.3,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,mike.anderson@mytestmail.org,192.0.2.4,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Xena Nebulosa,anna.hall@example.com,10.0.0.7,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Illinois,User,Draven Nightshade,mark.miller@yourtestmail.biz,192.168.0.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Texas,User,Valkyrie Firestorm,,192.0.2.4,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Thunder Hammerstrike,,10.0.0.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Illinois,User,Thunder Hammerstrike,sarah.wilson@testingmail.xyz,10.0.0.5,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Draven Nightshade,,192.0.2.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Texas,User,Thunder Hammerstrike,emily.white@example.com,192.168.1.1,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,john.doe@acme.com,192.0.2.1,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,,192.168.0.9,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,California,User,Zephyr Blaze,jason.carter@tryoutmail.org,192.168.0.1,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Draven Nightshade,alice.smith@example.org,192.0.2.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,,10.0.0.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,,203.0.113.4,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,,198.51.100.9,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,New York,User,Ragnarok Shadowblade,john.doe@example.com,203.0.113.8,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Phoenix Emberstorm,emily.white@example.com,198.51.100.4,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,mark.miller@yourtestmail.biz,127.0.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Crimson Tempest,jason.carter@tryoutmail.org,198.51.100.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,bob.jones@fakecorp.net,203.0.113.0,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Orion Lightningstrike,bob.jones@example.com,192.168.0.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,daniel.ward@virtualmail.io,198.51.100.4,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Xena Nebulosa,,192.168.0.4,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,,8.8.8.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,,192.0.2.7,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Illinois,User,Orion Lightningstrike,chris.martin@example.com,192.0.2.3,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Nebula Stardust,,203.0.113.4,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Astra Solarflare,,192.0.2.8,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Astra Solarflare,olivia.perry@testinginbox.xyz,198.51.100.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Orion Lightningstrike,,192.168.1.1,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Illinois,User,Seraphina Dragonheart,,203.0.113.3,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Xena Nebulosa,jessica.clark@mockmailing.org,192.0.2.9,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,New York,User,Celestia Thunderstorm,chris.martin@example.com,172.16.0.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Draven Nightshade,kevin.green@example.com,198.51.100.3,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Crimson Tempest,mark.miller@yourtestmail.biz,192.0.2.3,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Astra Solarflare,lisa.brown@example.com,10.0.0.1,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Celestia Thunderstorm,,192.168.0.9,,SUCCESS,,/security/logs/authentication
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,laura.moore@sandboxmail.co,198.51.100.2,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Nebula Stardust,,198.51.100.9,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Thunder Hammerstrike,mark.miller@yourtestmail.biz,10.0.0.9,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Draven Nightshade,,198.51.100.2,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Xena Nebulosa,,192.168.0.5,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Draven Nightshade,bob.jones@fakecorp.net,192.0.2.7,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,ryan.collins@fakemailbox.net,10.0.0.2,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,California,User,Luna Moonshadow,jason.carter@tryoutmail.org,203.0.113.2,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,,192.0.2.8,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Draven Nightshade,bob.jones@fakecorp.net,192.0.2.6,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Ohio,User,Nebula Stardust,chris.martin@sampleco.co,172.16.0.4,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Luna Moonshadow,kevin.green@placeholderemail.co,10.0.0.6,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Zara Midnightshadow,,172.16.0.6,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,,203.0.113.5,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,New York,User,Valkyrie Firestorm,emma.jenkins@examplemail.biz,198.51.100.4,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,,198.51.100.1,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Florida,User,Xena Nebulosa,brian.hughes@samplemailing.co,203.0.113.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Nebula Stardust,,203.0.113.3,,SUCCESS,,/oauth2/v1/introspect
+Okta,Okta,security,,Ohio,User,Ignatius Inferno,,192.168.0.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Blaze Thunderstrike,anna.hall@custommail.io,198.51.100.8,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Crimson Tempest,bob.jones@fakecorp.net,203.0.113.4,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Ohio,User,Zephyr Blaze,,192.0.2.7,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,Illinois,User,Crimson Tempest,chris.martin@sampleco.co,192.168.0.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Telangana,User,Ignatius Inferno,,10.0.0.4,,SUCCESS,,/security/logs/authorization
+Okta,Okta,security,,Ohio,User,Xena Nebulosa,,192.168.0.8,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Illinois,User,Maximus Stormbringer,,192.168.0.9,,SUCCESS,,/security/logs/intrusion-detection
+Okta,Okta,security,,Maharashtra,User,Draven Nightshade,emily.white@dummyemail.biz,192.168.0.2,,SUCCESS,,/oauth2/v1/authorize
+Okta,Okta,security,,New York,User,Xena Nebulosa,john.doe@acme.com,192.168.0.8,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Ohio,User,Orion Lightningstrike,,8.8.8.8,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Illinois,User,Astra Solarflare,anna.hall@custommail.io,10.0.0.4,,SUCCESS,,/audit/logs/system
+Okta,Okta,security,,Ohio,User,Maximus Stormbringer,jason.carter@tryoutmail.org,203.0.113.7,,SUCCESS,,/audit/logs/access
+Okta,Okta,security,,Michigan,User,Luna Moonshadow,bob.jones@example.com,198.51.100.7,,SUCCESS,,/audit/logs/network
+Okta,Okta,security,,Ohio,User,Valkyrie Firestorm,emily.white@example.com,192.0.2.5,,SUCCESS,,/security/logs/authentication-failures
+Okta,Okta,security,,Ohio,User,Ragnarok Shadowblade,,10.0.0.7,,SUCCESS,,/oauth2/v1/token
+Okta,Okta,security,,New York,User,Nova Frostbane,alice.smith@example.org,203.0.113.8,,SUCCESS,,/security/logs/authorization

@@ -1,0 +1,10 @@
+{
+  "label": "{name}",
+  "plots": [
+    {
+      "filter": "{filter}",
+      "label": "{name}",
+      "facet": "sumPerSecond({field.0.int})"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+// Disables system and process metrics
+// To re-enable, set to true or simply comment the lines out (default agent configuration is both are enabled)
+// Details are documented in the source code at https://github.com/scalyr/doc/blob/820485ad4768614456b36488d97c13a340f0462b/content/en/docs/agent/_index.md
+
+{
+  implicit_metric_monitor: false,
+  implicit_agent_process_metrics_monitor: false
+}

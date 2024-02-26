@@ -1,0 +1,5 @@
+{
+  "graphStyle": "number",
+  "query": "{filter} | group Count=estimate_distinct({field.0.string})",
+  "title": "Distict {name}"
+}

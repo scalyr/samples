@@ -1,0 +1,41 @@
+the purpose of these queries is detect various scenarios for issues with telemetry reporting from S1 agents based on what telemetry is available in SDL
+
+______________________
+Use case 1:
+create an alert in case an Endpoint continues sending events of any type but 1 or 2?
+Scenario: host A keeps sending full telemetry to SDL but for some reason it lacks the "Process Creation" and/or "File Creation" events, and the admin wants to be warned when it happens
+The use case will be the following: when the Agent is being bypassed at kernel level, we noticed that ETW events are missing, but other telemetry continues to be sent to SDL; if we could create an alert matching this scenario, our customers would be able to identify bypassing attempts easier and faster
+19 replies
+
+
+QUERY 1A: Alert when telemetry exists but process and file creations have stopped
+
+count:5m(event.type = *) > 0 && count:5m(event.type in ('Process Creation' , 'File Creation' ) = 0
+
+This is an alert, which will look for all event.types, count if there are more than 1 events in the lat 5 minutes (if the endpoint has reported anything at all) and then looks for the number 
+of process creations and file creation events to be zero. this alert should be grouped by endpoint.name or uuid. 
+
+QUERY 1B:
+if you want to do something similar with powerquery, and you specifically want to detect if all other event types are being reported except process and file creations. (previous query would eval 
+as true if ANY event types were reported, this one looks for all/most to be reported by counting unique event types)
+
+| join
+a= (dataSource.name='SentinelOne' event.type=* !(event.type in ('Process Creation' , 'File Creation' ))| group Event_Type_Count = estimate_distinct(event.type) by endpoint.name ),
+b=(| group Proc_and_File_Count=count(event.type in ('Process Creation' , 'File Creation' )) by endpoint.name )
+on endpoint.name
+| filter Proc_and_File_Count = 0
+
+Query 1C:
+syntehsis of the best of A and B. simplified with the alerting flow to detect counts which is great. and looks for distinct count of event types to be 30, which would be most/all event types reporting 
+other than process and file creations
+
+count:5m(estimate_distinct(event.type)) > 30 && count:5m(event.type in ('Process Creation' , 'File Creation' ) = 0
+
+
+
+______________
+Use Case 2: detect endpoints that have historically reported endpoint data but have not reported anything in the last XXX time frame (detects possible telemetry streaming issues
+In this case I did "agent has reported data in last 60 minutes, but not in last 5". a more reaslistic alert might be "has reported data in last 7 days but not last 24 hours"
+
+Query 2a:
+count:60m(dataSource.name='SentinelOne' event.type = *) > 0 && count:5m(dataSource.name='SentinelOne' event.type = *) = 0

@@ -1,0 +1,32 @@
+////the goal of this query is to find hosts that have high DNS connection rates, which can be an indication of C2 beaconing, and have ALSO contacted many internal hosts, suggesting possible netowrk reconnaissance
+
+///line by line breakdown
+///line 1: uses the join statement to list multiple queries (named a and b) which will be joined into a combined table based on the shared column of src.ip.address
+///line 2: starts the query named "a" which will return one of the child tables to be joined together
+///line 3: filters to network connection events from S1 EDR telemetry
+///line 4: filters to only those events where the destination IP is private (RFC1918)
+///line 5: groups based on src.ip.address and creates a new variable Internal_Network_Conn_Count which tracks the number of internal network connections a given src.ip.address has made in XXX timeframe
+///line 6: ends the query statment for child table "a"
+///line 7-9: comma separates query a and b
+///line 10: starts query to populate child table b to be joined with a
+///line 11: filters to Palo Alto Firewall logs where the app name containts dns (ex: dns-base, dns-over-https, etc)
+///line 12: groups these logs based on src.ip.address, and creates a new variable tracking the number of DNS sessions for that host (DNS_Session_Count)
+//line 13: ends the b query
+///line 15: joins a and b based on the src.ip.address field
+
+
+| join
+
+a = (
+dataSource.name='SentinelOne' event.type = 'IP Connect'
+| filter net_private(dst.ip.address)
+| group Internal_Network_Conn_Count=count() by src.ip.address
+)
+,
+
+b=
+(dataSource.vendor = 'Palo Alto Networks' app_name contains 'dns'
+| group DNS_Session_Count=count() by src.ip.address 
+)
+
+on src.ip.address 

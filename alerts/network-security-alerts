@@ -1,0 +1,34 @@
+{
+  // Address to which alert e-mails are sent.
+  alertAddress: "",
+  alerts: [
+    {
+      description: "Network-Security: Scanning",
+      evaluationFrequencyMinutes: 5,
+      gracePeriodMinutes: 0,
+      note: "when using this alert, replace 10.0.0.1 with a list or range of public IPs you own so that it can capture those in addition to the private IPs",
+      renotifyPeriodMinutes: 60,
+      resolutionDelayMinutes: 0,
+      trigger: "1 hours(dataSource.vendor in ('SentinelOne' , 'Sophos' ) src.ip.address = * (net_private(dst.ip.address) or dst.ip.address in ( \"10.0.0.1\", \"10.0.0.2\")) | group total = count() by src.ip.address | filter total > 50)",
+      type: "GROUPED"
+    },
+    {
+      description: "Network-Security: Traffic Spikes",
+      gracePeriodMinutes: 0,
+      renotifyPeriodMinutes: 60,
+      resolutionDelayMinutes: 0,
+      trigger: "5 minutes(dataSource.vendor in ('SentinelOne' , 'Sophos' ) src.ip.address = * src.ip.address = * | group total = count() by src.ip.address | filter total > 3500)",
+      type: "GROUPED"
+    },
+    {
+      description: "Network-Security: Risky Application Usage",
+      evaluationFrequencyMinutes: 15,
+      gracePeriodMinutes: 0,
+      note: "usage of applications with a risk score of 4 or 5 from sophos",
+      renotifyPeriodMinutes: 60,
+      resolutionDelayMinutes: 0,
+      trigger: "1 days(dataSource.vendor ='Sophos' app_risk >=4 app_name = * | group total = count() by app_name | filter total > 0)",
+      type: "GROUPED"
+    }
+  ]
+}

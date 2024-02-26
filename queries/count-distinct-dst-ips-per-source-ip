@@ -1,0 +1,27 @@
+///goal here is to be able to take X amount of logs that have source and destination IPs (for example firewall logs)  and be able to detect scanning by a host. This would be done by taking each source IP and creating a grouping on it. 
+/// then we use the estimate_distinct() command to have the system figure out how many distinct dst IPs their are for each src ip grouping
+
+
+dataSource.vendor in ('SentinelOne' , 'Sophos' ) src.ip.address = *
+| group estimate_distinct(dst.ip.address) by src.ip.address
+
+
+  // now to turn this into a functioning result in your environment, you're probably going to want to do two things:
+// one is that your're going to want to scope this to your IP ranges. I don't think you really care if a user machine is connecting to a lot of IPs on the internet, but you do care if someone is scanning your private IPs or public IPs you own
+
+  | filter ((net_private(dst.ip.address)) or (dst.ip.address in ('value 1', 'value 2')))
+
+  // where net_private is a dataset function to check if the dst.ip.address field IP is a private IP, and value 1 and value 2 are an array of public IPs owned by you
+
+  // run all of this as a power query and sort it to see who the top talkers are for X time period. I used an hour
+
+dataSource.vendor in ('SentinelOne' , 'Sophos' ) src.ip.address = *
+ | filter ((net_private(dst.ip.address)) or (dst.ip.address in ('value 1', 'value 2')))
+| group Count=count() by src.ip.address
+| filter Count >= 200
+| sort -Count
+
+
+// say the top value is 1000. ok, so the most conversant src ip in the enviroment does ~1000 dst ips in a hour. i suggest then looking for anyone who talks to that many internal hosts in a few minutes, and then adjust up/down from there until the
+  //value is just above where you start getting false positives
+  // then recommend turning it into an alert based on that threshold

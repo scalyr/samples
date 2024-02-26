@@ -1,0 +1,17 @@
+This was provided by the S1 SOC:
+
+
+{
+		type: "powerquery",
+		executionIntervalMinutes: "60.0",
+		logAttributes: {
+		  pqAlert: "zscaler_impossible_1hr"
+		},
+		queries: [
+		  {
+			query: "serverHost = 'zscaler' InternalReason = 'OPEN_OR_ACTIVE_CONNECTION' Username != 'ZPA LSS Client' |group timestamp=newest(timestamp), firstCountry = newest(ClientCountryCode),  secondCountry = oldest(ClientCountryCode), firstIp = newest(ClientPublicIP), secondIp = oldest(ClientPublicIP) by Username | filter firstCountry != secondCountry firstIp != secondIp",
+			startTime: "65 minutes",
+			endTime: "5 minutes"
+		  }
+		]
+	  }

@@ -1,0 +1,42 @@
+{
+  parameters: [
+    { name: "Specified Environment", values: ["Production", "Staging", "Performance"],defaultValue: "Production" },
+    { name: "Specified Tag", values: [{ label: "All", value: "*" },{ label: "Log Volumes", value:"'logVolume'"},{ label: "Sample", value:"'sample'"},{ label: "Ingestion Success", value:"'ingestionSuccess'"}],defaultValue: "*" },
+    { name: "Specified Host", defaultValue: "" },
+    { "name": "Success",        options: {display: "hidden"},  values: [ { label: "placeholder" , value: "status >= 200 status <= 299" } ] } 
+  ],
+
+  graphs: [
+    {
+      graphStyle: "",
+      query: "serverHost contains '#Specified Host#'  tag=#Specified Tag#\n| columns serverHost, tag\n| group count=count() by serverHost, tag\n| sort -count\n| limit 20",
+      showBarsColumn: "false",
+      title: "Count by serverHost / Tag",
+      layout: {
+  h: 14,
+  w: 33,
+  x: 0,
+  y: 0
+}
+    },
+    {
+      graphStyle: "",
+      layout: {
+  h: 14,
+  w: 26,
+  x: 33,
+  y: 0
+},
+      query: "serverHost=*  tag=*\n| columns serverHost, tag\n| group count=count() by serverHost, tag\n| sort -count\n| limit 20",
+      showBarsColumn: "false",
+      title: "Count by serverHost / Tag"
+    }
+  ],
+  filters: [
+    {
+      facet: "tag",
+      name: "Dynamic Field - Tag  (applies to all)"
+    }
+  ],
+  description: "This dashboard provides examples of how to use explicitly specified parameters in a dashboard as well as dynamic field values as parameters.    Dynamic applies to all charts and graphs while explicit ones can be individually applied as needed."
+}

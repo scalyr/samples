@@ -1,0 +1,507 @@
+EXAMPLE OF EXPRESSIONS
+Let's give a closer look to some interesting expressions using the Search.
+Use Case : 		Detect if anyone allows SMB and RDP on MS Defender Firewall
+Data Source : 		EDR
+Search the last… : 	24 Hours
+Query:
+(((tgt.process.name = 'netsh.exe') AND (tgt.process.cmdline contains 'remote desktop') AND (tgt.process.cmdline contains 'enable=Yes')) OR ((tgt.process.name = 'netsh.exe') AND (tgt.process.cmdline contains 'file and printer sharing') AND (tgt.process.cmdline contains 'enable=Yes')))
+
+Use Case : 		Detect signs of Kaseya Ransomware
+Data Source : 		EDR
+Search the last… : 	24 Hours
+Query:
+((event.type in:anycase ('Process Creation')) AND (src.process.name contains:anycase 'cmd.exe') AND (tgt.process.name contains:anycase 'ping.exe') AND (src.process.cmdline matches '/c ping 127.0.0.1 -n \\d+ > nul \\&.*MpPreference'))
+
+Use Case : 		Detect suspicious PrintNightmare Exploitation Attempts
+Data Source : 		EDR
+Search the last… : 	24 Hours
+Query:
+((event.type in:anycase ('File Rename', 'File Creation')) AND (tgt.file.path contains:anycase 'spool\\drivers\\x64') AND (tgt.file.path contains:anycase 'Old') AND (tgt.file.path contains:anycase 'dll') AND (!(tgt.file.isSigned in:anycase ('signed'))) AND (endpoint.type in:anycase ('Server')))
+
+Use Case :		Performs File Integrity Monitoring on External Devices
+Data Source : 		EDR
+Search the last… : 	48 Hours
+Query:
+(tgt.file.location in:anycase ('External Device')) AND (event.type in:anycase ('File Modification'))
+
+Use Case :		Hunt for Threat Intel File Hash
+Data Source : 		EDR
+Search the last… : 	14 Days
+Query:
+(tgt.file.sha1 = '<replace with the sha1 file hash>')
+
+Use Case :		Detect Powershell with Public Destination IP Address (Regex Version)
+Data Source : 		EDR
+Search the last… : 	14 Days
+Query:
+((dst.ip.address matches '^([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(?<!172\\.(16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31))(?<!127)(?<!^10)(?<!^0)\\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(?<!192\\.168)(?<!172\\.(16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31))\\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$') AND (src.process.name contains:anycase 'powershell'))
+
+Use Case :		Outlook opened URLs
+Data Source : 		EDR
+Search the last… : 	48 hours
+Query:
+((src.process.parent.name contains:anycase 'Outlook') AND (event.category in:anycase ('dns', 'ip', 'url')))
+
+Use Case :		Powershell interacting with interesting system executables
+Data Source : 		EDR
+Search the last… : 	7 days
+Query:
+src.process.name = "powershell.exe" and tgt.process.cmdline in:anycase  ("arp.exe","hostname.exe","ntdutil.exe","schtasks.exe","at.exe","ipconfig.exe","pathping.exe","systeminfo.exe","bitsadmin.exe","nbtstat.exe","ping.exe","tasklist.exe","certutil.exe","net.exe","powershell.exe","tracert.exe","cmd.exe","netl.exe","aprocess.exe","ver.exe","dsget.exe","netdom.exe","query.exe","vssadmin.exe","dsquery.exe","netsh.exe","qwinsta.exe","wevtutil.exe","find.exe","netstat.exe","reg.exe","whoami.exe","findstr.exe","nltest.exe","rundll32.exe","wmic.exe","fsutil.exe","nslookup.exe","sc.exe","wusa.exe")
+
+Use Case :		Detect suspicious MITRE behaviors 
+			(this should be used to investigate suspicious combinations of behaviors, potentially 
+			indicating new attack techniques)
+Data Source : 		EDR
+Search the last… : 	48 hours
+Query:
+indicator.category = 'Exploitation' 
+
+Use Case:		Detect gaming activity on the network
+Data Source:		EDR
+Search the last…: 	48 hours
+Query:
+src.process.publisher in ('VALVE','EPIC GAMES INC','RIOT GAMES, INC.','GAMEHOUSE EUROPE B.V.', 'WILDTANGENT INC')
+
+
+
+  SOME INTERESTING SECURITY USE CASES
+The best way to get acquainted with PQ is to start practicing the language with some security use cases in mind, considering:
+the data sources you have available in your SDL
+the threat hunting hypotheses you are making
+the questions you need to answer to validate your hypotheses or investigation
+NOTABENE: unless otherwise stated, the datasource used is SentinelOne agents.
+ASSETS
+Use Case:
+Distribution of OS across the monitored endpoints, assigning readable names to output columns
+PQ:
+endpoint.name = * 
+| group "Number of EndPoints"=count() by "Operating System"=endpoint.os, "Endpoint Type"=endpoint.type 
+
+Use Case:
+Leverage the function let to assign a criticality to thresholds.
+PQ:
+agent.version in ('22.3.2.5' ,'23.2.3.358')
+|columns timestamp, account.id, agent.uuid
+|group agent_number = count() by agent.uuid
+|let Criticality = agent_number>1000?"High":"Low" // Be aware of reserved words (e.g. Severity)
+| group count() by Criticality 
+
+
+PROCESSES
+Use Case:
+Query to find a specific command which can be useful for a hacker. 
+PQ:
+src.process.cmdline in ("whoami", "id", "passwd", "group") or src.process.cmdline contains 'Get-ComputerInfo'
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.cmdline, event.type, event.time, indicator.name, indicator.description
+| sort -event.time
+
+Use Case:
+Find which process has launched a specific command line that can destroy your system or steal some precious information.
+PQ:
+tgt.process.cmdline contains ("rm -rf /etc/") or tgt.process.cmdline contains ("cat /etc/passwd")
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.cmdline, event.type, event.time, indicator.name, indicator.description
+| sort -event.time
+
+Use Case:
+Process injection with parent process history including Winword.exe and cmd.exe.
+PQ:
+indicator.description contains ("injection") and src.process.name != "WINWORD.EXE" and src.process.parent.name in ("winword.exe","cmd.exe")
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.cmdline, event.type, event.time, indicator.name, indicator.description
+| sort -event.time 
+
+Use Case:
+Focus on Hafnium suspicious processes spawn.
+PQ:
+event.type = "Process Creation" and (src.process.name in ("umworkerprocess.exe", "umservice.exe") or (src.process.name in ("w3wp.exe") and src.process.cmdline contains "MSExchange")) and tgt.file.path in ("system32") and not tgt.process.name in ("wermgr.exe", "werfault.exe")
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.cmdline, event.type, event.time, indicator.name, indicator.description
+| sort -event.time
+
+
+Use Case:
+Find any abnormal parent process for svchost.exe, rundll32.exe, explorer.exe, userinit.exe, winlogon.exe.
+PQ:
+src.process.name = "explorer.exe" and ! src.process.parent.name in ("userinit.exe","winlogon.exe","explorer.exe","svchost.exe", "rundll32.exe")
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.name, src.process.parent.cmdline, event.type, event.time, indicator.name, indicator.description
+| sort -event.time
+
+Use Case:
+Detect the process creation of the poisoned Microsoft Office Installer « AsyncRAT »
+PQ:
+endpoint.os = "windows" and event.type = "Process Creation" and (tgt.process.name contains "powershell" or tgt.process.cmdline contains "POWERSHELL") and tgt.process.cmdline contains "HIDDEN -EXEC BYPASS" and tgt.process.cmdline matches "\.jpg|\.png"
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.cmdline, event.type, event.time, indicator.name, indicator.description
+| sort -event.time
+
+Use Case:
+Detect usage of Linux Subsystem for Windows.
+PQ:
+src.process.user contains "NT VIRTUAL MACHINE"
+| columns endpoint.name, event.type, event.time
+| sort endpoint.name
+
+Use Case:
+Identify processes that may be generating a lot of module loads and using lots of bandwidth.
+PQ:
+event.type = "Module Load"
+|group count = count() by src.process.name, endpoint.name
+|limit 25
+|sort -count
+Use Case:
+Show Process by Endpoint, with how many unique indicators that process has triggered, and how many individual behavioral indicator alerts have been triggered by that process. Useful for identifying noisy problems.
+PQ:
+| group UniqueIndicators = estimate_distinct(indicator.name), IndicatorTotal = count(indicator.name), array_agg_distinct(indicator.name) by endpoint.name, src.process.name
+| sort -UniqueIndicators
+
+COMMAND LINE
+Use Case:
+Detect the “Living off the Land attack” attackers that use regsvr32. 
+Attackers can use regsvr32 to load code from URLs in an attack known as Squiblydoo
+PQ:
+tgt.process.name contains "regsvr32.exe" and tgt.process.cmdline contains "/s /u /n /i:http" and tgt.process.cmdline contains "scrobj" and event.type = "Process Creation"
+| columns endpoint.name, src.process.cmdline, src.process.name, tgt.process.cmdline, event.type, event.time
+| sort -event.time
+
+Use Case:
+Find every command line that worked on a computer using bdechangepin.exe, which is the executable used to change the BitLocker pin.
+PQ:
+cmdScript.isComplete = true and cmdScript.content contains ("bdechangepin")
+| columns endpoint.name, endpoint.os, src.process.cmdline, cmdScript.content, src.process.name, event.type, event.time
+| sort -event.time
+
+Use Case:
+Detect the “Living off the Land attack” attackers that use rundll32.
+As a type of Living off the Land attack, attackers can use shell32 (through rundll32) to execute dll payloads.
+PQ:
+event.type = "Process Creation" and src.process.name in ("rundll32.exe") and src.process.cmdline contains "shell32.dll" and (tgt.process.name in ("cmd.exe") and tgt.process.cmdline contains " /c ") and ! (src.process.parent.name = "msiexec.exe" or src.process.cmdline contains "RunAsNewUser_RunDLL Local" or src.process.cmdline matches "Control_RunDLL.*\.cpl" or src.process.cmdline contains ("InetCpl.cpl,ClearMyTracksByProcess") or src.process.cmdline contains ":\autorun.bat" or src.process.cmdline "OpenAs_RunDLL") 
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.name, tgt.process.name, tgt.process.cmdline, event.type, event.time, indicator.category, indicator.name, indicator.description
+| sort -event.time
+
+Use Case:
+Detect commands using ADS (Alternate Data System).
+PQ:
+src.process.cmdline matches ("\w+\.\w+:\w+\.\w+")
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.name, event.type, event.time, indicator.category, indicator.name, indicator.description
+| sort -event.time
+
+
+Use Case:
+Detect the Auth-Token exploit in MS Teams.
+PQ - Windows version:
+endpoint.os = "windows" and tgt.file.path matches ("c:\\users\\.+\\microsoft\\appdata\\teams\\(cookies|(local storage\\leveldb))") and ! (src.process.name = "Teams.exe" and src.process.signedStatus = "signed" and src.process.publisher = "MICROSOFT CORPORATION")
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.name, event.type, event.time, indicator.category, indicator.name, indicator.description
+| sort -event.time
+PQ - MacOS version:
+endpoint.os = "osx" and tgt.file.path in ("/Library/Application Support/Microsoft/Teams/Cookies/","/Library/Application Support/Microsoft/ Teams/Local Storage/leveldb") and src.process.image.path != "/Applications/Microsoft Teams.app/Contents/MacOS/Teams" 
+| columns endpoint.name, src.process .cmdline, src.process.name, src.process.parent.name, event.type, event.time, indicator.category, indicator.name, indicator.description
+| sort -event.time
+PQ - Linux version:
+endpoint.os = "linux" and tgt.file.path in ("/.config/Microsoft/Microsoft Teams/Cookies/","/.config/Microsoft/Microsoft Teams/Local Storage/leveldb") and ! src.process.name contains "teams"
+| columns endpoint.name, src.process.cmdline, src.process.name, src.process.parent.name, event.type, event.time, indicator.category, indicator.name, indicator.description
+| sort -event.time
+
+TASK SCHEDULER
+Use Case:
+Find automated scheduled tasks on a specific endpoint.
+PQ:
+endpoint.name = "<paste the endpoint name here>" and task.name=*
+| columns endpoint.name, task.name, task.path, event.type, event.time,	
+| sort -event.time
+
+
+BEHAVIORAL INDICATORS
+Use Case:
+Query behavioral indicators to find PowerSploit usage.
+PQ:
+endpoint.name = * and indicator.name = "PowerSploit" 
+| columns endpoint.name, task.name, task.path, event.type, event.time,	
+| sort -event.time
+
+Use Case:
+Query behavioral indicators to find specific techniques from MITRE.
+PQ:
+indicator.category = "InfoStealer" and indicator.description contains ("Credential Access", "T1555.003")
+| columns event.time, endpoint.name, indicator.category, indicator.description 
+
+Use Case:
+Endpoints with the highest number of Behavioral Indicators.
+PQ:
+indicator.category = *
+| let Tactic = indicator.category, Technique = indicator.name
+| group indicator.count=count() by endpoint.name, Technique, Tactic
+| filter indicator.count > 2500
+| limit 50
+| sort -indicator.count
+
+
+ARTEFACTS
+Use Case:
+Query for specific malware on every monitored endpoint.
+PQ:
+tgt.file.path in ("Dharma.exe","MrsMajor.exe", "PolyRansomware.exe", "Pikachu.exe")
+| columns endpoint.name, tgt.file.path, src.process.name, src.process.cmdline, event.time
+| sort -event.time
+
+Use Case:
+Query to find every executable file that is in a list of indicators.
+PQ:
+tgt.file.isExecutable = true and indicator.category in ("Malware", "Injection", "InfoStealer", "Exploitation", "Ransomware")
+| columns endpoint.name, tgt.file.path, tgt.file.internalName, indicator.category, indicator.name, indicator.description
+
+Use Case:
+Discover data being written to external drives.
+PQ:
+event.type = "File Creation" AND tgt.file.location = "External Device" AND tgt.file.size > 0
+|group FilesTransferred = count(event.type), sum(tgt.file.size) by endpoint.name, src.process.user, endpoint.os
+|sort -FilesTransferred
+
+REGISTRY
+Use Case:
+Detect every registry key created by cmd.exe executed by winword.exe
+PQ:
+src.process.name in ("cmd.exe") and src.process.parent.name in ("winword.exe") and (event.type = "Registry Value Create" or event.type = "Registry Value Modified" or event.type = "Registry Key Create")
+| columns endpoint.name, src.process.cmdline, src.process.parent.name, src.process.name, event.type, event.time
+| sort -event.time
+
+Use Case:
+Query to detect the installation of a callout DLL via CalloutDLL and CalloutEnabled parameter in Registry.
+PQ:
+registry.keyPath contains "Services\DHCPServer\Parameters\Callout"
+| columns endpoint.name, registry.keyPath, registry.oldValue, registry.valueType, src.process.cmdline, event.time, indicator.category, indicator.name, indicator.description
+| sort -event.time
+
+Use Case:
+Detect a registry entry pointing to an autostart execution (MITRE T1547.001)
+PQ:
+endpoint.os = "windows" and event.type = "Registry Value Create" and registry.keyPath contains "Windows\CurrentVersion\Run" and registry.value = *
+| columns endpoint.name, registry.keyPath, registry.value, src.process.cmdline, src.process.parent.name, src.process.name, event.type, event.time
+| sort -event.time
+
+
+NETWORK
+Use Case:
+Detect a potential exploitation of mouseover event from MS Powerpoint 2022_09.
+PQ:
+endpoint.os = "windows" and url.address in ("9b5uja.am.files.1drv.com","kdmzlw.am.files.1drv.com")
+| columns endpoint .name, endpoint.os, url.address, event.url.action, event.type, event.category, event.time
+| sort -event.time
+
+Use Case:
+Detect traffic towards a specific port range.
+PQ:
+dst.port.number >= "3000" and dst.port.number <= "4000"
+| columns endpoint.name, endpoint.os, dst.port.number, src.ip.address, dst.ip.address, event.type, event.category, event.time
+| sort -dst.port.number
+
+Use Case:
+PrintSvr Escalation Exploit - Using command transpose to see a matrix of endpoints and storylines.
+PQ:
+src.process.parent.name = "spoolsv.exe" not (src.process.name = "rundll32.exe") src.process.cmdline contains "rundll32.exe" not (tgt.process.name = "WerFault.exe")
+| columns endpoint.name, event.time, src.process.storyline.id 
+| group count(event.time) by endpoint.name, src.process.storyline.id
+| transpose endpoint.name
+
+Use Case:
+Powershell I - Query for Outbound communications, grouped by hostname and process that initiated communication.
+PQ:
+src.process.name matches "powershell"
+dst.ip.address = *
+| let rfc1918 = not ($dst.ip.address matches "((127\\..*)|(192\\.168\..*)|(10\\..*)|(172\\.1[6-9]\\..*)|(172\\.2[0-9]\\..*)|(172\\.3[0-1]\\..*)).*")
+| filter rfc1918 = true
+| group hits = count(src.process.name), IPs = array_agg_distinct(dst.ip.address) by endpoint.name, src.process.name, src.process.storyline.id
+| sort -hits
+
+
+Use Case:
+Powershell II - Query for Outbound communications, grouped and sorted by IP with count across the environment.
+PQ:
+src.process.name matches "powershell"
+dst.ip.address = *
+| let rfc1918 = not ($dst.ip.address matches "((127\\..*)|(192\\.168\..*)|(10\\..*)|(172\\.1[6-9]\\..*)|(172\\.2[0-9]\\..*)|(172\\.3[0-1]\\..*)).*")
+| filter rfc1918 = true
+| group hits = count(src.process.name), endpoints = array_agg_distinct(endpoint.name) by dst.ip.address
+| sort -endpoints
+
+Use Case:
+Powershell III - Query for Outbound communications from Powershell, leveraging JOIN to bring in the cmdline.
+PQ:
+| join
+netsearch=(src.process.name matches "powershell" dst.ip.address = *
+| let rfc1918 = not ($dst.ip.address matches "((127\\..*)|(192\\.168\..*)|(10\\..*)|(172\\.1[6-9]\\..*)|(172\\.2[0-9]\\..*)|(172\\.3[0-1]\\..*)).*")
+| filter rfc1918 = true
+| group hits = count(src.process.name), IPs = array_agg_distinct(dst.ip.address) by endpoint.name, src.process.name, src.process.storyline.id),
+procsearch=(src.process.name matches "powershell" src.process.cmdline = *
+| columns src.process.cmdline, src.process.storyline.id)
+on src.process.storyline.id
+
+Use Case with Datasource Imperva WAF:
+Detect the cardinality of visitors.
+PQ:
+dataSource.name = 'Imperva WAF' 
+| group hits=count(dproc) by dproc 
+| sort -hits
+
+Use Case with Datasource Imperva WAF:
+Detect the cardinality of visitors over time, leveraging the command transpose.
+PQ:
+dataSource.name = 'Imperva WAF' 
+| group requests = count() by dproc, timestamp = timebucket("1 hour")
+| transpose dproc
+
+
+
+Use Case with a firewall ( e.g. Fortinet) data source:
+Shows outgoing traffic in GB, split by destination IP address.
+PQ:
+dataSource.vendor='Fortinet' network_traffic.bytes_out=* dst.ip.address=*
+| filter ! net_private(dst.ip.address)
+| columns dst.ip.address, network_traffic.bytes_out
+| group  Outgoing_Traffic_in_GB=format("%d",(sum(number(network_traffic.bytes_out))/1024/1024)) by dst.ip.address
+| sort -Outgoing_Traffic_in_GB 
+
+Use Case with ZScaler data source:
+For a given time interval, find the first connection of all users outside Italy and all the Public IP that the user connected from over time.
+PQ:
+dataSource.name contains 'ZScalerPA' ClientCountryCode=* Username=* ClientCountryCode != 'IT' 
+| group Total= count(), first_connection = min(timestamp),  dcCliPIP=estimate_distinct(ClientPublicIP), IP_User=array_agg_distinct(ClientPublicIP) by Username, ClientCountryCode
+| sort Username
+| columns Username, first_connection.timestamp=first_connection, ClientCountryCode, IP_User
+
+Use Case:
+Given one or more phishing site, the query shows if and which user(s) interacted with the site and with which process.
+PQ:
+| join 
+  ( event.category = "dns"  | filter  event.dns.request contains ("fqdn1.phishing.site", "fqdn2.phishing.site") | columns  event.dns.response, event.dns.request  ), 
+  (event.category = "ip" | columns dst.ip.address, src.process.name,dst.port.number, src.process.user, endpoint.name) 
+    on event.dns.response = dst.ip.address
+| columns event.dns.request, event.dns.response, dst.port.number,  src.process.name, src.process.user, endpoint.name
+
+
+Use Case with data source ZScaler:
+Impossible travel by velocity.
+PQ:
+dataSource.name = 'ZScalerPA' Username = * ClientPublicIP = * 
+| group first_ip = oldest(ClientPublicIP), last_ip = newest(ClientPublicIP) by Username 
+| let first_location = geo_ip_location(first_ip), last_location = geo_ip_location(last_ip) 
+| filter first_location != last_location 
+| let kilometers = geo_distance(first_location, last_location) 
+| let hours=(queryend() - querystart())/1000000000/60/60 
+| let kmh=kilometers/hours 
+| sort -kmh 
+| filter kmh > 250 
+
+NOTABENE: The example above is flawed; nonetheless, I've left it included to highlight the difference between the function querystart/queryend and the function first.timestamp/last.timestamp
+
+dataSource.name = 'ZScaler ZPA LLS' Username = * ClientPublicIP = * Username != "ZPA LSS Client" 
+| group first_ip=oldest(ClientPublicIP), last_ip=newest(ClientPublicIP), first.timestamp=min(timestamp), last.timestamp=max(timestamp) by timebucket('30m'), Username
+| filter first_ip != last_ip
+| let first_city=geo_ip_city(first_ip), first_country=geo_ip_country(first_ip), last_city=geo_ip_city(last_ip), last_country=geo_ip_country(last_ip)
+| filter not (isempty(first_city) || isempty(first_country) || isempty(last_city) || isempty(last_country))
+| let kilometers = geo_distance(geo_ip_location(first_ip), geo_ip_location(last_ip))
+| let speed=kilometers / ((last.timestamp - first.timestamp)/1000000000/60/60)
+| filter speed > 250
+| columns Username, first_ip, first.timestamp,  last_ip, last.timestamp, kilometers, speed, first_city, first_country, last_city, last_country
+
+This last query is the correct one to determine an impossible traveler by speed use case, detected for time buckets of 30 minutes.
+You can apply it for longer periods of time and it will expose the time buckets where users are traveling at a speed higher than 250, filtering situations where the country or city fields are empty.
+
+VARIOUS
+Use Case - to be performed on the All Data data model:
+Calculate EPS (Events Per Second) on the ingested data sources.
+PQ:
+tag='logVolume' metric='logEvents' dataSource.name = * 
+|group EPS = sum(value)/3600 by source = dataSource.name
+|sort -EPS
+|limit 50
+
+Use Case - to be performed on the All Data data model:
+Calculate GB per day on the ingested data sources.
+PQ:
+tag='logVolume' metric='logEvents' dataSource.name = * 
+|group GB = sum(value)/1024/1024/1024 by source = dataSource.name 
+|sort -GB
+|limit 10
+
+Use Case with ZScaler data source:
+Total unique users per day on a multiple day interval.
+PQ:
+dataSource.name = 'ZScalerPA'  |  group Users=estimate_distinct(Username) by  timestamp = timebucket("1 day")
+| columns "Day"=strftime(timestamp, "%d %b"), "Total Unique Users"=Users 
+
+Use Case with ZScaler data source:
+Total unique users in a specific day.
+PQ:
+dataSource.name = 'ZScalerPA'  
+| group TotalUniqueUsers=estimate_distinct(Username) by Day=timebucket(timestamp,'1 day') 
+| let DayHumanReadable = strftime(Day, "%b %d")
+| columns DayHumanReadable, TotalUniqueUsers 
+| filter DayHumanReadable >= 'Jan 03'
+
+Use Case with multiple data sources, where severity field has a numerical value:
+Shows the severity of multiple events, grouped by data source.
+In this use case we leverage a mapping technique to assign a label to each severity value.
+PQ:
+severity=* dataSource.name=*
+| let severity = severity = 1 ? "Critical " :  severity = 2 ? "High" : severity = 3 ? "Medium" : severity = 4 ? "Low" : "null"
+| group numero_eventi=count() by severity, dataSource.name  
+
+LOGINS
+Use Case:
+Login successful initiated as a cleartext (e.g. FTP, TELNET).
+PQ:
+event.type = "Login" and event.login.type = "NETWORK_CLEAR_TEXT" and event.login.loginIsSuccessful = true
+| columns endpoint.name, endpoint.os, event.login.isAdministratorEquivalent, event.login.loginIsSuccessful, event.login.type, event.type, event.category, event.time
+| sort -event.login.type
+
+Use Case:
+Detect a series of unsuccessful logins on a specific endpoint.
+PQ:
+event.type = "Login" and event.login.loginIsSuccessful = false and src.process.netConnCount > "30"
+| columns endpoint.name, endpoint.os, src.process.netConnCount, event.login.loginIsSuccessful, event.login.type, event.type, event.category, event.time
+| sort -src.process.netConnCount
+
+Use Case:
+Identify Endpoint hosts with the most remote logins for the last 48 hours.
+PQ:
+event.category = "logins"
+| columns endpoint.name, event.login.type
+| filter event.login.type='REMOTE_INTERACTIVE'
+| group total = count() by endpoint.name
+| sort -total
+
+Use Case:
+Detect non interactive connections performed as administrator.
+PQ:
+src.ip.address and event.login.isAdministratorEquivalent = * and event.login.type != "INTERACTIVE"
+| columns endpoint.name, endpoint.os, src.ip.address, event.login.isAdministratorEquivalent, event.login.type, event.type, event.category, event.time
+| sort -src.ip.address
+
+
+Use Case:
+Detect administrative interactive logins overnight.
+PQ:
+event.login.type = "INTERACTIVE" && event.login.isAdministratorEquivalent = true  && event.login.loginIsSuccessful = true
+| let hours = floor(((event.time/1000) % 86400) / 3600)
+| let minutes = floor(((event.time/1000) % 3600) / 60)
+| filter (hours > 18 && hours <= 24) || (hours >= 1 && hours < 8)
+| columns event.time, hours, minutes, endpoint=endpoint.name, login_user=event.login.userName, process=src.process.name, src.process.cmdline, event.login.isAdministratorEquivalent
+| limit 100
+
+Use Case:
+Shows a list of most failed login attempts by user and endpoint.
+PQ:
+event.category = 'logins'
+| group AuthFailures=count(event.login.loginIsSuccessful=false) by event.login.userName, endpoint.name
+|sort -AuthFailures
+
+Use Case:
+Shows all failed logins coming from non internal machines, to highlight endpoints accidentally exposed on the Internet.
+PQ:
+!(
+  src.endpoint.ip.address = "127.0.0.1" or
+  src.endpoint.ip.address matches "10.*" or
+  src.endpoint.ip.address matches "172.(1[6789]|2[0-9]|3[01]).*" or
+  src.endpoint.ip.address matches "192.168.*" or
+  src.endpoint.ip.address = "::1" or
+  src.endpoint.ip.address contains "fe80:"
+) | filter !(isempty(src.endpoint.ip.address)) AND event.login.loginIsSuccessful=false
+  | group NumberOfFailedAttempts = count(event.login.loginIsSuccessful=false) by endpoint.name, src.endpoint.ip.address 
+  | sort -NumberOfFailedAttempts

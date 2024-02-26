@@ -1,0 +1,239 @@
+{
+  // specify a time zone if the timestamps in your log are not in GMT
+  // timezone: "GMT-0800"
+    attributes: {
+    "dataSource.category": "security",
+    "dataSource.name": "Sophos",
+    "dataSource.vendor": "Sophos"
+  },
+  formats: [
+    {
+      id: "format1",
+      format: ".*$_=identifier$=\"$_$\""
+      repeat: "true"
+      rewrites: [ {
+    "input": "app_is_cloud",
+    "output": "network_activity.app_is_cloud",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "app_resolved_by",
+    "output": "network_activity.app_resolved_by",
+    "match": ".*",
+    "replace": "$0"
+  },
+    
+  {
+    "input": "device_model",
+    "output": "device.device_model",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "device_name",
+    "output": "device.device_name",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "device_serial_id",
+    "output": "device.device_serial_id",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "dst_country",
+    "output": "location.dst_country",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "dst_ip",
+    "output": "dst.ip.address",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "ether_type",
+    "output": "network_connection_info.ether_type",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "format1",
+    "output": "format1",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "fw_rule_id",
+    "output": "fw_rule.rule_id",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "fw_rule_name",
+    "output": "fw_rule.rule_name",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "fw_rule_section",
+    "output": "fw_rule.rule_section",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "fw_rule_type",
+    "output": "fw_rule.rule_type",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "hb_status",
+    "output": "hb_status",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "in_interface",
+    "output": "in_interface",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "log_component",
+    "output": "log_component",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "log_id",
+    "output": "log_id",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "log_occurrence",
+    "output": "log_occurrence",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "log_subtype",
+    "output": "log_subtype",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "log_type",
+    "output": "log_type",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "nat_rule_id",
+    "output": "nat_rule.rule_id",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "nat_rule_name",
+    "output": "nat_rule.rule_name",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "protocol",
+    "output": "network_connection_info.protocol",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "qualifier",
+    "output": "qualifier",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "src_country",
+    "output": "location.src_country",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "src_ip",
+    "output": "src.ip.address",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "src_mac",
+    "output": "src.mac",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "src_zone",
+    "output": "src.zone",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "src_zone_type",
+    "output": "src.zone_type",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "timestamp",
+    "output": "timestamp",
+    "match": ".*",
+    "replace": "$0"
+  },  {
+    "input": "log_type",
+    "output": "event.type",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "dst_ip",
+    "output": "event.target",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "src_ip",
+    "output": "event.source",
+    "match": ".*",
+    "replace": "$0"
+  },
+  {
+    "input": "log_component",
+    "output": "event.details",
+    "match": ".*",
+    "replace": "$0"
+  }]
+    }
+	{
+      id: "format2",
+      format: ".*$_=identifier$=$_$ "
+      repeat: "true"
+      rewrites: [ {
+    "input": "src_port",
+    "output": "network_activity.src_port",
+    "match": ".*",
+    "replace": "$0"
+  },
+    {
+    "input": "dst_port",
+    "output": "network_activity.dst_port",
+    "match": ".*",
+    "replace": "$0"
+  },
+                 ]
+                
+}
+]
+}

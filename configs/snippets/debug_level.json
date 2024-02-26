@@ -1,0 +1,7 @@
+// Adjust agent logging level
+// Default is 0 (info), range is 0 (default; info) to 5 (very verbose)
+// Details are documented in the source code at https://github.com/scalyr/scalyr-agent-2/blob/ae9f3d6470d339f5ac1c3adb7cf0b91c3c4003eb/scalyr_agent/scalyr_logging.py
+
+{
+  debug_level: 5
+}

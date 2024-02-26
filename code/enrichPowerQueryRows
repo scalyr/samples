@@ -1,0 +1,171 @@
+import json
+import http.client
+import time
+import math
+
+#Number of buckets to send to apis when we batch
+bucket_size = 4
+
+# Batch mode calls enrichment api in batches rather than on call at a time 'single' will do one call at a time to the api. Both submit batches to DS api 
+mode = "single" 
+
+# Run this powerquery and for each row returned do something. 
+query = """serverHost='elk-integrator' NOT(src matches ('^10', '^0', '^fe80', '::', '^172', '^192')) src = * |group count = count(src) by src |sort -count |columns src"""
+
+# Column index to lookup if powerquery. If you have a response that has columns: ip, port, server, and you want to lookup 'server' you would set this to 2. ip would be 0 
+key = 0
+
+#api keys.
+ipstack_key = ""
+mm_key = ""
+ds_write_key = ""
+ds_read_key = ""
+
+def pq():
+    ds_read_token = ""
+    conn = http.client.HTTPSConnection("app.scalyr.com")
+    payload = json.dumps({
+      "token": ds_read_key,
+      "query": query,
+      "startTime": "5m",
+      "endTime": "0h"
+    })
+    print("payload: %s" %(payload))
+    headers = {
+      'Content-Type': 'application/json',
+    }
+    conn.request("POST", "/api/powerQuery", payload, headers)
+    res = conn.getresponse()
+    data = res.read()
+    j =  json.loads(data.decode("utf-8"))
+    return j
+
+def writeToDS(payload):
+    print("writing to DS")
+    conn = http.client.HTTPSConnection("app.scalyr.com")
+    headers = {
+      'Content-Type': 'application/json',
+    }
+    url = "/api/uploadLogs?host=enrich&parser=foo&logfile=enrich&token=" + ds_write_key
+    conn.request("POST", url, str(payload), headers)
+    res = conn.getresponse()
+    data = res.read()
+    print(data.decode("utf-8"))
+
+def enrich_ip(ip):
+    conn = http.client.HTTPConnection("api.ipstack.com")
+    payload = ''
+    headers = {
+    }
+    url = "/" + ip + "?access_key=" + ipstack_key + "&format=1"
+    conn.request("GET", url, payload, headers)
+    res = conn.getresponse()
+    data = res.read()
+    print(data.decode("utf-8"))
+    data = data.decode("utf-8")
+    return data
+    
+def enrich_max_mind(ip):
+    conn = http.client.HTTPSConnection("geoip.maxmind.com")
+    payload = ''
+    headers = {
+      'Authorization': 'Basic ' + mm_key
+    }
+    path = "/geoip/v2.1/city/" + ip
+    conn.request("GET", path, payload, headers)
+    res = conn.getresponse()
+    data = res.read()
+    return data.decode('ascii', 'ignore')
+
+def enrich_batch(ips):
+    payload = ips
+    conn = http.client.HTTPSConnection("ip-api.com")
+    payload = json.dumps(payload)
+    headers = {
+      'Content-Type': 'application/json'
+    }
+    conn.request("POST", "/batch", payload, headers)
+    res = conn.getresponse()
+    data = res.read()
+    return data.decode("utf-8")
+
+def chunkify(l, step):
+     def f():
+         f.x += 1
+         return l[f.x*step:(f.x+1)*step]
+     f.x = -1
+     return f
+        
+        
+def lambda_handler(event, context):
+    # Get PowerQuery Data
+    j = pq()
+    print(j)
+    values = j['values']
+    
+    # loop through each row and perform an action for each. Then gather response into chunks and send them to dataset. 
+    if mode == "single":
+        print("single mode")
+        time.sleep(0.01)
+        events = ""
+        bucket_counter = 1
+        buckets = 0
+        size = len(j['values'])
+        total = size//bucket_size
+        expected = math.floor(total)
+        remainder = size % bucket_size
+        print("size=%s" %(size))
+        print("total=%s" %(total))
+        print("bucket_size=%s" %(bucket_size))  
+        for i in range(len(values)):
+            print("bucket_counter=%s" %(bucket_counter))
+            remaining_buckets = expected - buckets
+            print("remianin buckets: %s" %(remaining_buckets))
+            ip = str(j['values'][i][key])
+            #data = ip + ": " + str(i)
+            #lookup data from external api 
+            #data = enrich_ip(ip)
+            data = str(enrich_max_mind(ip))
+            #testing just print data
+            e = "event-%s: %s" %(i, ip) 
+            print("event is: %s" %(e))
+      
+            if not events:
+              events = data
+            else:
+              events = events + "\n" + data
+            if bucket_counter == bucket_size and buckets <= expected:
+              writeToDS(events)
+              print(events)
+              bucket_counter = 0
+              buckets += 1
+              events = ""
+            elif remaining_buckets == 0 and bucket_counter == remainder:
+              writeToDS(events)
+              print(events)
+            bucket_counter += 1
+            
+    #if we are working with a batch api then we will split the PQ response into chunks before calling the api then we write the batched response to dataset        
+            
+    elif mode == "batch":
+        array = []
+        #format list of values for key.
+        for i in range(len(values)):
+            ip = j['values'][i][key]
+            array.append(ip)
+        chunks = chunkify(array, bucket_size)
+        for i in range(bucket_size):
+            chunk = chunks()
+            print(chunk)
+            data = enrich_batch(chunk)
+            #data = "Batch %s writing with values of %s" %(i, str(chunks()))
+            print(data)
+            #writeToDS(data)
+        
+    
+        
+        
+    return {
+        'statusCode': 200,
+        'body': "foo"
+    }

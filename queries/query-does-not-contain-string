@@ -1,0 +1,22 @@
+Use Case: Create a query that returns all values that do not contain a certain string
+
+Logic will be of form 
+
+not ($field$ matches $regex$)
+
+specific example: search for login events where username does not end in "$". This would be for something like excluding service accounts from a query
+
+
+query:
+
+event.type='Login' and not (event.login.userName matches '[\\$]$')
+
+first we filter to only event type of login, then we match based on the username field
+
+
+'[\\$]$'
+this is a regex pattern looking for the '$' character at the end of the field
+
+then we match all logs that fit this regex pattern in the field "event.login.userName"
+
+finally we use not (...) to discard all logs that match the query

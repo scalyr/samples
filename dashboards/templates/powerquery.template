@@ -1,0 +1,4 @@
+{
+    "title": "{name}",
+    "query": "{filter} \n| group count = count() by {field.0.string}, {field.1.string} \n| sort -count"
+}
