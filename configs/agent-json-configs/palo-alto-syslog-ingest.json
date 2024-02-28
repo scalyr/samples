@@ -1,0 +1,64 @@
+// Configuration for the Scalyr Agent. For help:
+//
+// https://www.scalyr.com/help/scalyr-agent-2
+
+// ::::::::::::HOW TO USE THIS FILE :::::::::::::::::: 
+// this file is intended to work as a sample configuration file to accept incoming syslogs from Palo Alto Firewalls on TCP/601 or UDP/514, tag it with the marketpalce parser name
+// and then forward to the most common SDL endpoint for S1 customers, which is https://xdr.us1.sentinelone.net
+
+//prep work or checklist
+//1. log into your S1 tenant, open up the Singularity Data Lake view, and inspect the URL. if it is not xdr.us1.sentinelone.net/events....... then you need to replace the scalyr_server field
+// below with the correct url
+
+//2. From the SDL view, select your username in the top right corner, and click API keys from the drop down. Create a log write key and copy it. place it in the API key field below
+
+//3. if you would to be able to easily differentiate which syslog server host a log passed through (STRONGLY ENCOURAGED FOR TROUBLESHOOTING PURPOSES) record the hostname of the server
+//that you will install the scalyr agent on in the serverHost field below
+
+//4. install the marketplace palo alto integration (from the main S1 interface, click "marketplace, search for palo alto firewall, and install the integration
+// this will create a parser in your tenant which matches the parser name in the monitors config below
+// if you are trying to configure any other data source for ingestion (not palo alto firewall logs) then I recommend you find the right parser, install it in your tenant, and then replace
+// the parser name in the monitor config below
+
+//::::::END "HOW TO USE THIS FILE" and start of actual config file::::
+ 
+{
+  // Enter a "Write Logs" api key for your account. These are available at https://www.scalyr.com/keys
+  api_key: "(omitted)",
+  //specify the server endpoint to upload to. for most S1 customers in the US, this is xdr.us1.sentinelone.net
+“scalyr_server”=https://xdr.us1.sentinelone.net
+ 
+  // Fields describing this server. These fields are attached to each log message, and
+  // can be used to filter data from a particular server or group of servers.
+  server_attributes: {
+     // Fill in this field if you'd like to override the server's hostname.
+     serverHost: “TEST-SERVER-HOST-NAME”,
+ 
+     // You can add whatever additional fields you'd like.
+     // tier: "production"
+  }
+ 
+ 
+  // Log files to upload to Scalyr. You can use '*' wildcards here.
+  logs: [
+     // { path: "/var/log/httpd/access.log", attributes: {parser: "accessLog"} }
+  ],
+ 
+  monitors: [
+{
+            //calls the syslog plugin module
+             module:                    "scalyr_agent.builtin_monitors.syslog_monitor",
+            //specifies which ports to monitor for syslog for this particular log source
+             protocols:                 "tcp:601, udp:514",
+            //specifies if it will accept remote syslog (this will pretty much always be true
+             accept_remote_connections: true,
+            // specifies the name of the log file locally and when it is uploaded to the SDL cloud. name it something meaningful and related to this log source
+             message_log: "paloalto.log",
+            // the name of the parser for SDL to parser with. This must match the name of a parser in your SDL tenant. Find these under [your name in top right] > config files
+            // and then they will be named in the format "/logParsers/parser-name". you must only record the parser name here, so if the parser file name in the SDL UI is
+            // "/logParsers/my-parser", then in the parser field in this file you will simply say "my-parser"
+             parser: "marketplace-paloaltonetworksfirewall-latest"
+         }
+
+  ]
+}
