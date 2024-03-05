@@ -6,6 +6,9 @@
 // this file is intended to work as a sample configuration file to accept incoming syslogs from Palo Alto Firewalls on TCP/601 or UDP/514, tag it with the marketpalce parser name
 // and then forward to the most common SDL endpoint for S1 customers, which is https://xdr.us1.sentinelone.net
 
+//::::important note... you may not be able to just copy and paste this into your config file, you may have to manually type a lot of it. CLI file interpretters can be picky and throw JSON
+//errors if you try to copy the whole thing in
+
 //prep work or checklist
 //1. log into your S1 tenant, open up the Singularity Data Lake view, and inspect the URL. if it is not xdr.us1.sentinelone.net/events....... then you need to replace the scalyr_server field
 // below with the correct url
