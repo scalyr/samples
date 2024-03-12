@@ -1,0 +1,49 @@
+// Configuration for the Scalyr Agent. For help:
+//
+// https://www.scalyr.com/help/scalyr-agent-2
+
+// ::::::::::::HOW TO USE THIS FILE :::::::::::::::::: 
+// this file is intended to work as a sample configuration file to accept incoming syslogs from Palo Alto Firewalls on TCP/601 or UDP/514, tag it with the marketpalce parser name
+// and then forward to the most common SDL endpoint for S1 customers, which is https://xdr.us1.sentinelone.net
+
+//::::important note... you may not be able to just copy and paste this into your config file, you may have to manually type a lot of it. CLI file interpretters can be picky and throw JSON
+//errors if you try to copy the whole thing in
+
+//prep work or checklist
+//1. log into your S1 tenant, open up the Singularity Data Lake view, and inspect the URL. if it is not xdr.us1.sentinelone.net/events....... then you need to replace the scalyr_server field
+// below with the correct url
+
+//2. From the SDL view, select your username in the top right corner, and click API keys from the drop down. Create a log write key and copy it. place it in the API key field below
+
+//3. if you would to be able to easily differentiate which syslog server host a log passed through (STRONGLY ENCOURAGED FOR TROUBLESHOOTING PURPOSES) record the hostname of the server
+//that you will install the scalyr agent on in the serverHost field below
+
+//4. install the marketplace palo alto integration (from the main S1 interface, click "marketplace, search for palo alto firewall, and install the integration
+// this will create a parser in your tenant which matches the parser name in the monitors config below
+// if you are trying to configure any other data source for ingestion (not palo alto firewall logs) then I recommend you find the right parser, install it in your tenant, and then replace
+// the parser name in the monitor config below
+
+//::::::END "HOW TO USE THIS FILE" and start of actual config file:::: DELETE EVERYTHING UP TO THIS LINE
+ 
+{
+  // Enter a "Write Logs" api key for your account. These are available at https://www.scalyr.com/keys
+  api_key: "(omitted)",
+  //specify the server endpoint to upload to. for most S1 customers in the US, this is xdr.us1.sentinelone.net
+“scalyr_server”=https://xdr.us1.sentinelone.net
+  }
+ 
+ 
+  // Log files to upload to Scalyr. You can use '*' wildcards here.
+  logs: [
+     // { path: "/var/log/httpd/access.log", attributes: {parser: "accessLog"} }
+  ],
+monitors: [
+  {
+    module:                  "scalyr_agent.builtin_monitors.windows_event_log_monitor",
+    channels: [
+        { "channel": ["Application", "Security", "Setup", "System", "Forwarded Events"],
+          "query": "*[System/Level=0 or System/Level=1 or System/Level=2 or System/Level=3 or System/Level 4]"
+        },
+    ]
+  }
+]
