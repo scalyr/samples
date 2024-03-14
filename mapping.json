@@ -83,12 +83,6 @@
                 "dashboard": "windows-system-metrics.conf",
                 "parser": "windows_event_log.conf"
         },
-        "okta-insights": {
-                "name": "Okta Insights",
-                "path": "okta_sample.csv",
-                "dashboard": "okta_insights.conf",
-                "parser": "json.conf"
-        },
         "okta-analytics-ocsf": {
                 "name": "Okta Analytics OCSF",
                 "path": "okta_ocsf.csv",
