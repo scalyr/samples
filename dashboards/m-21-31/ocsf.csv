@@ -1,0 +1,373 @@
+id,log_type,type_uid,user_type_uid,m2131_req_fk
+1,File System Activity: Unknown,100100,,
+2,File System Activity: Create,100101,,
+3,File System Activity: Read,100102,,
+4,File System Activity: Update,100103,,
+5,File System Activity: Delete,100104,,
+6,File System Activity: Rename,100105,,
+7,File System Activity: Set Attributes,100106,,
+8,File System Activity: Set Security,100107,,
+9,File System Activity: Get Attributes,100108,,
+10,File System Activity: Get Security,100109,,
+11,File System Activity: Encrypt,100110,,
+12,File System Activity: Decrypt,100111,,
+13,File System Activity: Mount,100112,,
+14,File System Activity: Unmount,100113,,
+15,File System Activity: Open,100114,,
+16,File System Activity: Other,100199,,
+17,Kernel Extension Activity: Unknown,100200,,
+18,Kernel Extension Activity: Load,100201,,
+19,Kernel Extension Activity: Unload,100202,,
+20,Kernel Extension Activity: Other,100299,,
+21,Kernel Activity: Unknown,100300,,
+22,Kernel Activity: Create,100301,,
+23,Kernel Activity: Read,100302,,
+24,Kernel Activity: Delete,100303,,
+25,Kernel Activity: Invoke,100304,,
+26,Kernel Activity: Other,100399,,
+27,Memory Activity: Unknown,100400,,
+28,Memory Activity: Allocate Page,100401,,
+29,Memory Activity: Modify Page,100402,,
+30,Memory Activity: Delete Page,100403,,
+31,Memory Activity: Buffer Overflow,100404,,
+32,Memory Activity: Disable DEP,100405,,
+33,Memory Activity: Enable DEP,100406,,
+34,Memory Activity: Read,100407,,
+35,Memory Activity: Write,100408,,
+36,Memory Activity: Other,100499,,
+37,Module Activity: Unknown,100500,,
+38,Module Activity: Load,100501,,
+39,Module Activity: Unload,100502,,
+40,Module Activity: Other,100599,,
+41,Scheduled Job Activity: Unknown,100600,,28
+42,Scheduled Job Activity: Create,100601,,28
+43,Scheduled Job Activity: Update,100602,,28
+44,Scheduled Job Activity: Delete,100603,,28
+45,Scheduled Job Activity: Enable,100604,,28
+46,Scheduled Job Activity: Disable,100605,,28
+47,Scheduled Job Activity: Start,100606,,28
+48,Scheduled Job Activity: Other,100699,,28
+49,Process Activity: Unknown,100700,,28
+50,Process Activity: Launch,100701,,25
+51,Process Activity: Terminate,100702,,
+52,Process Activity: Open,100703,,
+53,Process Activity: Inject,100704,,
+54,Process Activity: Set User ID,100705,,
+55,Process Activity: Other,100799,,
+56,Security Finding: Unknown,200100,,
+57,Security Finding: Create,200101,,
+58,Security Finding: Update,200102,,
+59,Security Finding: Close,200103,,
+60,Security Finding: Other,200199,,
+61,Vulnerability Finding: Unknown,200200,,
+62,Vulnerability Finding: Create,200201,,
+63,Vulnerability Finding: Update,200202,,
+64,Vulnerability Finding: Close,200203,,
+65,Vulnerability Finding: Other,200299,,
+66,Compliance Finding: Unknown,200300,,
+67,Compliance Finding: Create,200301,,
+68,Compliance Finding: Update,200302,,
+69,Compliance Finding: Close,200303,,
+70,Compliance Finding: Other,200399,,
+71,Detection Finding: Unknown,200400,,
+72,Detection Finding: Create,200401,,
+73,Detection Finding: Update,200402,,
+74,Detection Finding: Close,200403,,
+75,Detection Finding: Other,200499,,
+76,Incident Finding: Unknown,200500,,
+77,Incident Finding: Create,200501,,
+78,Incident Finding: Update,200502,,
+79,Incident Finding: Close,200503,,
+80,Incident Finding: Other,200599,,
+81,Privileged Account Creation / Provisioning,300101,2,10
+82,Privileged Account Change: Unknown,300100,2,
+83,Privileged Account Change: Enable,300102,2,
+84,Privileged Account Change: Password Change,300103,2,13
+85,Privileged Account Change: Password Reset,300104,2,13
+86,Privileged Account Change: Disable,300105,2,9
+87,Privileged Account Change: Delete,300106,2,9
+88,Privileged Account Change: Attach Policy,300107,2,
+89,Privileged Account Change: Detach Policy,300108,2,
+90,Privileged Account Change: Lock,300109,2,
+91,Privileged Account Change: MFA Factor Enable,300110,2,3
+92,Privileged Account Change: MFA Factor Disable,300111,2,3
+93,Privileged Account Change: Other,300199,2,11
+93,Privileged Account Change: Other,300199,2,11
+94,Privileged Authentication: Unknown,300200,2,
+95,Privileged Authentication: Logon,300201,2,17
+96,Privileged Authentication: Logoff,300202,2,17
+97,Privileged Authentication: Authentication Ticket,300203,2,
+98,Privileged Authentication: Service Ticket Request,300204,2,
+99,Privileged Authentication: Service Ticket Renew,300205,2,
+100,Privileged Authentication: Other,300299,2,
+101,Privileged Authorize Session: Unknown,300300,2,
+102,Privileged Authorize Session: Assign Privileges,300301,2,21
+102,Privileged Authorize Session: Assign Privileges,300301,2,22
+102,Privileged Authorize Session: Assign Privileges,300301,2,23
+103,Privileged Authorize Session: Assign Groups,300302,2,15
+104,Privileged Authorize Session: Other,300399,2,
+,Privileged Authentication: Unknown,300200,2,20
+,Privileged Authentication: Logon,300201,2,20
+,Privileged Authentication: Logoff,300202,2,20
+,Privileged Authentication: Authentication Ticket,300203,2,20
+,Privileged Authentication: Service Ticket Request,300204,2,20
+,Privileged Authentication: Service Ticket Renew,300205,2,20
+,Privileged Authentication: Other,300299,2,20
+,Privileged Authorize Session: Unknown,300300,2,20
+,Privileged Authorize Session: Assign Privileges,300301,2,20
+,Privileged Authorize Session: Assign Groups,300302,2,20
+,Privileged Authorize Session: Other,300399,2,20
+105,Privileged Entity Management: Unknown,300400,2,
+106,Privileged Entity Management: Create,300401,2,14
+106,Privileged Entity Management: Create,300401,2,15
+107,Privileged Entity Management: Read,300402,2,
+108,Privileged Entity Management: Update,300403,2,14
+108,Privileged Entity Management: Update,300403,2,15
+109,Privileged Entity Management: Delete,300404,2,18
+110,Privileged Entity Management: Other,300499,2,11
+111,Privileged User Access Management: Unknown,300500,2,19
+112,Privileged User Access Management: Assign Privileges,300501,2,19
+113,Privileged User Access Management: Revoke Privileges,300502,2,19
+114,Privileged User Access Management: Other,300599,2,19
+115,Privileged Group Management: Unknown,300600,2,15
+116,Privileged Group Management: Assign Privileges,300601,2,15
+117,Privileged Group Management: Revoke Privileges,300602,2,15
+118,Privileged Group Management: Add User,300603,2,15
+119,Privileged Group Management: Remove User,300604,2,15
+120,Privileged Group Management: Delete,300605,2,15
+121,Privileged Group Management: Create,300606,2,15
+122,Privileged Group Management: Other,300699,2,15
+123,Privileged Account Creation / Provisioning,300101,2,15
+124,Account Creation / Provisioning,300101,,1
+125,Account Change: Unknown,300100,,
+126,Account Change: Enable,300102,,
+127,Account Change: Password Change,300103,,4
+128,Account Change: Password Reset,300104,,4
+129,Account Change: Disable,300105,,9
+130,Account Change: Delete,300106,,9
+131,Account Change: Attach Policy,300107,,
+132,Account Change: Detach Policy,300108,,
+133,Account Change: Lock,300109,,
+134,Account Change: MFA Factor Enable,300110,,3
+135,Account Change: MFA Factor Disable,300111,,3
+134,Account Change: MFA Factor Enable,300110,,12
+135,Account Change: MFA Factor Disable,300111,,12
+136,Account Change: Other,300199,,
+137,Authentication: Unknown,300200,,
+138,Authentication: Logon,300201,,6
+139,Authentication: Logon,300201,,27
+,Authentication: Logon,300201,,8
+140,Authentication: Logoff,300202,,6
+141,Authentication: Authentication Ticket,300203,,
+142,Authentication: Service Ticket Request,300204,,
+143,Authentication: Service Ticket Renew,300205,,
+144,Authentication: Other,300299,,
+145,Authorize Session: Unknown,300300,,
+146,Authorize Session: Assign Privileges,300301,,
+147,Authorize Session: Assign Groups,300302,,
+148,Authorize Session: Other,300399,,
+149,Entity Management: Unknown,300400,,
+150,Entity Management: Create,300401,,
+151,Entity Management: Read,300402,,7
+152,Entity Management: Update,300403,,5
+153,Entity Management: Delete,300404,,
+154,Entity Management: Other,300499,,7
+155,User Access Management: Unknown,300500,,6
+156,User Access Management: Assign Privileges,300501,,6
+157,User Access Management: Revoke Privileges,300502,,6
+158,User Access Management: Other,300599,,6
+159,Network Activity: Unknown,400100,,37
+160,Network Activity: Open,400101,,37
+161,Network Activity: Close,400102,,37
+162,Network Activity: Reset,400103,,37
+163,Network Activity: Fail,400104,,37
+164,Network Activity: Refuse,400105,,37
+165,Network Activity: Traffic,400106,,37
+166,Network Activity: Other,400199,,37
+167,HTTP Activity: Unknown,400200,,
+168,HTTP Activity: Connect,400201,,
+169,HTTP Activity: Delete,400202,,
+170,HTTP Activity: Get,400203,,
+171,HTTP Activity: Head,400204,,
+172,HTTP Activity: Options,400205,,
+173,HTTP Activity: Post,400206,,
+174,HTTP Activity: Put,400207,,
+175,HTTP Activity: Trace,400208,,
+176,HTTP Activity: Other,400299,,
+177,DNS Activity: Unknown,400300,,35
+178,DNS Activity: Query,400301,,35
+179,DNS Activity: Response,400302,,35
+180,DNS Activity: Traffic,400306,,35
+181,DNS Activity: Other,400399,,35
+182,DHCP Activity: Unknown,400400,,36
+183,DHCP Activity: Discover,400401,,36
+184,DHCP Activity: Offer,400402,,36
+185,DHCP Activity: Request,400403,,36
+186,DHCP Activity: Decline,400404,,36
+187,DHCP Activity: Ack,400405,,36
+188,DHCP Activity: Nak,400406,,36
+189,DHCP Activity: Release,400407,,36
+190,DHCP Activity: Inform,400408,,36
+191,DHCP Activity: Expire,400409,,36
+192,DHCP Activity: Other,400499,,36
+193,RDP Activity: Unknown,400500,,
+194,RDP Activity: Initial Request,400501,,
+195,RDP Activity: Initial Response,400502,,26
+196,RDP Activity: Connect Request,400503,,26
+197,RDP Activity: Connect Response,400504,,
+198,RDP Activity: TLS Handshake,400505,,
+199,RDP Activity: Traffic,400506,,
+200,RDP Activity: Other,400599,,
+201,SMB Activity: Unknown,400600,,
+202,SMB Activity: File Supersede,400601,,
+203,SMB Activity: File Open,400602,,
+204,SMB Activity: File Create,400603,,
+205,SMB Activity: File Open If,400604,,
+206,SMB Activity: File Overwrite,400605,,
+207,SMB Activity: File Overwrite If,400606,,
+208,SMB Activity: Other,400699,,
+209,SSH Activity: Unknown,400700,,
+210,SSH Activity: Open,400701,,26
+211,SSH Activity: Close,400702,,26
+212,SSH Activity: Reset,400703,,
+213,SSH Activity: Fail,400704,,26
+214,SSH Activity: Refuse,400705,,
+215,SSH Activity: Traffic,400706,,
+216,SSH Activity: Other,400799,,
+217,FTP Activity: Unknown,400800,,
+218,FTP Activity: Put,400801,,
+219,FTP Activity: Get,400802,,
+220,FTP Activity: Poll,400803,,
+221,FTP Activity: Delete,400804,,
+222,FTP Activity: Rename,400805,,
+223,FTP Activity: List,400806,,
+224,FTP Activity: Other,400899,,
+225,Email Activity: Unknown,400900,,
+226,Email Activity: Send,400901,,
+227,Email Activity: Receive,400902,,
+228,Email Activity: Scan,400903,,
+229,Email Activity: Other,400999,,
+230,Network File Activity: Unknown,401000,,
+231,Network File Activity: Upload,401001,,
+232,Network File Activity: Download,401002,,
+233,Network File Activity: Update,401003,,
+234,Network File Activity: Delete,401004,,
+235,Network File Activity: Rename,401005,,
+236,Network File Activity: Copy,401006,,
+237,Network File Activity: Move,401007,,
+238,Network File Activity: Restore,401008,,
+239,Network File Activity: Preview,401009,,
+240,Network File Activity: Lock,401010,,
+241,Network File Activity: Unlock,401011,,
+242,Network File Activity: Share,401012,,
+243,Network File Activity: Unshare,401013,,
+244,Network File Activity: Open,401014,,
+245,Network File Activity: Sync,401015,,
+246,Network File Activity: Unsync,401016,,
+247,Network File Activity: Other,401099,,
+248,Email File Activity: Unknown,401100,,
+249,Email File Activity: Send,401101,,
+250,Email File Activity: Receive,401102,,
+251,Email File Activity: Scan,401103,,
+252,Email File Activity: Other,401199,,
+253,Email URL Activity: Unknown,401200,,
+254,Email URL Activity: Send,401201,,
+255,Email URL Activity: Receive,401202,,
+256,Email URL Activity: Scan,401203,,
+257,Email URL Activity: Other,401299,,
+258,NTP Activity: Unknown,401300,,
+259,NTP Activity: Symmetric Active Exchange,401301,,
+260,NTP Activity: Symmetric Passive Response,401302,,
+261,NTP Activity: Client Synchronization,401303,,
+262,NTP Activity: Server Response,401304,,
+263,NTP Activity: Broadcast,401305,,
+264,NTP Activity: Control,401306,,
+265,NTP Activity: Private Use Case,401307,,
+266,NTP Activity: Other,401399,,
+267,Device Inventory Info: Unknown,500100,,
+268,Device Inventory Info: Log,500101,,
+269,Device Inventory Info: Collect,500102,,
+270,Device Inventory Info: Other,500199,,
+271,Device Config State: Unknown,500200,,
+272,Device Config State: Log,500201,,
+273,Device Config State: Collect,500202,,
+274,Device Config State: Other,500299,,
+275,User Inventory Info: Unknown,500300,,
+276,User Inventory Info: Log,500301,,
+277,User Inventory Info: Collect,500302,,
+278,User Inventory Info: Other,500399,,
+279,Operating System Patch State: Unknown,500400,,
+280,Operating System Patch State: Log,500401,,
+281,Operating System Patch State: Collect,500402,,
+282,Operating System Patch State: Other,500499,,
+283,Device Config State Change: Unknown,501900,,
+284,Device Config State Change: Log,501901,,
+285,Device Config State Change: Collect,501902,,
+286,Device Config State Change: Other,501999,,
+287,Web Resources Activity: Unknown,600100,,
+288,Web Resources Activity: Create,600101,,
+289,Web Resources Activity: Read,600102,,
+290,Web Resources Activity: Update,600103,,
+291,Web Resources Activity: Delete,600104,,
+292,Web Resources Activity: Search,600105,,
+293,Web Resources Activity: Import,600106,,
+294,Web Resources Activity: Export,600107,,
+295,Web Resources Activity: Share,600108,,
+296,Web Resources Activity: Other,600199,,
+297,Application Lifecycle: Unknown,600200,,29
+298,Application Lifecycle: Install,600201,,29
+299,Application Lifecycle: Remove,600202,,29
+300,Application Lifecycle: Start,600203,,29
+301,Application Lifecycle: Stop,600204,,29
+302,Application Lifecycle: Other,600299,,29
+303,API Activity: Unknown,600300,,
+304,API Activity: Create,600301,,
+305,API Activity: Read,600302,,
+306,API Activity: Update,600303,,
+307,API Activity: Delete,600304,,
+308,API Activity: Other,600399,,
+309,Web Resource Access Activity: Unknown,600400,,
+310,Web Resource Access Activity: Access Grant,600401,,
+311,Web Resource Access Activity: Access Deny,600402,,
+312,Web Resource Access Activity: Access Revoke,600403,,
+313,Web Resource Access Activity: Access Error,600404,,
+314,Web Resource Access Activity: Other,600499,,
+315,Datastore Activity: Unknown,600500,,
+316,Datastore Activity: Read,600501,,
+317,Datastore Activity: Update,600502,,
+318,Datastore Activity: Connect,600503,,
+319,Datastore Activity: Query,600504,,
+320,Datastore Activity: Write,600505,,
+321,Datastore Activity: Create,600506,,
+322,Datastore Activity: Delete,600507,,
+323,Datastore Activity: Other,600599,,
+324,File Hosting Activity: Unknown,600600,,
+325,File Hosting Activity: Upload,600601,,
+326,File Hosting Activity: Download,600602,,
+327,File Hosting Activity: Update,600603,,
+328,File Hosting Activity: Delete,600604,,
+329,File Hosting Activity: Rename,600605,,
+330,File Hosting Activity: Copy,600606,,
+331,File Hosting Activity: Move,600607,,
+332,File Hosting Activity: Restore,600608,,
+333,File Hosting Activity: Preview,600609,,
+334,File Hosting Activity: Lock,600610,,
+335,File Hosting Activity: Unlock,600611,,
+336,File Hosting Activity: Share,600612,,
+337,File Hosting Activity: Unshare,600613,,
+338,File Hosting Activity: Open,600614,,
+339,File Hosting Activity: Sync,600615,,
+340,File Hosting Activity: Unsync,600616,,
+341,File Hosting Activity: Other,600699,,
+342,Scan Activity: Unknown,600700,,
+343,Scan Activity: Started,600701,,
+344,Scan Activity: Completed,600702,,
+345,Scan Activity: Cancelled,600703,,
+346,Scan Activity: Duration Violation,600704,,
+347,Scan Activity: Pause Violation,600705,,
+348,Scan Activity: Error,600706,,
+349,Scan Activity: Paused,600707,,
+350,Scan Activity: Resumed,600708,,
+351,Scan Activity: Restarted,600709,,
+352,Scan Activity: Delayed,600710,,
+353,Scan Activity: Other,600799,,
