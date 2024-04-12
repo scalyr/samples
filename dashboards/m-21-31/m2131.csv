@@ -1,0 +1,44 @@
+id,Category,Log,Criticality
+1,Identity & Credential Management,Account Creation,0
+2,Identity & Credential Management,Manage Credential Type: Cert,0
+3,Identity & Credential Management,Manage Credential Type: MFA,0
+4,Identity & Credential Management,Manage Credential Type: Password,0
+5,Identity & Credential Management,Establish/Manage Attributes:Organization,0
+6,Identity & Credential Management,Establish/Manage Attributes:Groups/Roles,0
+7,Identity & Credential Management,Manage/Track Changes in Attributes & Credentials,0
+8,Identity & Credential Management,Track Usage of Credentials,0
+9,Identity & Credential Management,Account Deletion,0
+10,Privileged Identity & Credential Management,Provisioning,0
+11,Privileged Identity & Credential Management,Manage Credential Type: Cert,0
+12,Privileged Identity & Credential Management,Manage Credential Type: MFA,0
+13,Privileged Identity & Credential Management,Manage Credential Type: Password,0
+14,Privileged Identity & Credential Management,Establish/Manage Attributes:Organization,0
+15,Privileged Identity & Credential Management,Establish/Manage Attributes:Groups/Roles,0
+16,Privileged Identity & Credential Management,Manage/Track Changes in Attributes & Credentials,0
+17,Privileged Identity & Credential Management,Track Usage of Credentials,0
+18,Privileged Identity & Credential Management,Deprovisioning,0
+19,Privileged Identity & Credential Management,Establish and Manage Privileges (Privilege Credentials),0
+20,Privileged Identity & Credential Management,Isolate  Monitor  Record  Audit Privilege Sessions,0
+21,Privileged Identity & Credential Management,Control Privileged Actions: Commands,0
+22,Privileged Identity & Credential Management,Control Privileged Actions: Tasks,0
+23,Privileged Identity & Credential Management,Track Privilege Escalation and Delegation,0
+24,Privileged Identity & Credential Management,Monitor  Alert and Respond to Anomalous Behaviors/Activities,0
+25,Operating Systems,Process creation,0
+26,Operating Systems,Remote terminal or equivalent access and log off (success/failure),0
+27,Operating Systems,System access and logoff (success/failure),0
+28,Operating Systems,Scheduled task changes,0
+29,Operating Systems,"Service status changes (start, stop, fail, restart, etc.)",0
+30,Operating Systems,Active network communication with other hosts,0
+31,Operating Systems,Command-line interface (CLI),0
+32,Operating Systems,PowerShell execution commands,0
+33,Operating Systems,Windows Management Instrumentation (WMI) Events,0
+34,Operating Systems,Installation or removal of storage volumes or removable media,0
+35,Network Device Infrastructure,Domain Name System (DNS) query/response logs,0
+36,Network Device Infrastructure,"Dynamic Host Configuration Protocol (DHCP) lease information including media access control (MAC) address, IP address",0
+37,Network Device Infrastructure,Firewall logs,0
+38,Cloud Environments (General Logging),Any activity on breakglass account(s) (which should never have to be used),0
+39,Amazon Web Services (AWS),AWS CloudTrail,0
+40,Cloud Azure,Azure Active Directory logs,0
+41,Cloud Azure,Azure Activity,0
+42,Microsoft 365,Unified audit log (with advanced audit features),0
+43,Google Cloud Platform (GCP),Admin audit,0
