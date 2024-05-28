@@ -1,17 +1,19 @@
-// Set the path to log files to upload, and other attributes, 
-// for example a parser name. '*' wildcards are supported.
-// Windows example:
-//    { 
-//      path: "C:\\temp\\test.log", 
-//      attributes: {parser: "test"}
-//    }
-logs: [
-  {
-    path: "/var/log/httpd/access.log",
-    attributes: {parser: "accessLog"}
-  },
-  {
-    path: "/var/log/messages",
-    attributes: {parser: "systemLog"}
-  }
-]
+{
+  // Set the path to log files to upload, and other attributes, 
+  // for example a parser name. '*' wildcards are supported.
+  // Windows example:
+  //    { 
+  //      path: "C:\\temp\\test.log", 
+  //      attributes: {parser: "test"}
+  //    }
+  logs: [
+    {
+      path: "/var/log/httpd/access.log",
+      attributes: {parser: "accessLog"}
+    },
+    {
+      path: "/var/log/messages",
+      attributes: {parser: "systemLog"}
+    }
+  ]
+}
