@@ -5,6 +5,13 @@
                 "dashboard": "audit.conf",
                 "parser": "json.conf"
         },
+        "purpleai-audit": {
+                "name": "PurpleAI Monitor",
+                "path": "audit.csv",
+                "dashboard": "PurpleAI-monitor.conf",
+                "parser": "json.conf"
+        },
+
         "accesslog": {
                 "name": "Web Access Log",
                 "path": "accesslog.json",
