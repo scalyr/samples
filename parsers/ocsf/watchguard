@@ -94,6 +94,91 @@
           match: "HTTPS Request",
           replace: "400200"
         }, {
+          input: "op",
+          output: "activity_id",
+          match: "CONNECT",
+          replace: "1"
+        }, {
+          input: "op",
+          output: "http_request.http_method",
+          match: "CONNECT",
+          replace: "Connect"
+        }, {
+          input: "op",
+          output: "activity_id",
+          match: "DELETE",
+          replace: "2"
+        }, {
+          input: "op",
+          output: "http_request.http_method",
+          match: "DELETE",
+          replace: "Delete"
+        }, {
+          input: "op",
+          output: "activity_id",
+          match: "GET",
+          replace: "3"
+        }, {
+          input: "op",
+          output: "http_request.http_method",
+          match: "GET",
+          replace: "Get"
+        }, {
+          input: "op",
+          output: "activity_id",
+          match: "HEAD",
+          replace: "4"
+        }, {
+          input: "op",
+          output: "http_request.http_method",
+          match: "HEAD",
+          replace: "Head"
+        }, {
+          input: "op",
+          output: "activity_id",
+          match: "OPTIONS",
+          replace: "5"
+        }, {
+          input: "op",
+          output: "http_request.http_method",
+          match: "OPTIONS",
+          replace: "Options"
+        }, {
+          input: "op",
+          output: "activity_id",
+          match: "POST",
+          replace: "6"
+        }, {
+          input: "op",
+          output: "http_request.http_method",
+          match: "POST",
+          replace: "Post"
+        }, {
+          input: "op",
+          output: "activity_id",
+          match: "PUT",
+          replace: "7"
+        }, {
+          input: "op",
+          output: "http_request.http_method",
+          match: "PUT",
+          replace: "Put"
+        }, {
+          input: "op",
+          output: "activity_id",
+          match: "TRACE",
+          replace: "8"
+        }, {
+          input: "op",
+          output: "http_request.http_method",
+          match: "TRACE",
+          replace: "Trace"
+        }, {
+          input: "elapsed_time",
+          output: "http_request.duration",
+          match: "sec\\(s\\)",
+          replace: ""
+        }, {
           input: "proxy_act",
           output: "unmapped.rule_matched",
           match: ".*",
@@ -172,7 +257,8 @@
       ]
     }, {
       id: "proxy-http-traffic",
-      format: "<\\d+>$timestamp=tsPattern$ $device.hostname$ $device_hw_info.serial_number$ $device_hw_info.model_name$.*http.-proxy\\[\\d+\\]: msg_id=\"$metadata.event_code$\" $unmapped.action_value$ $unmapped.inbound_if$ $unmapped.outbound_if$ $connection_info.protocol_name$ $src_endpoint.ip$ $dst_endpoint.ip$ $dest_endpoint.port$ $unmapped.udp_info$.*\\($unmapped.policy_id$\\)",
+      //format: "<\\d+>$timestamp=tsPattern$ $device.hostname$ $device_hw_info.serial_number$ $device_hw_info.model_name$.*http.-proxy\\[\\d+\\]: msg_id=\"$metadata.event_code$\" $unmapped.action_value$ $unmapped.inbound_if$ $unmapped.outbound_if$ $connection_info.protocol_name$ $src_endpoint.ip$ $dst_endpoint.ip$ $src_endpoint.port$ $dest_endpoint.port$ $unmapped.udp_info$.*\\($unmapped.policy_id$\\)",
+      format: "<\\d+>$timestamp=tsPattern$ $device.hostname$ $device_hw_info.serial_number$ $device_hw_info.model_name$.*http-proxy\\[\\d+\\]: msg_id=\"$metadata.event_code$\" $unmapped.action_value$ $unmapped.inbound_if$ $unmapped.outbound_if$ $connection_info.protocol_name$ $src_endpoint.ip$ $dst_endpoint.ip$ $src_endpoint.port$ $dest_endpoint.port$",
       halt: true,
       attributes: {
         "metadata.log_name": "traffic"
@@ -185,7 +271,9 @@
           replace: "$0"
         }
       ]
-    }, {
+    },
+    
+    {
       id: "wrapper-nginx",
       format: "<\\d+>$timestamp=tsPattern$ $device.hostname$ $device_hw_info.serial_number$ $device_hw_info.model_name$.*wrapper\\[\\d+\\]: nginx: \\d{1,4}\\/\\d{1,2}\\/\\d{1,2} \\d{1,2}:\\d{1,2}:\\d{1,2} \\[$unmapped.severity$\\] $unmapped.message=msgPattern$",
       halt: true,
@@ -202,7 +290,7 @@
       ]
     }, {
       id: "message",
-      format: "<\\d+>$timestamp=tsPattern$ $device.hostname$ $device_hw_info.serial_number$ $device_hw_info.model_name$.* wrapper|configd|certd|systemd\\[\\d+\\]: $unmapped.message=msgPattern$",
+      format: "<\\d+>$timestamp=tsPattern$ $device.hostname$ $device_hw_info.serial_number$ $device_hw_info.model_name$.* (wrapper|configd|certd|systemd|iked)\\[\\d+\\]: $unmapped.message=msgPattern$",
       halt: true,
       attributes: {
         "metadata.log_name": "message"
@@ -221,6 +309,47 @@
       halt: true,
       attributes: {
         "metadata.log_name": "dhcpd"
+      }
+      rewrites: [
+        {
+          input: "timestamp",
+          output: "time",
+          match: ".*",
+          replace: "$0"
+        }
+      ]
+    }, {
+      id: "vpn-login-logout",
+      format: "<\\d+>$timestamp=tsPattern$ $device.hostname$ $device_hw_info.serial_number$ $device_hw_info.model_name$.*sessiond\\[\\d+\\]: msg_id=\"$metadata.event_code$\" SSL VPN user $user$ from $src_endpoint.ip$ logged $vpn_status$ assigned virtual IP is $tunnel_interface.ip$",
+      halt: true,
+      attributes: {
+        "metadata.log_name": "vpn"
+      }
+      rewrites: [
+        {
+          input: "vpn_status",
+          output: "activity_id",
+          match: "in",
+          replace: "1"
+        }, {
+          input: "vpn_status",
+          output: "activity_id",
+          match: "out",
+          replace: "2"
+        }, {
+          input: "timestamp",
+          output: "time",
+          match: ".*",
+          replace: "$0"
+        }
+      ]
+    }, {
+      id: "vpn-auth",
+      format: "<\\d+>$timestamp=tsPattern$ $device.hostname$ $device_hw_info.serial_number$ $device_hw_info.model_name$.*admd\\[\\d+\\]: msg_id=\"$metadata.event_code$\" Authentication of SSLVPN user \\[$user$\\] from $src_endpoint.ip$ was $status$",
+      halt: true,
+      attributes: {
+        "metadata.log_name": "vpn",
+        "activity_id": 0
       }
       rewrites: [
         {
