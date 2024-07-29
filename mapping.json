@@ -192,5 +192,11 @@
                 "path": "zscaler_ocsf.csv",
                 "dashboard": "zscaler.conf",
                 "parser": "json.conf"
+        },
+        "fortigate_firewall_OCSF": {
+                "name": "Fortigate Firewall OCSF",
+                "path": "fortigate.csv",
+                "dashboard": "firewall.conf",
+                "parser": "json.conf"
         }
 }
