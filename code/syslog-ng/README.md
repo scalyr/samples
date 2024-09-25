@@ -22,6 +22,8 @@ This project provides a simple Docker configuration to run `syslog-ng`, forward 
 
 Build and start the Docker container:  
 
+`git clone https://github.com/scalyr/samples`
+`cd code/syslog-ng`
 `sudo docker-compose up --build`
 
 1. This will:  
