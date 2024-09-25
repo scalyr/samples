@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  syslog-ng-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "514:514/udp"  # Expose FortiGate UDP port
+      - "515:515/udp"  # Expose Palo Alto UDP port
+    volumes:
+      - ./syslog-ng.conf:/etc/syslog-ng/syslog-ng.conf  # Mount the configuration directory
+    restart: always
