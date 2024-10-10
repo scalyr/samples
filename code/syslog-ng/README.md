@@ -6,8 +6,10 @@ This project provides a simple Docker configuration to run `syslog-ng`, forward 
 
 ### **Prerequisites**
 
-* Docker installed  
+* Docker installed  (see bottom of page for instructions)
 * Docker Compose installed
+
+
 
 ### **Installation**
 
@@ -24,7 +26,7 @@ Build and start the Docker container:
 
 1.  `git clone https://github.com/scalyr/samples`
 2.  `cd code/syslog-ng`
-3.  `sudo docker-compose up --build`
+3.  `sudo docker-compose up --build -d`
 
 1. This will:  
    * Build the syslog-ng Docker image based on the `Dockerfile`.  
@@ -137,6 +139,118 @@ Copy code
 * **Workers**: The number of workers processing log data is set to 4 (`workers(4)`), which you can adjust based on performance requirements.
 
 ---
+
+
+### **Installing Docker**
+**RHEL 9**
+
+```
+sudo yum remove docker docker-client docker-client-latest docker-common docker-latest docker-latest-logrotate docker-logrotate docker-engine
+
+sudo yum install -y yum-utils
+
+sudo yum-config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo
+
+sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+
+sudo systemctl start docker 
+sudo systemctl enable docker
+sudo mkdir ~/syslog-s1
+sudo docker --version
+```
+**Ubuntu 22.04**
+```
+sudo apt update
+
+sudo apt remove -y docker docker-engine docker.io containerd runc
+
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+sudo apt update
+
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+sudo systemctl start docker 
+sudo systemctl enable docker
+sudo mkdir ~/syslog-s1
+sudo docker --version
+```
+
+**Debian 11**
+```
+sudo apt update
+
+sudo apt remove -y docker docker-engine docker.io containerd runc
+
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+
+echo "deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list
+
+sudo apt update
+
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+sudo systemctl start docker 
+sudo systemctl enable docker
+sudo mkdir ~/syslog-s1
+sudo docker --version
+```
+
+**CentOS 8**
+```
+sudo yum remove docker \
+                docker-common \
+                docker-snapshot \
+                docker-engine
+
+sudo yum install -y yum-utils
+
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+sudo systemctl start docker 
+sudo systemctl enable docker
+sudo mkdir ~/syslog-s1
+sudo docker --version
+```
+
+**macOS**
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install --cask docker
+open /Applications/Docker.app
+docker --version
+```
+
+**Installing Docker on Windows**
+Docker Desktop is the easiest way to get started with Docker on Windows. It requires Windows 10 or later (Pro, Enterprise, or Education versions).
+
+1. **Download Docker Desktop**:
+   - Go to the [Docker Desktop for Windows](https://www.docker.com/products/docker-desktop) page.
+   - Click on the **Get Docker** button to download the installer.
+
+2. **Install Docker Desktop**:
+   - Run the downloaded installer and follow the installation wizard.
+   - During installation, make sure to enable the **WSL 2 feature** and install the WSL 2 kernel update (if prompted).
+   - If you do not have WSL 2 installed, follow the [WSL installation instructions](https://docs.microsoft.com/en-us/windows/wsl/install).
+
+3. **Start Docker Desktop**:
+   - After installation, start Docker Desktop from the Start menu.
+   - Wait for Docker to initialize (this may take a few minutes).
+
+4. **Verify Installation**:
+   Open a Command Prompt or PowerShell window and run:
+   ```bash
+   docker --version
+
 
 ## **Conclusion**
 
