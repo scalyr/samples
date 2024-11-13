@@ -2,7 +2,7 @@
 
 ## **Overview**
 
-This script is designed to facilitate the ingestion and processing of alerts from SentinelOne's Power Query API. It loads alert data, updates it with additional information retrieved from SentinelOne, and then sends the alert to a specified URL for further handling.
+This script is designed to facilitate the ingestion and processing of alerts from SentinelOne's Power Query API. It loads alert data, updates it with additional information retrieved from SentinelOne, and then sends the alert to S1 Unified Alerts Management console.
 
 ## **Features**
 
