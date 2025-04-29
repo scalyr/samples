@@ -1,0 +1,45 @@
+{
+  // specify a time zone if the timestamps in your log are not in GMT
+  // timezone: "GMT-0800"
+  // To Do - Add vendor, Need to define "unknown" fields
+  // 4-29-2025 MF
+  attributes: {
+    "dataSource.category": "security"
+    "dataSource.name": "iLo",
+    "dataSource.vendor": "Hewlett Packard"
+  },
+  patterns: {
+    codePattern: "\\<\\d{3}\\>" //discard future_use fields
+    hostnamePattern: "[a-z0-9-]+(\\.[a-z0-9-]+){0,3}",
+    ipv46: "(\\d+\\.\\d+\\.\\d+\\.\\d+|[a-zA-Z0-9:]+)",
+    macPattern: "([0-9a-fA-F]{2}[.:]){5}[0-9a-fA-F]{2}"
+    misc: "[^,]*"
+    notEqual: "[^\\=]+ "
+    notSpace: "[^\\s]+ "
+    signaturePattern: "\\d+:\\d+:\\d+"
+    tsPattern: "\\d{1,2}\\/\\d{1,2}\\/\\d{4} \\d{1,2}:\\d{1,2}:\\d{1,2}"
+    tsPattern1: "\\d{4}-\\d{1,2}-\\d{1,2}T\\d{1,2}:\\d{1,2}:\\d{1,2}Z"
+    tsPattern2: "\\d{1,2}\\/\\d{1,2}\\/\\d{4} \\d{1,2}:\\d{1,2}"
+    versionPattern: "\\w+\\s\\d:"
+    versionPattern2: "\\w{3}\\s\\d{1}:"
+  },
+  formats: [
+    {
+      id: "Host_REST",
+      format: "$code=codePattern$ $timestamp=tsPattern$ $host=hostnamePattern$ $iLo_version=versionPattern$ Host REST $action$: $account$"
+    }, {
+      id: "Host_REST2",
+      format: "$code=codePattern$$code_action$ $timestamp=tsPattern1$ $host=hostnamePattern$ $version$ $unknown1$ $unknown2$ $unknown3$ Host REST $action$: $account$"
+    }, {
+      id: "Browser",
+      format: "$code=codePattern$$code_action$ $timestamp=tsPattern1$ $host=hostnamePattern$ $version$ $unknown1$ $unknown2$ $unknown3$ Browser $action$: $account$"
+    }, {
+      id: "XML",
+      format: "$code=codePattern$$code_action$ $timestamp=tsPattern1$ $host=hostnamePattern$ $version$ $unknown1$ $unknown2$ $unknown3$ XML $action$: "
+      + "$account$ $unknown4$ $source_IP$\\($source_dns$\\)"
+    }, {
+      id: "XML2",
+      format: "$code=codePattern$ #$iLo_version=versionPattern2$ $timestamp=tsPattern2$ XML $action$: $account$ $unknown$ $source_IP$\\($source_dns$\\)"
+    }
+  ]
+}
