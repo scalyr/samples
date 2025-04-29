@@ -1,8 +1,7 @@
 {
   // specify a time zone if the timestamps in your log are not in GMT
   // timezone: "GMT-0800"
-  // To Do - Add vendor, Need to define "unknown" fields
-  // 4-29-2025 MF
+
   attributes: {
     "dataSource.category": "security"
     "dataSource.name": "iLo",
