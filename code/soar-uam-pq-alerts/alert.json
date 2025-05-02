@@ -1,0 +1,78 @@
+{
+    "activity_id": 1,
+    "attack_surface_ids": [1],
+    "category_uid": 2,
+    "class_name": "Detection Finding",
+    "evidences": [
+        {
+            "process": {
+                "file": {
+                    "name": "malicious_file.exe",
+                    "path": "/usr/local/bin/malicious_file.exe",
+                    "size": 1024000,
+                    "hashes": [
+                        {
+                            "algorithm_id": 6,
+                            "value": "2c4d2c6262d46313990e31bf7b6437028a566ba8"
+                        },
+                        {
+                            "algorithm_id": 1,
+                            "value": "d41d8cd98f00b204e9800998ecf8427e"
+                        },
+                        {
+                            "algorithm_id": 2,
+                            "value": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+                        }
+                    ],
+                    "signature": {
+                        "algorithm_id": 3,
+                        "certificate": {
+                            "subject": "CN=CodeSign Cert, O=Acme Corp, C=US",
+                            "serial_number": "1234567890ABCDEF",
+                            "expiration_time": 1718400000000,
+                            "fingerprints": [
+                                {
+                                    "algorithm_id": 6,
+                                    "value": "2c4d2c6262d46313990e31bf7b6437028a566ba8"
+                                },
+                                {
+                                    "algorithm_id": 1,
+                                    "value": "d41d8cd98f00b204e9800998ecf8427e"
+                                }
+                            ],
+                            "issuer": "Acme Corp"
+                        }
+                    },
+                    "type_id": 3
+                }
+            }
+        }
+    ],
+    "class_uid": 99602001,
+    "confidence_id": 1,
+    "finding_info": {
+        "title": "Suspicious Activity 8",
+        "uid": "placeholder_uid"
+    },
+    "metadata": {
+        "product": {
+            "name": "sdl-cli",
+            "vendor_name": "Scalyr"
+        },
+        "version": "1.1.0"
+    },
+    "resources": [
+        {
+            "name": "foo",
+            "uid": "bar"
+        }
+    ],
+    "s1_classification_id": 0,
+    "severity_id": 1,
+    "status_id": 1,
+    "time": 0,
+    "timezone_offset": 0,
+    "title": "Malware Detection",
+    "type_name": "Detection Finding: Other",
+    "type_uid": 9960200101
+}
