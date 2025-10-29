@@ -1,0 +1,38 @@
+{
+  // specify a time zone if the timestamps in your log are not in GMT
+  // timezone: "GMT-0800"
+  
+  attributes: {
+    "dataSource.category": "security",
+    "dataSource.name": "Docker",
+    "dataSource.vendor": "Docker"
+  },
+  patterns: {
+    value: "[\\w\\s\\/$&+:;=?@#|'<>.^*()%!-]+"
+    tsPattern: "\\d{4}-\\d{2}-\\w+:\\w+:\\w+"
+    tsPattern2: "\\d{4}-\\d{2}-\\d{2} \\w+:\\w+:\\w+.\\w+" //Key value pattern options
+    attribPattern: "[a-zA-Z0\\-_]+", // Only extract attributes with alphanumeric and hyphen / underscore characters
+    valuePattern1: "[^\\s|\"|\']+", // Extract all values that are not spaces, double quotations, or single quotations
+    valuePattern2: "[^\"]+", // Extract all values that are not double quotations
+    valuePattern3: "[^\']+," // Extract all values that are not single quotations
+    valuePattern4: "\"[a-zA-Z0-9,-:<>/.=\\s]+\"" // Extract all values that are not single quotations
+  }
+  
+  formats: [
+    {
+      format: "time=\"$timestamp=tsPattern$\" ",
+    }, {
+      format: "$timestamp=tsPattern2$ \\[$log_level$\\]: Send response:  $details{parse=json}$",
+    }, {
+      //id: "KeyValue1", //For debugging
+      format: ".* $_=attribPattern$=$_=valuePattern1$ .*", // Key-value pair extraction, which uses patterns defined above
+      repeat: true
+      id: "format1",
+    }, {
+      //id: "KeyValue4", //For debugging
+      format: ".* $_=attribPattern$=$_=valuePattern4$" //.*", // Key-value pair extraction, which uses patterns defined above
+      repeat: true
+      id: "format2",
+    }
+  ]
+}
